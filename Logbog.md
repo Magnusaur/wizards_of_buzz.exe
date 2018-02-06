@@ -12,3 +12,8 @@ Følgende er sket:
 * Opsat GitHub, Atom etc.
 * Opsætning af denne logbog
 * Test af GitHub og dets funktioner
+* 
+</br>
+Følgende skal gøres:
+* Orienter os om mini_ex1, så vi er klar til at snakke om opgaven.
+* Læs op på Softwarestudier
