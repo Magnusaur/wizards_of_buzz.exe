@@ -1,4 +1,3 @@
 # wizards-of-buzz
-Hvor vi deler noter, logs og erfaringer.
-Her bor jeg, det gør jeg også.
-Gu' gør I ej.
+
+This is the group repository for the group "wizards_of_buzz_exe". Here we submit group projects and update our logbook.
