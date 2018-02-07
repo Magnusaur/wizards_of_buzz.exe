@@ -4,8 +4,10 @@
 </br>
 </br>
   
-## 06/02/2018
+## Uge 6
+</br>
 
+### 06/02/2018
 Mødet i dag er hændt ovenpå første undervisningsgang i Æstetisk Programmering </br>
 Følgende er sket: </br>
 * Gruppenavn
