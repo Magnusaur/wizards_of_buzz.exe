@@ -65,3 +65,6 @@ Status: afklaret forvirring
 - vi er spændte omkring eksamen.
 - vi gennemgår mini_X1
 
+**imorgen:**
+- vi mødes kl. 10:00 i Schön til SHUT-UP-AND-CODE
+
