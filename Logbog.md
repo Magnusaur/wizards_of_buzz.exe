@@ -42,3 +42,26 @@ Status: afklaret forvirring
 **Program i morgen**
 - Vi kigger på Mini-ex1 
 - Snakker om hvad der er sket i softwarestudier. 
+</br>
+
+### 08/02/2018
+
+**vi har haft den første time i Software studier:**
+- har vi fået afklaret mere hvad software studier er?
+- fik vi besvaret spørgsmålende fra forrige gang?
+
+**tilbagevenden til spørgsmål:**
+- Andrew Goffey: Kode er mere kompliceret end sprog, men hvad er det, der gør det sådan?
+  - spørgsmålet er blevet besvaret gennem pre/post formalisering i forhold til hvordan naturlig sprog er 'post' og code 'pre'
+  
+**nye SPørgsmål:**
+- Hayles: Hvad konstituerer et 'feedback-loop' mellem sprog og kode?
+- går der noget "essen af sandhed" tabt i pre-formaliseringens natur af kodning. i forhold til de helt umanipulerede typer data der eksistere. det ligger sig op af at finde denne obj. sandhed?
+
+
+**Status:**
+- vi er mindre forvirrede omkring algorithme og computation, men vi er stadig forvirrede, dog med en hvis optimisme.
+- vi har fået et bedre overblik over kurset, og er blevet opmærksommme på annotation
+- vi er spændte omkring eksamen.
+- vi gennemgår mini_X1
+
