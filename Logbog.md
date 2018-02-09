@@ -67,4 +67,9 @@ Status: afklaret forvirring
 
 **imorgen:**
 - vi mødes kl. 10:00 i Schön til SHUT-UP-AND-CODE
+</br>
 
+### 09/02/2018
+
+**Alle var syge og ingen mødte op til det første SHUT-UP-AND-CODE møde:**
+- al kommunikation foregik over facebook, og ingen physisk tilstedeværelse var nødvendig for at vi kunne arbejde med vores kode.
