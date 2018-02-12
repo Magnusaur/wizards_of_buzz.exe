@@ -27,17 +27,17 @@ Følgende skal gøres: </br>
 
 **Overordnede spørgsmål:**
 - Andrew Goffey: Kode er mere kompliceret end sprog, men hvad er det, der gør det sådan?
-- Andrew Goffey: Hvorfor er algoritme en abstraktion? 
-- Hayles: Hvad konstituerer et 'feedback-loop' mellem sprog og kode? 
+- Andrew Goffey: Hvorfor er algoritme en abstraktion?
+- Hayles: Hvad konstituerer et 'feedback-loop' mellem sprog og kode?
 
 **Hvad mangler**
 Mini_ex1
 
-Status: afklaret forvirring 
+Status: afklaret forvirring
 
 **Program i morgen**
-- Vi kigger på Mini-ex1 
-- Snakker om hvad der er sket i softwarestudier. 
+- Vi kigger på Mini-ex1
+- Snakker om hvad der er sket i softwarestudier.
 </br>
 
 ### 08/02/2018
@@ -49,7 +49,7 @@ Status: afklaret forvirring
 **tilbagevenden til spørgsmål:**
 - Andrew Goffey: Kode er mere kompliceret end sprog, men hvad er det, der gør det sådan?
   - spørgsmålet er blevet besvaret gennem pre/post formalisering i forhold til hvordan naturlig sprog er 'post' og code 'pre'
-  
+
 **nye SPørgsmål:**
 - Hayles: Hvad konstituerer et 'feedback-loop' mellem sprog og kode?
 - går der noget "essen af sandhed" tabt i pre-formaliseringens natur af kodning. i forhold til de helt umanipulerede typer data der eksistere. det ligger sig op af at finde denne obj. sandhed?
@@ -70,9 +70,12 @@ Status: afklaret forvirring
 **Alle var syge og ingen mødte op til det første SHUT-UP-AND-CODE møde:**
 - al kommunikation foregik over facebook, og ingen physisk tilstedeværelse var nødvendig for at vi kunne arbejde med vores kode.  
 </br>
-## Uge 7 </br>
+
+## Uge 7  
+</br>
 ### 13/02/18
 Agenda:
 * Diskuter undervisning
 * Orienter os og formuler respons til mini_ex1
 * evt. læs mini_ex2 i fællesskab
+* aftal møde onsdag
