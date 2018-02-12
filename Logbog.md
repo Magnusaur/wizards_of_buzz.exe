@@ -70,9 +70,3 @@ Status: afklaret forvirring
 **Alle var syge og ingen mødte op til det første SHUT-UP-AND-CODE møde:**
 - al kommunikation foregik over facebook, og ingen physisk tilstedeværelse var nødvendig for at vi kunne arbejde med vores kode.  
 </br>
-## Uge 7 </br>
-### 13/02/18
-Agenda:
-* Diskuter undervisning
-* Orienter os og formuler respons til mini_ex1
-* evt. læs mini_ex2 i fællesskab
