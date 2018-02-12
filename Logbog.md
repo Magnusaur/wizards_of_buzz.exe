@@ -74,8 +74,8 @@ Status: afklaret forvirring
 ## Uge 7  
 </br>
 ### 13/02/18
-</br>
-Agenda:</br>
+<br>
+Agenda: </br>
 * Diskuter undervisning
 * Orienter os og formuler respons til mini_ex1
 * evt. læs mini_ex2 i fællesskab
