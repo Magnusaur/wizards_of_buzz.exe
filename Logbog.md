@@ -96,3 +96,4 @@ Til i morgen:
 * Vi skal have læst mini_ex2
 * Vi skal have lavet peer-feedback på mini_ex1 inde på GitHub
 * Vi snakker om den generelle plan for Æstetisk Programmering
+* Vi mødes klokken 12:00
