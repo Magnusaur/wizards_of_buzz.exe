@@ -80,3 +80,19 @@ Agenda:
 * Orienter os og formuler respons til mini_ex1
 * evt. læs mini_ex2 i fællesskab
 * aftal møde onsdag
+
+På mødet:  
+* Vi snakkede lidt om forskellen mellem CSS, HTML og JS. HTML kan i princippet læres på to timer, CSS tager lige 9 månedet. Lidt snak i den stil.  
+* Så snakkede vi om kompleksitet i design og dets effekt på interaktion. Mere konkret: word er i sidste ende en simplificeret udgave af meget mere komplekse programmer, som det er bygget på. Simplificering kan ende ud med at begrænse interaktionen, fordi man i sin udforskning af hvordan man bruger fx word ikke kommer særlig bredt ud end hvis man brugte noget meget mere kompliceret.  
+* Peer-feedback af mini_ex1.  
+  * First you describe what is the work, what are the elements in the work? like what you have seen, what you have experienced and what syntax he/she has used.
+  * What is the emphasis? What does the work express? What does this work say or mean to you? How would you interpretethe work?
+  * Do you like this program, and Why? and which aspect do you like the most?
+  * Provide suggestion for improvement or expansion of the program
+* Så snakkede vi om Softwarestudie i forhold til sværhedsgraden i teksterne: det er meningen, kursus er også i at blive bedre til at læse disse tekster, og pointen er også mere, at vi skal lære at komme i dialog med teksten, notere vores egen forvirring og tanker og så kunne indgå i debat i klassen og sådan.
+
+Til i morgen:  
+* Vi skal have læst tekster til Software Studis. Det er ikke forventet at alle tekster er læst igennem (Walter Benjamin, Olga, Fuller read it if you want). Vi er her for at finde ud af dem sammen.
+* Vi skal have læst mini_ex2
+* Vi skal have lavet peer-feedback på mini_ex1 inde på GitHub
+* Vi snakker om den generelle plan for Æstetisk Programmering
