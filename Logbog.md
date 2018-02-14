@@ -96,4 +96,14 @@ Til i morgen:
 * Vi skal have læst mini_ex2
 * Vi skal have lavet peer-feedback på mini_ex1 inde på GitHub
 * Vi snakker om den generelle plan for Æstetisk Programmering
-* Vi mødes klokken 12:00
+* Vi mødes klokken 12:00  
+
+### 14/02/18
+
+* Vi diskuterede først Walter Benjamins tekst. Det er vigtigt at forstå, at hans udgangspunkt er helt anderledes for, hvor vi egentlig er. Han er virkelig farvet, og det påvirker grundantagelser.
+* Vi snakkede om On Source teksten, som var ret lang, og som ingen af os egentlig havde styr på. Det er måske et kritikpunkt af at bruge annotation og ikke noter.
+* Vi snakkede om Artistic Software. Vi var mere eller mindre enige om indholdet, og kom ind i snak om kunstnerens rolle i nutidens samfund. Som informationsfilter? Eller mere? Vi kom ind på at man i sprog kan indføre fejl eller mulighed for at brugeren selv tilføjer elementer. I kode er det mere kompliceret. Så snakkede vi om computerspil.
+* Så snakkede vi lidt om Fuller og hans program. Han dykker ned i hvorfor browseren ser ud som den er, og hvordan hans eget Web Stalker er et kunstværk, der kan tage data fra browser og vise det i ny format.
+* Så snakkede vi lidt til sidst om Why Open Source Misses the Point of Free Software.
+
+*
