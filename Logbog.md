@@ -107,3 +107,19 @@ Til i morgen:
 * Så snakkede vi lidt til sidst om Why Open Source Misses the Point of Free Software.
 
 *
+
+### 15/02/18
+* snakker lidt vores individuelle bibliografier, om hvordan vi har gjort det og hvordan vi synes det virker.
+herunder hvordan vi skriver noter or structurere og organisere dem.
+
+* gennem gå code i p5.js, snakke om ideer, og få noget input, til fun in programming til Mini_ex2.
+
+* udveksler steam ting, og andre computerspils relaterede ting.
+
+* vi mødes imorgen og koder til shut up and code.
+
+* afklaret forvirring i forhold til intern-kommunikation.
+
+* fra ide til kode.
+
+* oprettelse af discord (mark påtager sig ansvar for oprettelse af kommunikation.)
