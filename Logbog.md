@@ -129,3 +129,17 @@ herunder hvordan vi skriver noter or structurere og organisere dem.
 Agenda:  
 * Vi skal finde ud, hvad vi skal bruge Discord til i gruppesammenhæng
 * Vi skal snakke om Æstetisk programmering, evt. feedback
+
+Vi har gjort følgende:  
+* push/pop - forvirring. Vi forstår det som et bracket-system, der efter et push() indrammer kode, som så senere kan tilsidesættes ved pop(). Hvis man har flere push og pop kan man bruge forrige indstillinger fra tidligere push-commands, forrige push()-data igen.
+* thobber: setInterval(), den er der ikke? modulu kan sætte nogle triggerpoints i fx framecount. framecount%100 - noget sker ved 100, 200, 300, 400.
+* Array: Variabel med variabler som værdi.
+* Conditional Statements: ! skal være != for at fungere.
+* For, while loops: For = pre-konditioner for at noget skal kunne loopes. While = eh we know nothing
+* milis(): converter fra sekunder til milisekunder.
+
+* Discord?
+
+Følgende skal gøres:  
+* Se videoer om setInterval() og arrays af objekter, while loops.
+* Vi mødes kl. 12:30 til snak om tekster
