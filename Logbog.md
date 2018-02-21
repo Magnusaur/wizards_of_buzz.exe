@@ -124,6 +124,8 @@ herunder hvordan vi skriver noter or structurere og organisere dem.
 
 * oprettelse af discord (mark påtager sig ansvar for oprettelse af kommunikation.)  
 
+## Uge 8
+
 ### 20/02/18
 
 Agenda:  
@@ -142,4 +144,10 @@ Vi har gjort følgende:
 
 Følgende skal gøres:  
 * Se videoer om setInterval() og arrays af objekter, while loops.
-* Vi mødes kl. 12:30 til snak om tekster
+* Vi mødes kl. 12:30 til snak om tekster  
+
+### 21/02/18
+
+Snak om tekster:
+* Vi fik snakket om distribution af data i peer-to-peer (Cox), real-time streams af data flows som medregner subjektet (Berry) og live coding og dets placering inden for FLOSS som et generelt tema
+* Vi hader også facebook grrr
