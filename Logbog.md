@@ -151,3 +151,16 @@ Følgende skal gøres:
 Snak om tekster:
 * Vi fik snakket om distribution af data i peer-to-peer (Cox), real-time streams af data flows som medregner subjektet (Berry) og live coding og dets placering inden for FLOSS som et generelt tema
 * Vi hader også facebook grrr
+
+### 27/02/18
+
+Følgende skal gøres: 
+* Skal aftale hvornår vi mødes i morgen. 
+* Diverse spørgsmål.
+
+Vi har gjort følgende: 
+* Beundrer Marks projekt 
+
+Plan for i morgen: 
+* Vi mødes klokken 12. 
+* Vi gennemgår de to Berry tekster i dybde, som ikke gennemgås i klassen. 
