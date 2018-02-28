@@ -154,13 +154,22 @@ Snak om tekster:
 
 ### 27/02/18
 
-Følgende skal gøres: 
-* Skal aftale hvornår vi mødes i morgen. 
+Følgende skal gøres:
+* Skal aftale hvornår vi mødes i morgen.
 * Diverse spørgsmål.
 
-Vi har gjort følgende: 
-* Beundrer Marks projekt 
+Vi har gjort følgende:
+* Beundrer Marks projekt
 
-Plan for i morgen: 
-* Vi mødes klokken 12. 
-* Vi gennemgår de to Berry tekster i dybde, som ikke gennemgås i klassen. 
+Plan for i morgen:
+* Vi mødes klokken 12.
+* Vi gennemgår de to Berry tekster i dybde, som ikke gennemgås i klassen.
+
+### 28/02/18  
+
+Martin er syg, sucks.  
+Vi snakker om teksterne:
+*  Berry-teksterne: Tests of Strength - designkriterier? Vi skriver ikke mere, fordi vi har obfuskeret koden.
+
+Til i morgen:
+* Vi har snakket om teksterne. Gud må vide, om vi kan overkomme the trial of strengths.
