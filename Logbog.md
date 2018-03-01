@@ -173,3 +173,12 @@ Vi snakker om teksterne:
 
 Til i morgen:
 * Vi har snakket om teksterne. Gud må vide, om vi kan overkomme the trial of strengths.
+
+### 29/02/18
+
+Martin er syg, sucks.
+* Vi har snakket om vores idéer og umiddelbare tilgang til at skrive en eksamensopgave i Software Studies.
+  * Det er vigtigt ikke at glemme det kritiske standpunkt - fx ved at skrive om computerspil.
+* Vi læser to af teksterne til om to uger, til næste onsdag, så vi kan snakke om dem. Vi læser de sidste to til ugen efter.
+* Vi har lavet nogle strukturelle aftaler for vores gruppe. Tirsdag skal vi give et nyt koncept et skud: her præsenterer vi vores projekter til Æstetisk Programmering. 5 min. til hver så vi kan få omtalt vores tankeproces og logik.
+* Om onsdagen, under tutorial, sætter vi os sammen i tiden sat af (hvor vi ikke har nogle umiddelbare opgaver) til at få italesat idéer til næste uges opgave i Æstetisk Programmering. 
