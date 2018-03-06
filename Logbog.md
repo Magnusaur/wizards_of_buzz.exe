@@ -152,6 +152,8 @@ Snak om tekster:
 * Vi fik snakket om distribution af data i peer-to-peer (Cox), real-time streams af data flows som medregner subjektet (Berry) og live coding og dets placering inden for FLOSS som et generelt tema
 * Vi hader også facebook grrr
 
+## Uge 9
+
 ### 27/02/18
 
 Følgende skal gøres:
@@ -182,3 +184,15 @@ Martin er syg, sucks.
 * Vi læser to af teksterne til om to uger, til næste onsdag, så vi kan snakke om dem. Vi læser de sidste to til ugen efter.
 * Vi har lavet nogle strukturelle aftaler for vores gruppe. Tirsdag skal vi give et nyt koncept et skud: her præsenterer vi vores projekter til Æstetisk Programmering. 5 min. til hver så vi kan få omtalt vores tankeproces og logik.
 * Om onsdagen, under tutorial, sætter vi os sammen i tiden sat af (hvor vi ikke har nogle umiddelbare opgaver) til at få italesat idéer til næste uges opgave i Æstetisk Programmering. 
+
+## Uge 10
+
+### 06/03/18
+
+Vi er fremme i marts. 
+* Vi fremviser vores respektive ugeopgaver. De bliver først demonstreret og derefter gennemgået i detaljer. 
+  * Gruppefremvisningen er et led i vores overordnede plan om at komplimentere (eller erstatte) kodesessionerne om fredagen.
+* Vi aftaler at mødes i morgen, d. 7 marts, for at gennemgå to tekster fra Softwarestudier. 
+  * Vi planlægger senere at diskutere objekt-klasse forholdet, mm. om onsdagen.
+* I løbet af undervisningen er instruktortimernes rolle blevet diskuteret. Det er ikke så meget at tilføje, andet end et selvstændigt ønske om fortsat at facilitere egen læring. 
+
