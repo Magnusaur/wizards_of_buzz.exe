@@ -183,16 +183,26 @@ Martin er syg, sucks.
   * Det er vigtigt ikke at glemme det kritiske standpunkt - fx ved at skrive om computerspil.
 * Vi læser to af teksterne til om to uger, til næste onsdag, så vi kan snakke om dem. Vi læser de sidste to til ugen efter.
 * Vi har lavet nogle strukturelle aftaler for vores gruppe. Tirsdag skal vi give et nyt koncept et skud: her præsenterer vi vores projekter til Æstetisk Programmering. 5 min. til hver så vi kan få omtalt vores tankeproces og logik.
-* Om onsdagen, under tutorial, sætter vi os sammen i tiden sat af (hvor vi ikke har nogle umiddelbare opgaver) til at få italesat idéer til næste uges opgave i Æstetisk Programmering. 
+* Om onsdagen, under tutorial, sætter vi os sammen i tiden sat af (hvor vi ikke har nogle umiddelbare opgaver) til at få italesat idéer til næste uges opgave i Æstetisk Programmering.
 
 ## Uge 10
 
 ### 06/03/18
 
-Vi er fremme i marts. 
-* Vi fremviser vores respektive ugeopgaver. De bliver først demonstreret og derefter gennemgået i detaljer. 
+Vi er fremme i marts.
+* Vi fremviser vores respektive ugeopgaver. De bliver først demonstreret og derefter gennemgået i detaljer.
   * Gruppefremvisningen er et led i vores overordnede plan om at komplimentere (eller erstatte) kodesessionerne om fredagen.
-* Vi aftaler at mødes i morgen, d. 7 marts, for at gennemgå to tekster fra Softwarestudier. 
+* Vi aftaler at mødes i morgen, d. 7 marts, for at gennemgå to tekster fra Softwarestudier.
   * Vi planlægger senere at diskutere objekt-klasse forholdet, mm. om onsdagen.
-* I løbet af undervisningen er instruktortimernes rolle blevet diskuteret. Det er ikke så meget at tilføje, andet end et selvstændigt ønske om fortsat at facilitere egen læring. 
+* I løbet af undervisningen er instruktortimernes rolle blevet diskuteret. Det er ikke så meget at tilføje, andet end et selvstændigt ønske om fortsat at facilitere egen læring.
 
+
+### 07/03/18
+
+Vi snakker om Goffey
+* Spørgsmål: Hvad er forskellen på end-product "fun" og den nærmest forsvarsmekanisme "fun"? Skulle det måske hedde noget andet?
+* Spørgsmål: Hvordan skal vi forstå mulighederne med "fun" i computere i forhold til at overkomme semantiske paradokser og andet, som oprindeligt kun udspringer og kun har værdi på baggrund af vores menneskelige rationalitet? Hvordan hopper computere let hen over vores rationalitet?
+* Vi må nødvendigvis også være skeptiske over for dette. Men samtidig har han jo fat i noget: Vi må heller ikke låse os fast i etablerede tankegange.
+
+Vi snakker om Cramer
+* Vi snakkede om Cramer
