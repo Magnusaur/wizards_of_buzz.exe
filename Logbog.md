@@ -206,3 +206,13 @@ Vi snakker om Goffey
 
 Vi snakker om Cramer
 * Vi snakkede om Cramer
+
+
+## Uge 11
+
+Agenda:
+* Præsenter projekter og diskuter
+* Aftal dato for eksamensplanlægning
+* Hvornår skal vi fremlægge i Software Studies?
+* Aftal mødetidspunkt for onsdag
+* chill-game?
