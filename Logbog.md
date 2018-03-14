@@ -217,8 +217,14 @@ Agenda:
 * Aftal mødetidspunkt for onsdag
 * chill-game?
 
+
 ### 13/03/18
 
 * Vi beslutter os for at mødes efter torsdagsundervisning, d. 22. Altså inden Montforts forelæsning.
 * Vi evaluerer på Winnies afsluttende bemærkninger omkring det (tilsyneladende) fravær af mere konkrete begreber. Vores konklusion, vagt formuleret: der er masser af begreber - vi skal lære at åbne termerne op for analyse, både kulturel og teknisk (hvad så end forskellen er).
 * Vi fremlægger vores projekter. I den forbindelse taler vi om objekter og muligheden for at genbruge objekter - ikke bare igennem programmet, men også på tværs af programmer. Det lyder bare dødlækkert, ikki?
+
+### 14/03/18
+
+* Hvordan bliver begrebet "Fun" omdannet og nuanceret og totalt transformeret i de to forskellige tekster om fungere
+* Og hvad er relationen til "Language"
