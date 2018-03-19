@@ -228,3 +228,20 @@ Agenda:
 
 * Hvordan bliver begrebet "Fun" omdannet og nuanceret og totalt transformeret i de to forskellige tekster om fungere
 * Og hvad er relationen til "Language"
+
+
+## Uge 12
+
+Agenda:  
+* Snakket om tekste
+* kosntruere outline
+* Powerpoint
+* Fordeling af fremlæggelse
+
+Outline til fremlæggelse:
+* Introducer tekst: Formalisering, kontekst, forfatteren. Hvilken direktion har teksten - hvordan bliver API's tilgået. Protocol = politics (overskrift).
+* Redegør for API / hvorfor skal vi redegøre for API - hun bruger lang tid på det.
+* Protokol og politik: at bygge porten i første omgang. Livet for udviklere og twitter.
+* Kvasi-objekt-perspektivet som en brugbar tilgang til at forstå protokol og politik: relationerne og omdrejningspunkt.
+* Kritisk kig på tekstens argumentation og konklusion: den er betinget af at være bygget på etnografi, enligt studie, siger ikke noget om magten, men om en tilgang til at forstå API.
+* Magt: har twitter for meget magt? kreativ labour og ubetinget adgang for twitter.
