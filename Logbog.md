@@ -232,6 +232,8 @@ Agenda:
 
 ## Uge 12
 
+### 20/03/18
+
 Agenda:  
 * Snakket om tekste
 * kosntruere outline
@@ -245,3 +247,23 @@ Outline til fremlæggelse:
 * Kvasi-objekt-perspektivet som en brugbar tilgang til at forstå protokol og politik: relationerne og omdrejningspunkt.
 * Kritisk kig på tekstens argumentation og konklusion: den er betinget af at være bygget på etnografi, enligt studie, siger ikke noget om magten, men om en tilgang til at forstå API.
 * Magt: har twitter for meget magt? kreativ labour og ubetinget adgang for twitter.
+
+### 21/03/18
+
+Agenda:
+* Lige snak om fællesmøde og talks and sushi
+* færdiggør præsentation
+* snak om resterende teksterne
+* Gennemgå mini_ex og sammensæt gruppe
+* Vise mini_ex6
+
+Til møde
+* Vi har færdiggjort forberedelse
+* Vi har også fået koordineret lidt med mini_ex6
+
+### 22/03/18
+
+Agenda:
+* er vi med på teksterne til ugens undervisning?
+* Vis projekter
+* Snak om SS-eksamen
