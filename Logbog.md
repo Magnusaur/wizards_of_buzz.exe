@@ -267,3 +267,24 @@ Agenda:
 * er vi med på teksterne til ugens undervisning?
 * Vis projekter
 * Snak om SS-eksamen
+
+Til møde:
+* Vi har gennemgået mini_ex6
+
+
+## Uge 14
+
+### 03/04/18
+
+Til mødet skal vi:
+* Snakke om HUM
+* Fremvise projekter
+* Aftale synopsis-diskussion
+
+* Vi har aftalt at mødes kl. 12:00
+* Vi har fremvist projekter
+* vi har snakket om HUM-fag
+
+### 04/04/18
+
+Vi har diskuteret hvert enkeltes synopsis og dermed emne. Det har været Meget indbringende, og har givet masser af "food for thought." Vi har snakket om vigtigheden ved netop at have det her feedback, at udvide ens horisont, fordi man jo netop nemt er biased (hvis ikke altid er). Vi vil organisere noget lignende for skrivefærdigheder. Her vil vi kun snakke om vores vaner og processer for at skrive store opgaver.
