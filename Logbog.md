@@ -288,3 +288,18 @@ Til mødet skal vi:
 ### 04/04/18
 
 Vi har diskuteret hvert enkeltes synopsis og dermed emne. Det har været Meget indbringende, og har givet masser af "food for thought." Vi har snakket om vigtigheden ved netop at have det her feedback, at udvide ens horisont, fordi man jo netop nemt er biased (hvis ikke altid er). Vi vil organisere noget lignende for skrivefærdigheder. Her vil vi kun snakke om vores vaner og processer for at skrive store opgaver.
+
+
+## Uge 16?
+
+### 16/04/18
+
+Til mødet skal vi:
+* Færdiggøre flowchart til SS
+* Færdiggøre fremlæggelse om node.js
+* Lave mini_ex9
+
+Vi har:
+* færdiggjort flowchart
+* Vi har færdiggjort fremlæggelsen
+* Vi har også diskuteret vores koncepter til projekt: to projekter. Mugshot og spil med lys. 
