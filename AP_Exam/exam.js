@@ -1,11 +1,11 @@
 var img;
 
 function preLoad() {
-  img = loadJSON("http://faker.hook.io?property=image.image&locale=de");
+  img = loadJSON("http://faker.hook.io?property=name.findName&locale=de");
 }
 
 function setup() {
-  image(img);
+  text(img);
 }
 
 function draw() {
