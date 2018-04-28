@@ -1,9 +1,9 @@
 class profile {
   constructor() {
-
+    
   }
 
   display() {
-    
+
   }
 }

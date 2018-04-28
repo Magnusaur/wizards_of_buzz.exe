@@ -312,3 +312,7 @@ Vi har:
 ## 28/04/18
 * Vi vil bruge faker.js
 * Dette bringer nogle implikationer, og det er meget relevant at dykke ned i og pointere til eksamen. Der er flere sider og holdninger, og det kan være godt at pege ud. Derudover åbner brugen af faker.js op for, at vi snakker om "objekter" i "objekter". Databasen er også sat op på en bestemt måde som har sine egne "bias og ideologier osv.
+* Mark: Lav class og objekt
+* Magnus og Martin: JSON og udforsk faker.js
+* la Cour: setup af hjemmeside
+* Lad os alle udforske faker.js
