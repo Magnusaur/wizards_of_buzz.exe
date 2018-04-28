@@ -1,0 +1,9 @@
+class profile {
+  constructor() {
+
+  }
+
+  display() {
+    
+  }
+}
