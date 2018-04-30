@@ -102,9 +102,9 @@ class friends {
   createProfile() { //men kan profile og friend bruges i denne sammenhaeng? Skal variablerne vaere globale?
     profile.removeElements();
     profile = new profiles(this.f_name, this.l_name, this.profile_picture, this.commonInterest, //random til resten)
-    friends.removeElements();
 
     for(let i = 0; i < 6; i++) {
+      friend[i].removeElements();
       friend[i] = new friends(//random til alle tre ting I suppose)
     }
 
