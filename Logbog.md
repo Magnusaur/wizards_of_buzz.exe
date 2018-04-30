@@ -316,3 +316,5 @@ Vi har:
 * Magnus og Martin: JSON og udforsk faker.js
 * la Cour: setup af hjemmeside
 * Lad os alle udforske faker.js
+
+* Rigtig eller falsk data: betyder ikke noget i vores programstruktur. Det er ligeglad med virkeligheden i data.
