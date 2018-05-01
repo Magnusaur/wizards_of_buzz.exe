@@ -1,0 +1,121 @@
+//For future revision: vi kan yderligere abstrahere og lave "globale funktioner", fx displayName, fordi alle classes bruger en displayName.
+
+function readyProfile(firstName, lastName, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]) {
+  profile = new profiles(
+    firstName,
+    lastName,
+    country,
+    street,
+    city,
+    zipCode,
+    longitude,
+    latitude,
+    email,
+    phone,
+    job,
+    profilePicture,
+    hobbies[0],
+    hobbies[1],
+    hobbies[2]
+  )
+}
+
+function displayProfile() {
+  profile.displayName(); //til la cour: Indsæt argumenter, se profile.js for information
+  profile.displayAvatar();
+  profile.displayBirthday();
+  profile.displayProfession();
+  profile.displayLocation();
+  profile.displayContact();
+  profile.displayHobbies();
+}
+
+
+
+
+class profiles {
+  constructor(f_name, l_name, birthday, country, street, city, zipCode, longitude, latitude, email, phone, job, profile_picture, hobby1, hobby2, hobby3) {
+    this.f_name = f_name;
+    this.l_name = l_name;
+    this.birthday = birthday;
+    this.country = country;
+    this.street = street;
+    this.city = city;
+    this.zipCode = zipCode;
+    this.longitude = longitude;
+    this.latitude = latitude;
+    this.email = email;
+    this.phone = phone;
+    this.job = job;
+    this.profile_picture = profile_picture;
+    this.hobby1 = hobby1;
+    this.hobby2 = hobby2;
+    this.hobby3 = hobby3;
+  }
+
+  displayName(szX, szY, x, y) {
+    let tekst = createP(this.f_name + " " + this.l_name);
+    tekst.size(szX, szY);
+    tekst.position(x, y);
+  }
+
+  displayBirthday(szX, szY, x, y) {
+    let tekst = createP(this.birthday);
+    tekst.size(szX, szY);
+    tekst.position(x, y);
+  }
+
+  displayProfession(szX, szY, x, y) {
+    let tekst = createP(this.job);
+    tekst.size(szX, szY);
+    tekst.position(x, y);
+  }
+
+  displayLocation(szX, szY, llX, llY, strX, strY, cityX, cityY, countryX, countryY) {
+    let tekst1 = createP(this.longitude + " " + this.latitude);
+    tekst1.size(szX, szY);
+    tekst1.position(llX, llY);
+
+    let tekst2 = createP(this.street);
+    tekst2.size(szX, szY);
+    tekst2.position(strX, strY);
+
+    let tekst3 = createP(this.zipCode + " " + this.city);
+    tekst3.size(szX, szY);
+    tekst3.position(cityX, cityY);
+
+    let tekst4 = createP(this.country);
+    tekst4.size(szX, szY);
+    tekst4.position(countryX, countryY);
+  }
+
+  displayContact(szX, szY, eX, eY, phX, phY) {
+    let tekst1 = createP(this.email);
+    tekst.size(szX, szY);
+    tekst.position(eX, eY);
+
+    let tekst2 = createP(this.phone);
+    tekst2.size(szX, szY);
+    tekst2.position(phX, phY);
+  }
+
+  displayAvatar(szX, szY, x, y) {
+    let img = createImg(this.profile_picture);
+    img.size(szX, szY);
+    img.position(x, y);
+  }
+
+  displayHobbies(szX, szY, x1, y1, x2, y2, x3, y3) {
+    let tekst1 = createP(this.hobby1);
+    tekst1.size(szX, szY);
+    tekst1.position(x1, y1);
+
+    let tekst2 = createP(this.hobby2);
+    tekst2.size(szX, szY);
+    tekst2.position(x2, y2);
+
+    let tekst3 = createP(this.hobby3);
+    tekst3.size(szX, szY);
+    tekst3.position(x3, y3);
+  }
+}
