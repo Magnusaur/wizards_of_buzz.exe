@@ -10,6 +10,45 @@ function preload() {
 }
 
 function setup() {
+  //Header, Banner, Avatar
+  noCanvas();
+  h1 = createElement('h1', 'Lifewaster.SoMe');
+  h1.position(120,0);
+
+  banner = createImg('https://www.samyakhospital.com/wp-content/uploads/2016/12/dbtreesPhotoxpress_9939515.jpg');
+    banner.size(windowWidth,300);
+    banner.position(0,50);
+
+    //Id-pers
+      h3 = createElement('h3', 'Profile');
+      h3.parent('Id-pers');
+
+      var content = ['Job','Education','Birthday','Interests'];
+      for (var i = 0; i < content.length; i++) {
+        var li = createElement('li',content[i]);
+        li.parent('Id-pers');
+      }
+
+    //location
+      h3 = createElement('h3', 'Location');
+      h3.parent('location');
+
+      var content2 = ['Country','Street', 'City','zipCode','longitude','latitude'];
+      for (var i = 0; i < content2.length; i++) {
+        var li = createElement('li',content2[i]);
+        li.parent('location');
+      }
+
+    //contact
+      h3 = createElement('h3', 'Contact');
+      h3.parent('contact');
+
+      var content3 = ['Email','Phone'];
+      for (var i = 0; i < content3.length; i++) {
+        var li = createElement('li',content3[i]);
+        li.parent('contact');
+      }
+
   getData();
   hobbies = [Music[floor(random(0,70))], Activities[floor(random(0,70))], Movies[floor(random(0,70))]];
   readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
@@ -81,13 +120,18 @@ function readyProfile(firstName, lastName, birthdayMonth, country, street, city,
 }
 
 function displayProfile() {
-  profile.displayName(10, 10, 200, 100);
-  profile.displayBirthday(10, 10, 900, 400);
-  profile.displayAvatar(100, 100, 100, 100);
+  profile.displayName(400, 10, 350, 300);
+  profile.displayBirthday(100, 10, 380, 350);
+  profile.displayAvatar(200, 200, 120, 190);
   profile.displayProfession(10, 10, 300, 100);
   profile.displayLocation(10, 10, 400, 100, 450, 100, 500, 100, 550, 100);
+<<<<<<< HEAD
   profile.displayContact(10, 10, 600, 100, 700, 100);
   profile.displayHobbies(10, 10, 100, 500, 100, 550, 100, 600);
+=======
+  profile.displayContact(100, 10, 600, 100, 700, 100);
+// profile.displayHobbies(10, 10, 700, 100, 720, 100, 740, 100);
+>>>>>>> 3011c3ddcdb5a63dadf14e97183f65c202c21279
 }
 
 
@@ -100,8 +144,8 @@ function readyFriends(i, firstName, lastName, profilePicture) {
 }
 
 function displayFriends(i) {
-  friend[i].displayAvatar(50, 50, 100+i*10, 300);
-  friend[i].displayName(50, 50, 200+i*10, 300);
+  friend[i].displayAvatar(50, 50, 700+i*10, 600);
+  friend[i].displayName(50, 50, 830+i*10, 600);
 }
 
 

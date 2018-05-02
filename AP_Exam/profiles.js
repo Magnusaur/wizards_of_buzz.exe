@@ -35,7 +35,7 @@ class profiles {
   }
 
   displayName(szX, szY, x, y) {
-    let tekst = createP(this.f_name + " " + this.l_name);
+    let tekst = createElement('h2',this.f_name + " " + this.l_name);
     tekst.size(szX, szY);
     tekst.position(x, y);
   }
@@ -84,6 +84,8 @@ class profiles {
     let img = createImg(this.profile_picture);
     img.size(szX, szY);
     img.position(x, y);
+      img.style("padding","0px");
+      img.style("border","5px solid #fff");
   }
 
   displayHobbies(szX, szY, x1, y1, x2, y2, x3, y3) {
