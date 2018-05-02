@@ -28,10 +28,11 @@ h3 {
 
 li{
   font-family: sans-serif;
+  background-color: #1111;
   list-style-type: none;
-  margin-left: 25px;
-  text-align: left;
-  height: 25px;
+  margin-left: 10px;
+  text-align: center;
+  height: 40px;
   width: 100px;
 }
 
@@ -39,5 +40,5 @@ div {
   background-color: #1111;
   margin-top: 10px;
   height: 200px;
-  width: 500px;
+  width: 300px;
 }
