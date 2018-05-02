@@ -81,12 +81,12 @@ function readyProfile(firstName, lastName, birthdayMonth, country, street, city,
 
 function displayProfile() {
   profile.displayName(10, 10, 200, 100);
+  profile.displayBirthday(10, 10, 900, 400);
   profile.displayAvatar(100, 100, 100, 100);
   profile.displayProfession(10, 10, 300, 100);
   profile.displayLocation(10, 10, 400, 100, 450, 100, 500, 100, 550, 100);
   profile.displayContact(10, 10, 600, 100, 700, 100);
 // profile.displayHobbies(10, 10, 700, 100, 720, 100, 740, 100);
-  profile.displayBirthday(10, 10, 900, 400);
 }
 
 
