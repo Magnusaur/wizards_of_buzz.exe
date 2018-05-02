@@ -1,0 +1,43 @@
+header {
+  background:#fff;
+  height: 200px;
+}
+
+body {
+background:#1010;
+margin-left: 123px;
+margin-top: 420px;
+}
+
+h1 {
+font-family:monospace;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #fff;
+  letter-spacing: 2.4px;
+}
+
+h3 {
+  font-family: sans-serif;
+  text-align: left;
+  color: #000;
+  letter-spacing: 1.1px;
+}
+
+li{
+  font-family: sans-serif;
+  list-style-type: none;
+  margin-left: 25px;
+  text-align: left;
+  height: 25px;
+  width: 100px;
+}
+
+div {
+  background-color: #1111;
+  margin-top: 10px;
+  height: 200px;
+  width: 500px;
+}
