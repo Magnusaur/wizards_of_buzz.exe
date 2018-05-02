@@ -5,7 +5,7 @@ function preload() {
   Music = loadJSON('Music.json');
   Activities = loadJSON('Activities.json')
   Movies = loadJSON('movies.json')
-  hobbies = loadJSON['movies.json', 'Activities.json', 'Music.json']
+  hobbies = loadJSON['movies.json', 'Activities.json', 'Music.json'] // hvorfor er den ikke blau?
 }
 
 function setup() {

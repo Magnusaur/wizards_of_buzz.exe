@@ -1,18 +1,3 @@
-function readyFriends(i, firstName, lastName, profilePicture) {
-  friend[i] = new friends(
-    firstName,
-    lastName,
-    profilePicture
-  )
-}
-
-function displayFriends(i) {
-  friend[i].displayAvatar();
-  friend[i].displayName();
-}
-
-
-
 class friends {
   constructor(f_name, l_name, profile_picture) {
     this.f_name = f_name;
@@ -35,7 +20,7 @@ class friends {
   createProfile() {
     profile.removeElements();
     getData();
-    readyProfile(this.f_name,this.l_name, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2])
+    readyProfile(this.f_name,this.l_name, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture) //hobbyer mangler
     displayProfile();
 
     // for(let i = 0; i < 6; i++) {
@@ -51,7 +36,7 @@ class friends {
       displayFriends(i);
 
       getData();
-      readySuggestedFriends(i, firstName, lastName, profilePicture, hobby[0]);
+      readySuggestedFriends(i, firstName, lastName, profilePicture); //hobbyer mangler
       displaySuggestedFriends(i);
     }
   }
