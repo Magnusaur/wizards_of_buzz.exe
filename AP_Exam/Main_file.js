@@ -7,13 +7,12 @@ function preload() {
   Music = loadJSON('Music.json');
   Activities = loadJSON('Activities.json');
   Movies = loadJSON('movies.json');
-  hobbies = loadJSON('movies.json', 'Activities.json', 'Music.json');
-
 }
 
 function setup() {
   getData();
-  readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture);
+  hobbies = [Music[floor(random(0,70))], Activities[floor(random(0,70))], Movies[floor(random(0,70))]];
+  readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
   displayProfile();
 
   // for(let i = 0; i < 6; i++) {
@@ -26,7 +25,7 @@ function setup() {
     displayFriends(i);
 
     getData();
-    readySuggestedFriends(i, firstName, lastName, profilePicture); //Hobby mangler
+    readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //Hobby mangler
     displaySuggestedFriends(i);
   }
 }
@@ -45,7 +44,6 @@ function getData() {
   phone = faker.phone.phoneNumber();
   job = faker.name.jobTitle();
   profilePicture = faker.image.avatar();
-  hobbies = [random(2), random(1), random(2)];
 }
 //
 // // function mousePressed() {
@@ -61,7 +59,7 @@ function getData() {
 //
 // //Greg Grady #alwaysremember
 
-function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture) {
+function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobby1, hobby2, hobby3) {
   profile = new profiles(
     firstName,
     lastName,
@@ -76,6 +74,9 @@ function readyProfile(firstName, lastName, birthdayMonth, country, street, city,
     phone,
     job,
     profilePicture,
+    hobby1,
+    hobby2,
+    hobby3
   )
 }
 
@@ -86,7 +87,7 @@ function displayProfile() {
   profile.displayProfession(10, 10, 300, 100);
   profile.displayLocation(10, 10, 400, 100, 450, 100, 500, 100, 550, 100);
   profile.displayContact(10, 10, 600, 100, 700, 100);
-// profile.displayHobbies(10, 10, 700, 100, 720, 100, 740, 100);
+  profile.displayHobbies(10, 10, 100, 500, 100, 550, 100, 600);
 }
 
 
@@ -104,16 +105,17 @@ function displayFriends(i) {
 }
 
 
-function readySuggestedFriends(i, firstName, lastName, profilePicture) { //hobby mangler
+function readySuggestedFriends(i, firstName, lastName, profilePicture, hobby) {
   suggested_friend[i] = new suggested_friends(
     firstName,
     lastName,
     profilePicture,
-  ) //hobby mangler
+    hobby
+  )
 }
 
 function displaySuggestedFriends(i) {
   suggested_friend[i].displayAvatar(10, 10, 500+10*i, 300);
   suggested_friend[i].displayName(10, 10, 500+10*i, 300);
-  // suggested_friend[i].displayHobby(10, 10, 300, 300);
+  suggested_friend[i].displayHobby(10, 10, 700+10*i, 320);
 }
