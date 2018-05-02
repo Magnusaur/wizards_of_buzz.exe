@@ -125,13 +125,8 @@ function displayProfile() {
   profile.displayAvatar(200, 200, 120, 190);
   profile.displayProfession(10, 10, 300, 100);
   profile.displayLocation(10, 10, 400, 100, 450, 100, 500, 100, 550, 100);
-<<<<<<< HEAD
   profile.displayContact(10, 10, 600, 100, 700, 100);
   profile.displayHobbies(10, 10, 100, 500, 100, 550, 100, 600);
-=======
-  profile.displayContact(100, 10, 600, 100, 700, 100);
-// profile.displayHobbies(10, 10, 700, 100, 720, 100, 740, 100);
->>>>>>> 3011c3ddcdb5a63dadf14e97183f65c202c21279
 }
 
 
