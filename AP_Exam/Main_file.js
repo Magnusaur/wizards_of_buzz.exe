@@ -69,10 +69,6 @@ function getHobbies() {
   hobbies = [Music[floor(random(0, 70))], Activities[floor(random(0, 70))], Movies[floor(random(0, 70))]]; //.length fungerer ikke
 }
 
-function draw() {
-  console.log(mouseX, mouseY);
-}
-
 function mousePressed() {
   if(mouseX > 575 && mouseX < 640 && mouseY > -320 && mouseY < -255) {
     friend[0].createProfile();

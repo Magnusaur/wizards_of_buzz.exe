@@ -3,15 +3,14 @@ class friends {
     this.f_name = f_name;
     this.l_name = l_name;
     this.profile_picture = profile_picture;
-    this.img;
   }
 
   displayAvatar(szX, szY, x, y) {
-    this.img = createImg(this.profile_picture);
-    this.img.size(szX, szY);
-    this.img.position(x, y);
-      this.img.style("padding","0px");
-      this.img.style("border","3px solid #fff");
+    let img = createImg(this.profile_picture);
+    img.size(szX, szY);
+    img.position(x, y);
+      img.style("padding","0px");
+      img.style("border","3px solid #fff");
   }
 
   displayName(szX, szY, x, y) {
