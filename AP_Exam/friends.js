@@ -3,26 +3,30 @@ class friends {
     this.f_name = f_name;
     this.l_name = l_name;
     this.profile_picture = profile_picture;
+    this.img;
   }
 
   displayAvatar(szX, szY, x, y) {
-    let img = createImg(this.profile_picture);
-    img.size(szX, szY);
-    img.position(x, y);
-      img.style("padding","0px");
-      img.style("border","3px solid #fff");
+    this.img = createImg(this.profile_picture);
+    this.img.size(szX, szY);
+    this.img.position(x, y);
+      this.img.style("padding","0px");
+      this.img.style("border","3px solid #fff");
   }
 
   displayName(szX, szY, x, y) {
     let tekst = createP(this.f_name + " " + this.l_name);
     tekst.size(szX, szY);
     tekst.position(x, y);
-  }
+  } 
 
   createProfile() {
-    profile.removeElements();
+    removeElements();
+    CSSSetup();
+
     getData();
-    readyProfile(this.f_name,this.l_name, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
+    hobbies = [Music[floor(random(0, Music.length))], Activities[floor(random(0,Activities.length))], Movies[floor(random(0,Movies.length))]];
+    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
     displayProfile();
 
     // for(let i = 0; i < 6; i++) {
@@ -30,15 +34,12 @@ class friends {
     // }
 
     for(let i = 0; i < 6; i++) {
-      friend[i].removeElements();
-      suggested_friend[i].removeElements();
-
       getData();
       readyFriends(i, firstName, lastName, profilePicture);
       displayFriends(i);
 
       getData();
-      readySuggestedFriends(i, firstName, lastName, profilePicture, hobby); //hobbyer mangler
+      readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //hobbyer mangler
       displaySuggestedFriends(i);
     }
   }

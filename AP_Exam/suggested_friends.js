@@ -4,14 +4,15 @@ class suggested_friends {
     this.l_name = l_name;
     this.profile_picture = profile_picture;
     this.hobby = hobby;
+    this.img;
   }
 
   displayAvatar(szX, szY, x, y) {
-    let img = createImg(this.profile_picture);
-    img.size(szX, szY);
-    img.position(x, y);
-      img.style("padding","0px");
-      img.style("border","3px solid #fff");
+    this.img = createImg(this.profile_picture);
+    this.img.size(szX, szY);
+    this.img.position(x, y);
+      this.img.style("padding","0px");
+      this.img.style("border","3px solid #fff");
   }
 
   displayName(szX, szY, x, y) {
@@ -29,7 +30,7 @@ class suggested_friends {
   createProfile() {
     profile.removeElements();
     getData();
-    hobbies = [Music[floor(random(0,70))], Activities[floor(random(0,70))], Movies[floor(random(0,70))]]; //Not done; Den erstatter saa der kan vaere aktivitet, aktivitet, movie.
+    hobbies = [Music[floor(random(0, Music.length))], Activities[floor(random(0, Activities.length))], Movies[floor(random(0, Movies.length))]]; //Not done; Den erstatter saa der kan vaere aktivitet, aktivitet, movie.
     readyProfile(this.f_name, this.l_name, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0] = this.hobby, hobbies[1], hobbies[2]); //hobbyer mangler
     displayProfile();
 
@@ -46,7 +47,7 @@ class suggested_friends {
       displayFriends(i);
 
       getData();
-      readySuggestedFriends(i, firstName, lastName, profilePicture, hobby); //hobby mangler
+      readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //hobby mangler
       displaySuggestedFriends(i);
     }
   }

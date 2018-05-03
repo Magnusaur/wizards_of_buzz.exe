@@ -9,9 +9,7 @@ function preload() {
   Movies = loadJSON('movies.json');
 }
 
-function setup() {
-  //Header, Banner, Avatar
-  noCanvas();
+function CSSSetup() {
   h1 = createElement('h1', 'Lifewaster.SoMe');
   h1.position(120,0);
 
@@ -28,15 +26,17 @@ function setup() {
         var li = createElement('li',content[i]);
         li.parent('Id-pers');
       }
+}
+
+function setup() {
+  //Header, Banner, Avatar
+  noCanvas();
+  CSSSetup();
 
   getData();
-  hobbies = [Music[floor(random(0,70))], Activities[floor(random(0,70))], Movies[floor(random(0,70))]];
+  hobbies = [Music[floor(random(0, Music.length))], Activities[floor(random(0, Activities.length))], Movies[floor(random(0, Movies.length))]];
   readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
   displayProfile();
-
-  // for(let i = 0; i < 6; i++) {
-  //   let hobby[i] = random(hobbies);
-  // }
 
   for(let i = 0; i < 6; i++) {
     getData();
@@ -44,7 +44,7 @@ function setup() {
     displayFriends(i);
 
     getData();
-    readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //Hobby mangler
+    readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies));
     displaySuggestedFriends(i);
   }
 }
@@ -59,24 +59,34 @@ function getData() {
   zipCode = faker.address.zipCode();
   longitude = faker.address.longitude();
   latitude = faker.address.latitude();
-  email = faker.internet.email(); //birthday mangler
+  email = faker.internet.email();
   phone = faker.phone.phoneNumber();
   job = faker.name.jobTitle();
   profilePicture = faker.image.avatar();
 }
+
+function mousePressed() {
+  for(let i = 0; i < 6; i++) {
+    friend[i].mouseClicked();
+//   //   let d = dist(mouseX, mouseY, 700, 300)
+//   //   if(d <= 60) {
 //
-// // function mousePressed() {
-// //   for(let i = 0; i < 6; i++) {
-// //     if() /*mus inden for "friends"*/ {
-// //       friend[i].createProfile();
-// //     }
-// //     if() mus inden for suggested_friend {
-// //       suggested_friend[i].createProfile();
-// //     }
-// //   }
-// // }
-//
+//     // }
+//     // if() mus inden for suggested_friend {
+//     //   suggested_friend[i].createProfile();
+//     // }
+  }
+}
+
 // //Greg Grady #alwaysremember
+
+
+// function mouseHover() {
+//   if() {
+//     suggested_friend[i].displayHobby(10, 10, 100+100*i, 500);
+//   }
+// }
+
 
 function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobby1, hobby2, hobby3) {
   profile = new profiles(
@@ -136,5 +146,4 @@ function readySuggestedFriends(i, firstName, lastName, profilePicture, hobby) {
 function displaySuggestedFriends(i) {
   suggested_friend[i].displayAvatar(50, 50, 830+70*i, 550);
   suggested_friend[i].displayName(50, 50, 830+70*i, 600);
-  // suggested_friend[i].displayHobby(10, 10, 300, 300);
 }
