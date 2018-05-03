@@ -22,7 +22,7 @@ class friends {
   createProfile() {
     profile.removeElements();
     getData();
-    readyProfile(this.f_name,this.l_name, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture) //hobbyer mangler
+    readyProfile(this.f_name,this.l_name, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
     displayProfile();
 
     // for(let i = 0; i < 6; i++) {
@@ -38,7 +38,7 @@ class friends {
       displayFriends(i);
 
       getData();
-      readySuggestedFriends(i, firstName, lastName, profilePicture); //hobbyer mangler
+      readySuggestedFriends(i, firstName, lastName, profilePicture, hobby); //hobbyer mangler
       displaySuggestedFriends(i);
     }
   }

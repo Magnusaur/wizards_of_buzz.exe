@@ -11,11 +11,11 @@ var email;
 var phone;
 var job;
 var profilePicture;
-var hobbies;
+var hobbies = [];
 var birthdayMonth;
 
 class profiles {
-  constructor(f_name, l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profile_picture) { //hobby og f'dselsdag mangler
+  constructor(f_name, l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profile_picture, hobby1, hobby2, hobby3) { //hobby og f'dselsdag mangler
     this.f_name = f_name;
     this.l_name = l_name;
     this.birthdayMonth = birthdayMonth;
@@ -29,9 +29,9 @@ class profiles {
     this.phone = phone;
     this.job = job;
     this.profile_picture = profile_picture;
-    // this.hobby1 = hobby1;
-    // this.hobby2 = hobby2;
-    // this.hobby3 = hobby3;
+    this.hobby1 = hobby1;
+    this.hobby2 = hobby2;
+    this.hobby3 = hobby3;
   }
 
   displayName(szX, szY, x, y) {
@@ -41,7 +41,7 @@ class profiles {
   }
 
   displayBirthday(szX, szY, x, y) {
-    let tekst = createP(floor(random(1,31)) + " " + this.birthdayMonth + ", 19" + floor(random(50,99)));
+    let tekst = createP(floor(random(1,31)) + " " + this.birthdayMonth + ", 19" + floor(random(65,99)));
     tekst.size(szX, szY);
     tekst.position(x, y);
   }
@@ -88,17 +88,17 @@ class profiles {
       img.style("border","5px solid #fff");
   }
 
-  // displayHobbies(szX, szY, x1, y1, x2, y2, x3, y3) {
-  //   let tekst1 = createP(this.hobby1);
-  //   tekst1.size(szX, szY);
-  //   tekst1.position(x1, y1);
-  //
-  //   let tekst2 = createP(this.hobby2);
-  //   tekst2.size(szX, szY);
-  //   tekst2.position(x2, y2);
-  //
-  //   let tekst3 = createP(this.hobby3);
-  //   tekst3.size(szX, szY);
-  //   tekst3.position(x3, y3);
-  // }
+  displayHobbies(szX, szY, x1, y1, x2, y2, x3, y3) {
+    let tekst1 = createP(this.hobby1);
+    tekst1.size(szX, szY);
+    tekst1.position(x1, y1);
+
+    let tekst2 = createP(this.hobby2);
+    tekst2.size(szX, szY);
+    tekst2.position(x2, y2);
+
+    let tekst3 = createP(this.hobby3);
+    tekst3.size(szX, szY);
+    tekst3.position(x3, y3);
+  }
 }
