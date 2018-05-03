@@ -22,33 +22,13 @@ function setup() {
     banner.position(0,50);
 
     //Id-pers
-      h3 = createElement('h3', 'Profile');
+      h3 = createElement('h3', 'Content');
       h3.parent('Id-pers');
 
-      var content = ['Job','Education','Birthday','Interests'];
+      var content = ['Job','Education','Birthday','Interests','Country','Street', 'City','zipCode','longitude','latitude','Email','Phone'];
       for (var i = 0; i < content.length; i++) {
         var li = createElement('li',content[i]);
         li.parent('Id-pers');
-      }
-
-    //location
-      h3 = createElement('h3', 'Location');
-      h3.parent('location');
-
-      var content2 = ['Country','Street', 'City','zipCode','longitude','latitude'];
-      for (var i = 0; i < content2.length; i++) {
-        var li = createElement('li',content2[i]);
-        li.parent('location');
-      }
-
-    //contact
-      h3 = createElement('h3', 'Contact');
-      h3.parent('contact');
-
-      var content3 = ['Email','Phone'];
-      for (var i = 0; i < content3.length; i++) {
-        var li = createElement('li',content3[i]);
-        li.parent('contact');
       }
 
   getData();
@@ -138,8 +118,8 @@ function readyFriends(i, firstName, lastName, profilePicture) {
 }
 
 function displayFriends(i) {
-  friend[i].displayAvatar(50, 50, 700+i*10, 600);
-  friend[i].displayName(50, 50, 830+i*10, 600);
+  friend[i].displayAvatar(60, 60, 700+i*80, 300);
+  friend[i].displayName(10, 10, 710+i*80, 380);
 }
 
 
@@ -152,7 +132,7 @@ function readySuggestedFriends(i, firstName, lastName, profilePicture) { //hobby
 }
 
 function displaySuggestedFriends(i) {
-  suggested_friend[i].displayAvatar(10, 10, 500+10*i, 300);
-  suggested_friend[i].displayName(10, 10, 500+10*i, 300);
+  suggested_friend[i].displayAvatar(50, 50, 830+70*i, 550);
+  suggested_friend[i].displayName(50, 50, 830+70*i, 600);
   // suggested_friend[i].displayHobby(10, 10, 300, 300);
 }

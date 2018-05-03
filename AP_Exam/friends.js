@@ -9,6 +9,8 @@ class friends {
     let img = createImg(this.profile_picture);
     img.size(szX, szY);
     img.position(x, y);
+      img.style("padding","0px");
+      img.style("border","3px solid #fff");
   }
 
   displayName(szX, szY, x, y) {
