@@ -134,13 +134,7 @@ function readySuggestedFriends(i, firstName, lastName, profilePicture, hobby) {
 }
 
 function displaySuggestedFriends(i) {
-<<<<<<< HEAD
   suggested_friend[i].displayAvatar(50, 50, 830+70*i, 550);
   suggested_friend[i].displayName(50, 50, 830+70*i, 600);
   // suggested_friend[i].displayHobby(10, 10, 300, 300);
-=======
-  suggested_friend[i].displayAvatar(10, 10, 500+10*i, 300);
-  suggested_friend[i].displayName(10, 10, 500+10*i, 300);
-  suggested_friend[i].displayHobby(10, 10, 700+10*i, 320);
->>>>>>> 203bb1ad380f6dc0141232f8a7fc4d0d32c12a14
 }
