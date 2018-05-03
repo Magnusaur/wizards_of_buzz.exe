@@ -28,13 +28,13 @@ function CSSSetup() {
       }
 }
 
+
 function setup() {
   //Header, Banner, Avatar
-  noCanvas();
   CSSSetup();
 
   getData();
-  hobbies = [Music[floor(random(0, Music.length))], Activities[floor(random(0, Activities.length))], Movies[floor(random(0, Movies.length))]];
+  getHobbies();
   readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
   displayProfile();
 
@@ -65,18 +65,44 @@ function getData() {
   profilePicture = faker.image.avatar();
 }
 
+function getHobbies() {
+  hobbies = [Music[floor(random(0, 70))], Activities[floor(random(0, 70))], Movies[floor(random(0, 70))]]; //.length fungerer ikke
+}
+
+function draw() {
+  console.log(mouseX, mouseY);
+}
+
 function mousePressed() {
-  for(let i = 0; i < 6; i++) {
-    friend[i].mouseClicked();
-//   //   let d = dist(mouseX, mouseY, 700, 300)
-//   //   if(d <= 60) {
-//
-//     // }
-//     // if() mus inden for suggested_friend {
-//     //   suggested_friend[i].createProfile();
-//     // }
+  if(mouseX > 575 && mouseX < 640 && mouseY > -320 && mouseY < -255) {
+    friend[0].createProfile();
+  } else if(mouseX > 655 && mouseX < 720 && mouseY > -320 && mouseY < -255) {
+    friend[1].createProfile();
+  } else if(mouseX > 735 && mouseX < 800 && mouseY > -320 && mouseY < -255) {
+    friend[2].createProfile();
+  } else if(mouseX > 815 && mouseX < 880 && mouseY > -320 && mouseY < -255) {
+    friend[3].createProfile();
+  } else if(mouseX > 895 && mouseX < 960 && mouseY > -320 && mouseY < -255) {
+    friend[4].createProfile();
+  } else if(mouseX > 975 && mouseX < 1040 && mouseY > -320 && mouseY < -255) {
+    friend[5].createProfile();
+  }
+
+  if(mouseX > 710 && mouseX < 760 && mouseY > -65 && mouseY < -15) {
+    suggested_friend[0].createProfile();
+  } else if(mouseX > 780 && mouseX < 830 && mouseY > -65 && mouseY < -15) {
+    suggested_friend[1].createProfile();
+  } else if(mouseX > 850 && mouseX < 900 && mouseY > -65 && mouseY < -15) {
+    suggested_friend[2].createProfile();
+  } else if(mouseX > 920 && mouseX < 970 && mouseY > -65 && mouseY < -15) {
+    suggested_friend[3].createProfile();
+  } else if(mouseX > 990 && mouseX < 1040 && mouseY > -65 && mouseY < -15) {
+    suggested_friend[4].createProfile();
+  } else if(mouseX > 1060 && mouseX < 1110 && mouseY > -65 && mouseY < -15) {
+    suggested_friend[5].createProfile();
   }
 }
+
 
 // //Greg Grady #alwaysremember
 
@@ -120,6 +146,8 @@ function displayProfile() {
 }
 
 
+
+
 function readyFriends(i, firstName, lastName, profilePicture) {
   friend[i] = new friends(
     firstName,
@@ -132,6 +160,8 @@ function displayFriends(i) {
   friend[i].displayAvatar(60, 60, 700+i*80, 300);
   friend[i].displayName(10, 10, 710+i*80, 380);
 }
+
+
 
 
 function readySuggestedFriends(i, firstName, lastName, profilePicture, hobby) {

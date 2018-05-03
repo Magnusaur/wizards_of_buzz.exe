@@ -18,14 +18,14 @@ class friends {
     let tekst = createP(this.f_name + " " + this.l_name);
     tekst.size(szX, szY);
     tekst.position(x, y);
-  } 
+  }
 
   createProfile() {
     removeElements();
     CSSSetup();
 
     getData();
-    hobbies = [Music[floor(random(0, Music.length))], Activities[floor(random(0,Activities.length))], Movies[floor(random(0,Movies.length))]];
+    getHobbies();
     readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
     displayProfile();
 
