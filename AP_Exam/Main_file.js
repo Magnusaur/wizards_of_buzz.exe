@@ -16,16 +16,6 @@ function CSSSetup() {
   banner = createImg('https://www.samyakhospital.com/wp-content/uploads/2016/12/dbtreesPhotoxpress_9939515.jpg');
     banner.size(windowWidth,300);
     banner.position(0,50);
-
-    //Id-pers
-      //h3 = createElement('h3', 'Content');
-      //h3.parent('Id-pers');
-
-      //var content = ['Job','Education','Birthday','Interests','Country','Street', 'City','zipCode','longitude','latitude','Email','Phone'];
-      for (var i = 0; i < content.length; i++) {
-        var li = createElement('li',content[i]);
-        li.parent('content');
-      }
 }
 
 
@@ -36,7 +26,7 @@ function setup() {
 
   getData();
   getHobbies();
-  readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
+  readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
   displayProfile();
 
   for(let i = 0; i < 6; i++) {
@@ -51,7 +41,9 @@ function setup() {
 }
 
 
-
+function draw() {
+  console.log(mouseX, mouseY);
+}
 
 function getData() {
   firstName = faker.name.firstName();
@@ -61,8 +53,6 @@ function getData() {
   street = faker.address.streetName();
   city = faker.address.city();
   zipCode = faker.address.zipCode();
-  longitude = faker.address.longitude();
-  latitude = faker.address.latitude();
   email = faker.internet.email();
   phone = faker.phone.phoneNumber();
   job = faker.name.jobTitle();
@@ -74,21 +64,21 @@ function getHobbies() {
 }
 
 function mousePressed() {
-  if(mouseX > 575 && mouseX < 640 && mouseY > -320 && mouseY < -255) {
+  if(mouseX > -98 && mouseX < -33 && mouseY > -120 && mouseY < -55) {
     friend[0].createProfile();
-  } else if(mouseX > 655 && mouseX < 720 && mouseY > -320 && mouseY < -255) {
+  } else if(mouseX > -20 && mouseX < 45 && mouseY > -120 && mouseY < -55) {
     friend[1].createProfile();
-  } else if(mouseX > 735 && mouseX < 800 && mouseY > -320 && mouseY < -255) {
+  } else if(mouseX > 60 && mouseX < 125 && mouseY > -120 && mouseY < -55) {
     friend[2].createProfile();
-  } else if(mouseX > 815 && mouseX < 880 && mouseY > -320 && mouseY < -255) {
+  } else if(mouseX > 140 && mouseX < 205 && mouseY > -120 && mouseY < -55) {
     friend[3].createProfile();
-  } else if(mouseX > 895 && mouseX < 960 && mouseY > -320 && mouseY < -255) {
+  } else if(mouseX > 220 && mouseX < 285 && mouseY > -120 && mouseY < -55) {
     friend[4].createProfile();
-  } else if(mouseX > 975 && mouseX < 1040 && mouseY > -320 && mouseY < -255) {
+  } else if(mouseX > 300 && mouseX < 365 && mouseY > -120 && mouseY < -55) {
     friend[5].createProfile();
   }
 
-  if(mouseX > 710 && mouseX < 760 && mouseY > -65 && mouseY < -15) {
+  if(mouseX > 710 && mouseX < 760 && mouseY > 132 && mouseY < 181) {
     suggested_friend[0].createProfile();
   } else if(mouseX > 780 && mouseX < 830 && mouseY > -65 && mouseY < -15) {
     suggested_friend[1].createProfile();
@@ -114,7 +104,7 @@ function mousePressed() {
 // }
 
 
-function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profilePicture, hobby1, hobby2, hobby3) {
+function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, email, phone, job, profilePicture, hobby1, hobby2, hobby3) {
   profile = new profiles(
     firstName,
     lastName,
@@ -123,8 +113,6 @@ function readyProfile(firstName, lastName, birthdayMonth, country, street, city,
     street,
     city,
     zipCode,
-    longitude,
-    latitude,
     email,
     phone,
     job,
@@ -140,7 +128,7 @@ function displayProfile() {
   profile.displayBirthday(100, 10, 351, 350);
   profile.displayAvatar(200, 200, 120, 190);
   profile.displayProfession(1000, 10, 300, 100);
-  profile.displayLocation(1000, 10, 400, 100, 450, 100, 500, 100, 550, 100);
+  profile.displayLocation(1000, 10, 450, 100, 500, 100, 550, 100);
   profile.displayContact(1000, 10, 600, 100, 600, 150);
   profile.displayHobbies(1000, 10, 100, 500, 100, 550, 100, 600);
 }

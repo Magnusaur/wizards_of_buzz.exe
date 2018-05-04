@@ -25,7 +25,7 @@ class friends {
 
     getData();
     getHobbies();
-    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
+    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
     displayProfile();
 
     // for(let i = 0; i < 6; i++) {

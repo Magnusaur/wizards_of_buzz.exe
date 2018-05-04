@@ -32,7 +32,7 @@ class suggested_friends {
 
     getData();
     getHobbies();  //Not done; Den erstatter saa der kan vaere aktivitet, aktivitet, movie.
-    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, this.profile_picture, hobbies[0] = this.hobby, hobbies[1], hobbies[2]); //hobbyer mangler
+    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, email, phone, job, this.profile_picture, hobbies[0] = this.hobby, hobbies[1], hobbies[2]); //hobbyer mangler
     displayProfile();
 
     // for(let i = 0; i < 6; i++) {

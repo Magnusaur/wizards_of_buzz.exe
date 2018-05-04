@@ -5,8 +5,6 @@ var country;
 var street;
 var city;
 var zipCode;
-var longitude;
-var latitude;
 var email;
 var phone;
 var job;
@@ -15,7 +13,7 @@ var hobbies = [];
 var birthdayMonth;
 
 class profiles {
-  constructor(f_name, l_name, birthdayMonth, country, street, city, zipCode, longitude, latitude, email, phone, job, profile_picture, hobby1, hobby2, hobby3) { //hobby og f'dselsdag mangler
+  constructor(f_name, l_name, birthdayMonth, country, street, city, zipCode, email, phone, job, profile_picture, hobby1, hobby2, hobby3) { //hobby og f'dselsdag mangler
     this.f_name = f_name;
     this.l_name = l_name;
     this.birthdayMonth = birthdayMonth;
@@ -23,8 +21,6 @@ class profiles {
     this.street = street;
     this.city = city;
     this.zipCode = zipCode;
-    this.longitude = longitude;
-    this.latitude = latitude;
     this.email = email;
     this.phone = phone;
     this.job = job;
@@ -52,11 +48,7 @@ class profiles {
     tekst.parent('job');
   }
 
-  displayLocation(szX, szY, llX, llY, strX, strY, cityX, cityY, countryX, countryY) {
-    let tekst1 = createP(this.longitude + " " + this.latitude);
-    tekst1.size(szX, szY);
-    tekst1.position(llX, llY);
-
+  displayLocation(szX, szY, strX, strY, cityX, cityY, countryX, countryY) {
     let tekst2 = createP(this.street);
     tekst2.size(szX, szY);
     //tekst2.position(strX, strY);
