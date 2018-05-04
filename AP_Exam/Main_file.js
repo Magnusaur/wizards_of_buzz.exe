@@ -29,6 +29,7 @@ function CSSSetup() {
 }
 
 
+
 function setup() {
   //Header, Banner, Avatar
   CSSSetup();
@@ -48,6 +49,9 @@ function setup() {
     displaySuggestedFriends(i);
   }
 }
+
+
+
 
 function getData() {
   firstName = faker.name.firstName();
