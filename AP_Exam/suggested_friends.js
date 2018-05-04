@@ -24,6 +24,7 @@ class suggested_friends {
     let tekst = createP(profile.f_name + " " + profile.l_name + " has " + this.hobby + " in common with "+ this.f_name + " " + this.l_name)
     tekst.size(szX, szY);
     tekst.position(x, y);
+    //tekst.parent('friend1');
   }
 
   createProfile() {

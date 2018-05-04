@@ -16,6 +16,11 @@ function CSSSetup() {
   banner = createImg('https://www.samyakhospital.com/wp-content/uploads/2016/12/dbtreesPhotoxpress_9939515.jpg');
     banner.size(windowWidth,300);
     banner.position(0,50);
+
+  h3 = createElement('h3', 'Friends');
+  h3.position(1160,248);
+  h3.style('font-size','25px')
+  h3.style('text-shadow','1px,2px,2px,#000;')
 }
 
 
@@ -33,7 +38,8 @@ function setup() {
     getData();
     readyFriends(i, firstName, lastName, profilePicture);
     displayFriends(i);
-
+  }
+  for(let i = 0; i < 3; i++) {
     getData();
     readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies));
     displaySuggestedFriends(i);
@@ -97,13 +103,6 @@ function mousePressed() {
 // //Greg Grady #alwaysremember
 
 
-// function mouseHover() {
-//   if() {
-//     suggested_friend[i].displayHobby(10, 10, 100+100*i, 500);
-//   }
-// }
-
-
 function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, email, phone, job, profilePicture, hobby1, hobby2, hobby3) {
   profile = new profiles(
     firstName,
@@ -145,8 +144,8 @@ function readyFriends(i, firstName, lastName, profilePicture) {
 }
 
 function displayFriends(i) {
-  friend[i].displayAvatar(60, 60, 700+i*80, 300);
-  friend[i].displayName(10, 10, 710+i*80, 380);
+  friend[i].displayAvatar(60, 60, 800+i*80, 300);
+  friend[i].displayName(10, 10, 810+i*80, 360);
 }
 
 
@@ -161,7 +160,8 @@ function readySuggestedFriends(i, firstName, lastName, profilePicture, hobby) {
   )
 }
 
-function displaySuggestedFriends(i) {
-  suggested_friend[i].displayAvatar(50, 50, 830+70*i, 550);
-  suggested_friend[i].displayName(50, 50, 830+70*i, 600);
+function displaySuggestedFriends(i,j) {
+  suggested_friend[i].displayAvatar(50, 50, 970, 508+110*i);
+  suggested_friend[i].displayName(50, 50, 975, 555+110*i);
+  suggested_friend[i].displayHobby(200, 100, 1060, 510+118*i);
 }
