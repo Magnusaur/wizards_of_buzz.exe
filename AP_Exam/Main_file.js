@@ -20,13 +20,13 @@ function setup() {
     banner.position(0,50);
 
     //Id-pers
-      h3 = createElement('h3', 'Content');
-      h3.parent('Id-pers');
+      //h3 = createElement('h3', 'Content');
+      //h3.parent('Id-pers');
 
-      var content = ['Job','Education','Birthday','Interests','Country','Street', 'City','zipCode','longitude','latitude','Email','Phone'];
+      //var content = ['Job','Education','Birthday','Interests','Country','Street', 'City','zipCode','longitude','latitude','Email','Phone'];
       for (var i = 0; i < content.length; i++) {
         var li = createElement('li',content[i]);
-        li.parent('Id-pers');
+        li.parent('content');
       }
 
   getData();
@@ -100,13 +100,13 @@ function readyProfile(firstName, lastName, birthdayMonth, country, street, city,
 }
 
 function displayProfile() {
-  profile.displayName(400, 10, 350, 300);
-  profile.displayBirthday(100, 10, 380, 350);
+  profile.displayName(400, 10, 365, 280);
+  profile.displayBirthday(100, 10, 351, 350);
   profile.displayAvatar(200, 200, 120, 190);
-  profile.displayProfession(10, 10, 300, 100);
-  profile.displayLocation(10, 10, 400, 100, 450, 100, 500, 100, 550, 100);
-  profile.displayContact(10, 10, 600, 100, 700, 100);
-  profile.displayHobbies(10, 10, 100, 500, 100, 550, 100, 600);
+  profile.displayProfession(1000, 10, 300, 100);
+  profile.displayLocation(1000, 10, 400, 100, 450, 100, 500, 100, 550, 100);
+  profile.displayContact(1000, 10, 600, 100, 600, 150);
+  profile.displayHobbies(1000, 10, 100, 500, 100, 550, 100, 600);
 }
 
 
