@@ -15,34 +15,55 @@ font-family:monospace;
 
 h2 {
   font-family: sans-serif;
+  font-size: 34px;
   color: #fff;
   letter-spacing: 2.4px;
+
+}
+
+h4 {
+  font-family: sans-serif;
+  padding: 5px;
+  padding-left: 60px;
+  text-align: left;
+  color: #999;
+  letter-spacing: 1.5px;
 }
 
 h3 {
   font-family: sans-serif;
+  color: #fff;
+  font-size: 30px;
   text-align: left;
-  color: #000;
-  letter-spacing: 1.1px;
+  letter-spacing: 2.5px;
 }
 
 li{
   font-family: sans-serif;
   list-style-type: none;
-  margin-left: 10px;
+  padding: 10px;
   text-align: center;
   height: 40px;
   width: 100px;
 }
 
-div {
-  background-color: #1111;
-  margin-top: 10px;
-  height: 200px;
-  width: 300px;
-}
-
 p {
   font-family: sans-serif;
   font-size: 12px;
+}
+
+.container {
+  background-color: #1111;
+  margin-left: 0px;
+  float: left;
+  height: 500px;
+  width: 225px;
+}
+
+.content {
+  background-color: #1212;
+  padding-left: 10px;
+  padding-bottom: 45px;
+  height: 25px;
+  width: 215px;
 }

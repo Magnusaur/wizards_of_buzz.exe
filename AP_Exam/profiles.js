@@ -49,7 +49,7 @@ class profiles {
   displayProfession(szX, szY, x, y) {
     let tekst = createP(this.job);
     tekst.size(szX, szY);
-    tekst.position(x, y);
+    tekst.parent('job');
   }
 
   displayLocation(szX, szY, llX, llY, strX, strY, cityX, cityY, countryX, countryY) {
@@ -59,25 +59,30 @@ class profiles {
 
     let tekst2 = createP(this.street);
     tekst2.size(szX, szY);
-    tekst2.position(strX, strY);
+    //tekst2.position(strX, strY);
+    tekst2.parent('street');
 
     let tekst3 = createP(this.zipCode + " " + this.city);
     tekst3.size(szX, szY);
-    tekst3.position(cityX, cityY);
+    //tekst3.position(cityX, cityY);
+    tekst3.parent('city');
 
     let tekst4 = createP(this.country);
     tekst4.size(szX, szY);
-    tekst4.position(countryX, countryY);
+    //tekst4.position(countryX, countryY);
+    tekst4.parent('country');
   }
 
-  displayContact(szX, szY, eX, eY, phX, phY) {
+  displayContact(szX, szY, eX, eY, phX, phY) { //this is not needed
     let tekst1 = createP(this.email);
     tekst1.size(szX, szY);
-    tekst1.position(eX, eY);
+    //tekst1.position(eX, eY);
+    tekst1.parent('email');
 
     let tekst2 = createP(this.phone);
     tekst2.size(szX, szY);
-    tekst2.position(phX, phY);
+    //tekst2.position(phX, phY);
+    tekst2.parent('phone');
   }
 
   displayAvatar(szX, szY, x, y) {
@@ -89,16 +94,16 @@ class profiles {
   }
 
   displayHobbies(szX, szY, x1, y1, x2, y2, x3, y3) {
-    let tekst1 = createP(this.hobby1);
+    let tekst1 = createP(this.hobby1); //Music
     tekst1.size(szX, szY);
-    tekst1.position(x1, y1);
+    tekst1.parent('music');
 
-    let tekst2 = createP(this.hobby2);
+    let tekst2 = createP(this.hobby2); //Hobby
     tekst2.size(szX, szY);
-    tekst2.position(x2, y2);
+    tekst2.parent('hobby');
 
-    let tekst3 = createP(this.hobby3);
+    let tekst3 = createP(this.hobby3); //Media
     tekst3.size(szX, szY);
-    tekst3.position(x3, y3);
+    tekst3.parent('media');
   }
 }
