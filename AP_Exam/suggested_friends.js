@@ -44,7 +44,9 @@ class suggested_friends {
       getData();
       readyFriends(i, firstName, lastName, profilePicture);
       displayFriends(i);
+    }
 
+    for(let i = 0; i < 3; i++) {
       getData();
       readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //hobby mangler
       displaySuggestedFriends(i);

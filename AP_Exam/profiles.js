@@ -1,4 +1,3 @@
-//For future revision: vi kan yderligere abstrahere og lave "globale funktioner", fx displayName, fordi alle classes bruger en displayName.
 var firstName;
 var lastName;
 var country;

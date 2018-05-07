@@ -51,9 +51,9 @@ function setup() {
 }
 
 
-function draw() {
-  console.log(mouseX, mouseY);
-}
+// function draw() {
+//   console.log(mouseX, mouseY);
+// }
 
 function getData() {
   firstName = faker.name.firstName();
