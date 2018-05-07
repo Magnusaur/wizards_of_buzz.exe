@@ -17,17 +17,21 @@ function CSSSetup() {
     banner.size(windowWidth,300);
     banner.position(0,50);
 
-  h3 = createElement('h3', 'Friends');
+  h3 = createElement('h2', 'Friends');
   h3.position(1160,248);
   h3.style('font-size','25px')
-  h3.style('text-shadow','1px,2px,2px,#000;')
+  //h3.style('text-shadow','1px,2px,2px,#000;')
+
+  h2 = createElement('h2', 'Suggested Friends');
+  h2.position(970,430);
+  h2.style('font-size','25px');
+  h2.style('color', '#f1f1f1')
 }
 
 
 
 function setup() {
-  //Header, Banner, Avatar
-  CSSSetup();
+  CSSSetup(); //Header, Banner, Avatar
 
   getData();
   getHobbies();
