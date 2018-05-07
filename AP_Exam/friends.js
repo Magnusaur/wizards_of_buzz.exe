@@ -19,18 +19,17 @@ class friends {
     tekst.position(x, y);
   }
 
+//VERY IMPORTANT
   createProfile() {
-    removeElements();
-    CSSSetup();
+    removeElements(); //First remove all DOM-elements (which is all of the rendered content)
+    CSSSetup(); //Set up styling elements again
 
+    //Similar setup as in main_file. Uniquely, the callback of the global function, readyProfile, within this specific object, uses the data of the object to partly create the profile-object.
     getData();
     getHobbies();
     readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, email, phone, job, this.profile_picture, hobbies[0], hobbies[1], hobbies[2]) //hobbyer mangler
     displayProfile();
 
-    // for(let i = 0; i < 6; i++) {
-    //   let hobby[i] = random(hobbies); //Igen det med hobby
-    // }
 
     for(let i = 0; i < 6; i++) {
       getData();

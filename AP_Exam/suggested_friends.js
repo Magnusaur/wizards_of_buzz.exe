@@ -27,18 +27,17 @@ class suggested_friends {
     //tekst.parent('friend1');
   }
 
+  //VERY IMPORTANT
   createProfile() {
-    removeElements();
+    removeElements(); //find description in friends.js
     CSSSetup();
 
     getData();
-    getHobbies();  //Not done; Den erstatter saa der kan vaere aktivitet, aktivitet, movie.
-    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, email, phone, job, this.profile_picture, hobbies[0] = this.hobby, hobbies[1], hobbies[2]); //hobbyer mangler
+    getHobbies();
+    //The problem with this readyProfile is that the music-hobby will always be replaced by the "common interest" brought along to create a profile. Thus, if that interest is a movie, you will have two movies with one located in the music-category in the browser interface.
+    readyProfile(this.f_name, this.l_name, birthdayMonth, country, street, city, zipCode, email, phone, job, this.profile_picture, hobbies[0] = this.hobby, hobbies[1], hobbies[2]);
     displayProfile();
 
-    // for(let i = 0; i < 6; i++) {
-    //   let hobby[i] = random(hobbies); //Igen det med hobby
-    // }
 
     for(let i = 0; i < 6; i++) {
       getData();
@@ -48,7 +47,7 @@ class suggested_friends {
 
     for(let i = 0; i < 3; i++) {
       getData();
-      readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //hobby mangler
+      readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies));
       displaySuggestedFriends(i);
     }
   }
