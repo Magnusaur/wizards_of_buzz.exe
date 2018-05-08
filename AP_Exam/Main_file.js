@@ -1,9 +1,6 @@
 var profile;
 var friend = [];
 var suggested_friend = [];
-var started1 = false;
-var started2 = false
-var i = 0;
 //Variables for the upcoming objects.
 
 
@@ -68,13 +65,8 @@ function setup() {
     getData();
     readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //From the selection of three hobbies, this functions chooses one random hobby for each suggested_friend.
     displaySuggestedFriends(i);
-
-    //var button1 = createButton('friend1');
-    //button1.position(500,600);
-    //button1.mousePressed(newProfile);
   }
 }
-
 
 
 
@@ -99,51 +91,34 @@ function getHobbies() {
 }
 
 function mousePressed() {
-  var i = i++;
+  if(mouseX > -98 && mouseX < -33 && mouseY > -120 && mouseY < -55) {
+    friend[0].createProfile();
+  } else if(mouseX > -20 && mouseX < 45 && mouseY > -120 && mouseY < -55) {
+    friend[1].createProfile();
+  } else if(mouseX > 60 && mouseX < 125 && mouseY > -120 && mouseY < -55) {
+   friend[2].createProfile();
+  } else if(mouseX > 140 && mouseX < 205 && mouseY > -120 && mouseY < -55) {
+   friend[3].createProfile();
+  } else if(mouseX > 220 && mouseX < 285 && mouseY > -120 && mouseY < -55) {
+   friend[4].createProfile();
+  } else if(mouseX > 300 && mouseX < 365 && mouseY > -120 && mouseY < -55) {
+   friend[5].createProfile();
+  }
 
-
-  //friend[i].createProfile();
-
-  //if(mouseX > -98 && mouseX < -33 && mouseY > -120 && mouseY < -55) {
-    //friend[0].createProfile();
-  //} else if(mouseX > -20 && mouseX < 45 && mouseY > -120 && mouseY < -55) {
-    //friend[1].createProfile();
-  //} else if(mouseX > 60 && mouseX < 125 && mouseY > -120 && mouseY < -55) {
-  //  friend[2].createProfile();
-  //} else if(mouseX > 140 && mouseX < 205 && mouseY > -120 && mouseY < -55) {
-  //  friend[3].createProfile();
-  //} else if(mouseX > 220 && mouseX < 285 && mouseY > -120 && mouseY < -55) {
-  //  friend[4].createProfile();
-  //} else if(mouseX > 300 && mouseX < 365 && mouseY > -120 && mouseY < -55) {
-  //  friend[5].createProfile();
-  //}
-
-  //if(mouseX > 710 && mouseX < 760 && mouseY > 132 && mouseY < 181) {
-  //  suggested_friend[0].createProfile();
-  //} else if(mouseX > 780 && mouseX < 830 && mouseY > -65 && mouseY < -15) {
-  //  suggested_friend[1].createProfile();
-  //} else if(mouseX > 850 && mouseX < 900 && mouseY > -65 && mouseY < -15) {
-  //  suggested_friend[2].createProfile();
-  //} else if(mouseX > 920 && mouseX < 970 && mouseY > -65 && mouseY < -15) {
-  //  suggested_friend[3].createProfile();
-  //} else if(mouseX > 990 && mouseX < 1040 && mouseY > -65 && mouseY < -15) {
-  //  suggested_friend[4].createProfile();
-  //} else if(mouseX > 1060 && mouseX < 1110 && mouseY > -65 && mouseY < -15) {
-  //  suggested_friend[5].createProfile();
-  //}
+  if(mouseX > 175 && mouseX < 225 && mouseY > 90 && mouseY < 140) {
+   suggested_friend[0].createProfile();
+ } else if(mouseX > 175 && mouseX < 225 && mouseY > 200 && mouseY < 250) {
+   suggested_friend[1].createProfile();
+ } else if(mouseX > 175 && mouseX < 225 && mouseY > 310 && mouseY < 360) {
+   suggested_friend[2].createProfile();
+  }
 }
 
-function start1(){
-   started1 = true;
-   friend[i].createProfile();
-   loop();
+function draw() {
+  console.log(mouseX, mouseY);
 }
 
-function start2(){
-   started2 = true;
-   suggested_friend[i].createProfile();
-   loop();
-}
+
 // //Greg Grady #alwaysremember
 
 //Here the data from getData, added as arguments in the callback of readyProfile, is finally put to use as parameters in creating an object.
