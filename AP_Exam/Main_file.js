@@ -12,9 +12,6 @@ function preload() {
 }
 
 function CSSSetup() {
-  h1 = createElement('h1', 'Lifewaster.SoMe');
-  h1.position(120,0);
-
   banner = createImg('https://www.samyakhospital.com/wp-content/uploads/2016/12/dbtreesPhotoxpress_9939515.jpg');
     banner.size(windowWidth,300);
     banner.position(0,50);
