@@ -1,9 +1,13 @@
 var profile;
 var friend = [];
 var suggested_friend = [];
+<<<<<<< HEAD
 var started1 = false;
 var started2 = false
 var i = 0;
+=======
+//Variables for the upcoming objects.
+>>>>>>> 72b1f9f8e107d198e2b52cf729f590509464bd58
 
 
 function preload() {
@@ -33,22 +37,38 @@ function CSSSetup() {
 
 
 
+
+
+//Here we go!
 function setup() {
   CSSSetup(); //Header, Banner, Avatar
 
+  //PROFILE
+  //Data in our selected categories is querried and put into variables that are carried over to be used in readyProfile.
   getData();
+
+  //Hobbies are however excluded from getData. This is because the hobbies should only be loaded once, since the suggested_friends should have the same hobby as the current profile.
+  //the getHobbies chooses three hobbies from our JSON-files and puts them in an array
   getHobbies();
+
+  //the profile is instantiated as an object. Here getData-variables and the three getHobbies-variables are inserted as arguments in the callback of readyProfile.
+  //These arguments are carried over to the function readyProfile itself, where they are inserted as the attributes of the object.
   readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, email, phone, job, profilePicture, hobbies[0], hobbies[1], hobbies[2]);
+
+  //Using the now instantiated object, the displayProfile goes through several display functions (name, location etc.), which results in the final rendering of data.
   displayProfile();
 
+
+  //FRIENDS - same logic as the readying of the profile.
   for(let i = 0; i < 6; i++) {
     getData();
-    readyFriends(i, firstName, lastName, profilePicture);
+    readyFriends(i, firstName, lastName, profilePicture); //The "I" is carried over to create six different object and displaying each of them.
     displayFriends(i);
   }
+  //SUGGESTED_FRIENDS - same logic
   for(let i = 0; i < 3; i++) {
     getData();
-    readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies));
+    readySuggestedFriends(i, firstName, lastName, profilePicture, random(hobbies)); //From the selection of three hobbies, this functions chooses one random hobby for each suggested_friend.
     displaySuggestedFriends(i);
 
     //var button1 = createButton('friend1');
@@ -58,11 +78,11 @@ function setup() {
 }
 
 
-function draw() {
-  console.log(mouseX, mouseY);
-}
 
-function getData() {
+
+
+//GLOBAL FUNCTIONS - these are called upon several times in the different files.
+function getData() { //This one is called upon a lot. Everytime, it replaces the previous content of the variables with new data from the faker.js library (who knows how faker chooses this data?)
   firstName = faker.name.firstName();
   lastName = faker.name.lastName();
   birthdayMonth = faker.date.month();
@@ -77,7 +97,7 @@ function getData() {
 }
 
 function getHobbies() {
-  hobbies = [Music[floor(random(0, 70))], Activities[floor(random(0, 70))], Movies[floor(random(0, 70))]]; //.length fungerer ikke
+  hobbies = [Music[floor(random(0, 70))], Activities[floor(random(0, 70))], Movies[floor(random(0, 70))]]; //Floor is used because it has to use numbers such as (1, 2, 3) and not (0.32)
 }
 
 function mousePressed() {
@@ -114,6 +134,7 @@ function mousePressed() {
   //  suggested_friend[5].createProfile();
   //}
 }
+
 function start1(){
    started1 = true;
    friend[i].createProfile();
@@ -127,7 +148,7 @@ function start2(){
 }
 // //Greg Grady #alwaysremember
 
-
+//Here the data from getData, added as arguments in the callback of readyProfile, is finally put to use as parameters in creating an object.
 function readyProfile(firstName, lastName, birthdayMonth, country, street, city, zipCode, email, phone, job, profilePicture, hobby1, hobby2, hobby3) {
   profile = new profiles(
     firstName,
@@ -146,7 +167,7 @@ function readyProfile(firstName, lastName, birthdayMonth, country, street, city,
     hobby3
   )
 }
-
+//All of the display-commands with the related coordinates for position and size. Look in the class-file for their actual content.
 function displayProfile() {
   profile.displayName(400, 10, 365, 280);
   profile.displayBirthday(100, 10, 351, 350);
@@ -169,7 +190,7 @@ function readyFriends(i, firstName, lastName, profilePicture) {
 }
 
 function displayFriends(i) {
-  friend[i].displayAvatar(60, 60, 800+i*80, 300);
+  friend[i].displayAvatar(60, 60, 800+i*80, 300); //the "i" is used to render the "friends" in different spots rather than on top of one another.
   friend[i].displayName(10, 10, 810+i*80, 360);
 }
 
