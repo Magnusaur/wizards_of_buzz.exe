@@ -1,13 +1,11 @@
 var profile;
 var friend = [];
 var suggested_friend = [];
-<<<<<<< HEAD
 var started1 = false;
 var started2 = false
 var i = 0;
-=======
 //Variables for the upcoming objects.
->>>>>>> 72b1f9f8e107d198e2b52cf729f590509464bd58
+
 
 
 function preload() {
