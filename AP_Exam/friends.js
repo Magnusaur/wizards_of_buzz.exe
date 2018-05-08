@@ -14,9 +14,10 @@ class friends {
   }
 
   displayName(szX, szY, x, y) {
-    let tekst = createP(this.f_name + " " + this.l_name);
+    let tekst = createButton(this.f_name + " " + this.l_name);
     tekst.size(szX, szY);
     tekst.position(x, y);
+    tekst.mousePressed(start1);
   }
 
   createProfile() {
