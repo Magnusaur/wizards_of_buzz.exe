@@ -91,17 +91,17 @@ function getHobbies() {
 }
 
 function mousePressed() {
-  if(mouseX > -98 && mouseX < -33 && mouseY > -120 && mouseY < -55) {
+  if(mouseX > 2 && mouseX < 67 && mouseY > -120 && mouseY < -55) {
     friend[0].createProfile();
-  } else if(mouseX > -20 && mouseX < 45 && mouseY > -120 && mouseY < -55) {
+  } else if(mouseX > 83 && mouseX < 145 && mouseY > -120 && mouseY < -55) {
     friend[1].createProfile();
-  } else if(mouseX > 60 && mouseX < 125 && mouseY > -120 && mouseY < -55) {
+  } else if(mouseX > 163 && mouseX < 226 && mouseY > -120 && mouseY < -55) {
    friend[2].createProfile();
-  } else if(mouseX > 140 && mouseX < 205 && mouseY > -120 && mouseY < -55) {
+ } else if(mouseX > 242 && mouseX < 306 && mouseY > -120 && mouseY < -55) {
    friend[3].createProfile();
-  } else if(mouseX > 220 && mouseX < 285 && mouseY > -120 && mouseY < -55) {
+ } else if(mouseX > 323 && mouseX < 385 && mouseY > -120 && mouseY < -55) {
    friend[4].createProfile();
-  } else if(mouseX > 300 && mouseX < 365 && mouseY > -120 && mouseY < -55) {
+ } else if(mouseX > 400 && mouseX < 465 && mouseY > -120 && mouseY < -55) {
    friend[5].createProfile();
   }
 
@@ -114,10 +114,10 @@ function mousePressed() {
   }
 }
 
+
 function draw() {
   console.log(mouseX, mouseY);
 }
-
 
 // //Greg Grady #alwaysremember
 
