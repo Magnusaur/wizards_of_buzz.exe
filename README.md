@@ -1,6 +1,8 @@
 # wizards_of_buzz.exe
 
-This is the group repository for the group "wizards_of_buzz_exe" - also known as Group 9. Here we submit group projects and update our logbook.  
+This is the group repository for the group "wizards_of_buzz_exe" - also known as Group 9. Here we submit group projects and update our logbook. 
+
+Additionally, now we are going to use this platform for the course Interaction Design 2.
   
   
     
