@@ -82,16 +82,16 @@ Evt. etnografi spørgsmål:
 
 
 
-HURTIGRUNDE
-Probes
-Brainstorm
-Etnografi
-Surveys
-Vision statement
-Kvalitative interviews
-Observationer
-Snak med forsikringsfolk
-Behandling af data
+HURTIGRUNDE  
+Probes  
+Brainstorm  
+Etnografi  
+Surveys  
+Vision statement  
+Kvalitative interviews  
+Observationer  
+Snak med forsikringsfolk  
+Behandling af data  
 Lab-eksperimenter
 Materialer, papir og eksterne udtryk
 Sømløs
@@ -106,7 +106,52 @@ Udforske mulige fremtider
 Indhente egen data
 
 Hønen og ægget - data eller vision først?
+   
+    
+## 25/02/19  
 
 
+#### Agenda:
+- Overblik
+- Idégen
+- Visionetablering
+- Planlægning af undersøgelsesfase og forløb til pitch
 
-## 25/02/19
+Tanker siden sidst: naturlige intelligens i design; leve i usikkerhed, reflekterende samtale. Det er vigtigt at bruge usikkerheden til sin fordel fremfor at planlægge en endelig proces. Brug prototype som udgangspunkt for læring; ikke som endeligt produkt.
+
+Første pitch 14/3
+
+Idégenerering:
+
+- Vi kom frem til tre idéer; alle med udgangspunkt i sensorer. 
+- Ting vi allerede skal arbejde med på forhånd. Vi har allerede konvergeret. 
+- Vi mangler viden om forsikringsselskaber, alm. brand og deres services/produkter. Hvordan er forsikringsscenen
+- Vi mangler viden; etnografi og undersøgelser; vi skal frame deres problem
+- Brugercentreret; ikke med fokus på selskabets kriterier (selvom disse skal overholdes)
+
+Vi skal have information; hvor finder vi det
+
+- Ud på gaden
+- Det Kongelige - unge studerende
+- DOKK1 - familier
+- Forskel i geografi? Demografien påvirkes? I Aarhus har folk haft eller har en videregående uddannelse.
+- Vi skal gøre det iterativt; gentagelser ovenpå gentagelser. Ellers låser vi os fast med begrænsede etnografiske undersøgelser.
+- Gjellerup, businessfolk, Randers, forstad, indre by.
+- Spørgeskemaer på nettet
+
+
+- Hjemmesideundersøgelse; basalviden om organisationen; er deres hjemmeside dårlig? Loven omkring forsikringer. Kig på deres sortiment af produkter. 
+
+
+- Snak med forsikringsselskabet
+- Brugere, unge såvel som familier såvel som gamle. Under 18, proaktive. 
+- Hvilke forsikringsselskaber bruger folk? Undersøg folks relation til Alm. Brand; vi skal isolere dem selv som påvirkende faktor. 
+
+
+#### Idé til i morgen
+- mindmap og brainstorm omkring aktørnetværk. Isoler forskellige faktorer og bring denne forståelse ud i felten
+  - Antagelser i forhold til facts.
+- Forudsætter at vi også har læst op på forsikringsselskaber. 
+- Mødes i grupperum i Schön
+- Målet er at udfordre antagelser ved hele at lave “assessment” på vores vidensgrundlag
+- Planlæg etnografisk plan
