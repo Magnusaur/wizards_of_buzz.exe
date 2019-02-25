@@ -1,6 +1,6 @@
-Logbog 
+# Logbog 
 
-22/02/19
+## 22/02/19
 - Vi skal gennem briefet
 - Preliminary idé
 
@@ -106,3 +106,7 @@ Udforske mulige fremtider
 Indhente egen data
 
 Hønen og ægget - data eller vision først?
+
+
+
+## 25/02/19
