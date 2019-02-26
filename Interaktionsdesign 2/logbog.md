@@ -155,3 +155,43 @@ Vi skal have information; hvor finder vi det
 - Mødes i grupperum i Schön
 - Målet er at udfordre antagelser ved hele at lave “assessment” på vores vidensgrundlag
 - Planlæg etnografisk plan
+
+
+## 26/02/19
+  
+noget fantastisk
+
+[ ] Mind map
+[ ] Forberede til torsdagens etnografiske undersøgelser
+[ ] Udvælg interview, survey, forberedelse, forsikringsselskab, snak med familie
+
+Emner til interview
+
+- Motivation for at tegne forsikring / gøre det i fremtiden?
+- Føler du dig tryg med forskring? Uden forsikring?
+- Tidligere oplevelse med uheld (med eller uden forsikring)
+- Fremgangsmåde til at tegne forskring - web, app, telefon, forældre
+- Forståelse for forsikringslandskabet, har du overvejet at tjekke det ud; hvorfor ikke?
+- Personligt forhold til alm brand - brandet; andre forsikringsselskaber
+
+Spørgsmål til en ung person
+
+- Har du en forsikring?
+- Hvad fik dig til at tegne forsikring? Hvad afholder dig fra at tegne forsikring?
+- Finansierer du din egen forsikring og finder du det dyrt?
+- Har du hørt om Alm. Brand? Vil du overveje det? hvorfor/hvorfor ikke? 
+- Hvordan endte du med at vælge dit forsikringsselskab? Hvilke faktorer spillede ind i din beslutning
+- Taler I om forsikring i jeres netværker?
+
+Spørgsmål til familie
+
+
+Mark
+
+[ ] Skriv mail til forsikringsselskab omkring demografi, geografi, særligt mange unge bruger X, Særligt mange familier bruger X, har I adgang 
+
+
+KONKLUSIONER PÅ I DAG
+
+- Husk søvn
+- Vi var blokerede i dag; problemer med at divergere.
