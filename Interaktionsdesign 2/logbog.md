@@ -210,3 +210,93 @@ KONKLUSIONER PÅ I DAG
 - Hvordan kom du at tegne en forsikring?
 
 okokok, vi har ikke lavet etnografi. Vi har til gengæld skitseret en masse idéer ud fra ting præsenterert i brief og vores fælles idegeneration. Vi har altså derigennem baseret resultater på antagelser, briefresultater og inspiration fra bl.a. mobilbank-app. Vi har tænkt ud fra mulighederne med teknologi.
+
+### Idé sketches: 
+
+
+#### 1. VR:
+
+En form for simulationsspil, som fører spilleren gennem en dag hvori alting går galt. 
+Stikord: 
+
+  - Simulatorspil - høj detaljegrad. 
+  - AR - Kunne man opnå det samme uden et headset? spilificere(?) ens egne omgivelser. Skal man sætte en score på?
+  - Svært teknisk - Kan det opnås som prototype?
+  - Social? - Kan man gøre sådan en oplevelse social, hvordan kunne det gøres? 
+  - Alm. Brand Escape Room 
+    - Lav et spil der handler om at destruere så mange ejendele som muligt, for at undslippe rummet. 
+  - Humoristisk element - Det bliver sat på spidsen. Det må holdes grundet i virkeligheden - overdrivelse fremmer forståelse. Legesygt.
+  - Kropsligt - i VR mærker man det til en hvis grad på egen krop.
+  - Scenariebaseret - baser spillets handling på konkret scenarie. 
+#### 2. App:
+  - Let fordøjeligt - Fremstil al den relevante information kort og konkret. Strømligning. 
+  - Christopher Bauder - alternativ opstilling af information (frem for kedelige bjælker). 
+  - “Guide” - et system som fører dig gennem et lineært handlingsforløb som ender med et pakketilbud. 
+  - Faciltiering af køb - præsentere en pakke som kan købes. Komprimer hvor overvældende det føles at købe forsikring. 
+  - Mulighed for at tydeliggøre hvad man har forsikret. 
+  - Forsikring on-demand? AR forsikring - forsikrede genstande lyser op - transparent. 
+  - Hurtigt - det skal være den hurtigste løsning til at finde svar på forsikringsspørgsmål - konkurrencedygtighed. Lav en app der laver noget mere alment gavnende - lignende forsikringsguiden.  
+  - Behøves ikke være en fyldestgørende løsning - kan blot være en funktion der sætter folk i en tankegang der vil give dem lyst til at lære mere.
+  - Personligt: Ikke generel, men personliggjort. 
+  - Tag det ud af app konteksten - gøre det til offentligt? En hjemmeside? et busstoppested? 
+  - Educational - meget lærerigt. 
+  - Utilitaristisk - ikke noget fluff - meget fact baseret. Er det joyful? hvordan lokker man folk ind? 
+  - Playful: gør interaktionerne engagerende. Ligesom Florence (https://en.wikipedia.org/wiki/Florence_(video_game))
+#### 3. Wearable: 
+  - Sensorer - Tjeklisten skabes automatisk - Har du lukket vinduerne? Sensorerne er reaktive - men fordrer til proaktiv opførsel. 
+  - Sindsro - Man behøver ikke længere tænke om man har glemt noget. Både til neurotikere, men også folk der ikke har lyst til at tænke så meget over tingende. 
+  - Statistik/oversigt - Dataindsamling. Gennem tjeklisten kan man få overblik over hvilken elektronisk aktivitet der stadig kører i huset. Det kan samle statistik. 
+  - Man kunne lave en ting, der lukker alting ned for dig, når du forlader dit hjem - minder om cyklen der låser sig selv. 
+  - Modulært - kan tilpasses forskellige situationer. 
+  - Educational - Gør dig opmærksom på dine omgivelser - måske kan du bedre huske det. Forebygger proaktiv adfærd. Kan tjeklister gøre folk glemsomme? 
+  - Wearable design - Hvilken form tager det? et armbånd, en sten, en app? 
+  - IOT!! 
+#### 4. Google Home ideen:
+  - Kommende kunder: Man kan designe til nuværende kunder - men også til kommende. Det kunne virke som et kit man sender ud, ligesom en probe. Kan være incentiverende til dovne.
+  -  Gratis med forsikring - Kan gøre det mere tiltrækkende at tegne forsikring. 
+  - Specifikke domæner som et kit kan hjælpe med - det skal ikke bare være en ny slags røgalarm. Kan man skabe en centraliseret enhed? 
+  - Den kan huske ting for dig - to-do lister osv. 
+  - Behagelig - formen skal være dejligt. Det er behageligt at have en forsikring, så den skal også være behageligt. Den skal eventuelt blive kunne usynlig i ens hjem - eller ihvertfald ikke alt for skrigende.
+  - Rund og wireless. 
+#### 5. AR: Et system der skaber en virtuel dystopisk genskabelse af din bostand. 
+  - Den skal kunne tage billeder.
+  - Humor - skal igen overvejes. 
+  - Museumsinstallation: Man bevæger sig ind i et virtuelt rum og forsøger at løse virtuelle boligproblemer. 
+  - Illustrativ - Istedet for at læse noget på en skærm, bliver man vist det direkte. Det gør det lettere at forestille sådanne scenarier - fordrer proaktiv adfærd. 
+  - Kan man tænke pricetags ind i det? 
+  - Destruer dit hjem, det kan være tilfredsstillende at ødelægge ting. udregn omkostninger.
+  - Gutten med stokken - videoen.
+  - Data Capture - du fanger noget data ift. hvordan folk bruger programmet. Kunne man inddrage andre aktører i det? Scoreboard? 
+  - Cyber crime: Kan man visualisere cyber crime i AR? 
+#### 6. Cykel uheld. 
+  - LED og bling - det virker meget som en event - det virker flashy og futuristisk. 
+  - Interaktiv - tænk på musikhusets brug af event designet. Det handler om at gøre folk opmærksomme på noget. 
+  - Personen der cykler kan ikke selv se hvad der sker, men andre kan godt se det udspille sig. 
+  - Offentligt skue - alle kan se det. Det kan være en social oplevelse. Performing perception - hvad for tilskueren ud af det?  
+  - Skræmmende - meget morbidt. Lidt af lidt stunt - provokerende faktor. Det er en påmindelse over hvad der kan ske - og hvad der ofte sker. 
+  - Spaltede universer - det kunne være dig. 
+  - Event space: Man kunne lave værker til forskellige situationer - placere værker forskellige steder i landet. Disse værker vil så blive samlet på en central skærm, hvori folk kan se hele handlingen udfolde sig. Individuelle scenarier samles på en central skærm.
+  - Eftertænksom - når man ser det, så tænker man måske efterfølgende om hvordan det kunne ske.
+  - Joyful - det er også et sjovt projekt. 
+#### 7. Heatmap ting (App, busstoppested?) - 
+  - Det skal være hjælpsomt - man skal ikke føle sig talt ned til. 
+  - Snedig - Den påvirker dig måske til at tænke på din egen sikkerhed mere. 
+  - Hjælpsom - du kan planlægge dine aktiviteter ud fra informationen. 
+  - forskrækkende - det kan være en øjenåbner for hvor meget der sker omkring en. 
+  - Educational - Man kan lære om sine omgivelser. 
+  - Tjekliste-agtig - Der sker en masse ting - det er et katalog. 
+#### 8. Pricetag - Kinect
+  - Offentlig rum - Det er noget man kan finde i det offentlige rum (ikke hjemme). 
+  - Refleksion - Det er et spejl, hehe. Men det skaber også refleksion i brugeren. 
+  - Interaktiv menu - Er der mere man kan gøre ift. interaktion? 
+  - Social oplevelse - offentligt. Hvor meget er dine venner værd? 
+    - Man finder spejlet i et sted, hvor man normalt bruger spejle - h&m f.eks. 
+  - Event - stor flade. 
+  - opmærksomhed - noget folk kommer til at kunne være nysgerrige over. 
+
+
+#### Næste trin:
+
+Vi har en masse ideer - kan vi fremstille et mindmap. Vi kan udvinde fællestræk, og så forsamle os om noget vi alle synes er fedt.  
+
+
