@@ -195,3 +195,18 @@ KONKLUSIONER PÅ I DAG
 
 - Husk søvn
 - Vi var blokerede i dag; problemer med at divergere.
+
+
+## 28/02/19
+
+#### Agenda
+- DOKK1 9:30 - 11:00
+- Gågaden 11:30 - 13:00
+- Konvergere
+
+# Spørgsmål
+- Har du en forsikring?
+- Hvorfor/hvorfor ikke?
+- Hvordan kom du at tegne en forsikring?
+
+okokok, vi har ikke lavet etnografi. Vi har til gengæld skitseret en masse idéer ud fra ting præsenterert i brief og vores fælles idegeneration. Vi har altså derigennem baseret resultater på antagelser, briefresultater og inspiration fra bl.a. mobilbank-app. Vi har tænkt ud fra mulighederne med teknologi.
