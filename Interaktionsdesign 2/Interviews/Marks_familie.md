@@ -52,7 +52,7 @@ Et par år siden undersøgte de hele landskabet for lige at stikke fingeren i jo
 Fremtidsplaner for forsikringer; trappet ned på ulykkesforsikringer. Har prøvet at undersøge. Svært at danne sig et overblik.
 
 
-##Mormor og morfar
+## Mormor og morfar
 Husforsikring, indboforsikring, bilforsikring, særskilt rejseforsikring,  - glade for nuværende forsikringer.
 
 Gamle dage: livsforsikring, pensionister er på forhånd dækket af ting, arbejdsløshedsforsikring,
