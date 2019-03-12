@@ -316,3 +316,11 @@ Permanent installation
 Lav den bedste service. Udforsk den gode service.
 
 Motivation for os: gøre noget for alm. brand. Kan gøres ved at gå efter midten.
+
+
+## 12/03/19
+Vi har præsenteret tanker og proces for Magnus. Vi er enige om den udtryksfulde/ekspressive retning. Lidt kritisk/men også ud fra brief. Vi skal skabe grobund for oplevelser. 
+Det skal også være framet, målrettet, så man skabe et scenarie. Vinkle det på den måde. 
+
+Øvelse i overmorgen: hvordan kan vi tage en kasse og lave forsikring ud af det.
+Vi er på tærsklen til en byggefase.
