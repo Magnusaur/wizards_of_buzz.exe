@@ -363,3 +363,6 @@ Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ik
 
 # Idéproces
 Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
+
+# afrunding
+Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere. 
