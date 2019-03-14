@@ -53,25 +53,25 @@ Formelle krav til design:
 Alm Brand's Antagelser:
 
     - Den nuværende forståelse af forsikring er reaktiv,
-
+    
     - "young people do not prevent because they have a hard time imagining that an accident will ever happen to them."
-
+    
     - "[Families] often don’t have the time to research for different types of preventive products even though they are concerned"
-
+    
     - Det er bedre at undgå ulykker, end at betale for dem; jo flere der har forsikring, jo billigere kan prisen blive.
-
+    
     - Både familier og unge har en stram økonomi.
-
+    
     - Greater number of accidents in houses.
-
+    
     - Fremtiden er proaktiv.
-
+    
     - IoT-teknologi
-
+    
     - "The future role for us, as an insurance company, should be to offer products and services that helps the customer prevent these unwanted experiences through technology."
-
+    
     HVORFOR ER DATA VIGTIG: This data is crucial in order to prevent accidents from happening, because the technology can inform the customer about a potential accident. This data is also valuable for insurance companies to create even better services for predicting future risks for the customer.
-
+    
     - JOYFUL AND EDUCATIONAL:  User-Experience. Større trend.
 
 
@@ -204,7 +204,14 @@ KONKLUSIONER PÅ I DAG
 - Gågaden 11:30 - 13:00
 - Konvergere
 
+![20190228_103418](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190228_103418.jpg)
+
+![20190228_135534](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190228_135534.jpg)
+
+![20190228_135543](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190228_135543.jpg)
+
 # Spørgsmål
+
 - Har du en forsikring?
 - Hvorfor/hvorfor ikke?
 - Hvordan kom du at tegne en forsikring?
@@ -304,6 +311,8 @@ Vi har en masse ideer - kan vi fremstille et mindmap. Vi kan udvinde fællestræ
 
 ### Agenda
 - Præsenter interviews
+  - link til marks familie
+  - link til la cours famille
 - Sammenføj interviews med brief
 - Oversigt over konkurrenter
 - Overblik over Idégenerering
@@ -328,6 +337,7 @@ Vi er på tærsklen til en byggefase.
 
 ## 14/03/19
 - Martins interview
+  - linke til martins interview???
 - Vision
 - Idéworkshop
 - Planche
@@ -337,8 +347,10 @@ Martins familie: Alm. Brand overtog lokalforsikring. Nu er det upersonligt. Søs
 Idé til koncept: en *klokke* installeret på alle deres bygninger. Borgere kan få en forsikringsinformationspakke baseret på
 Idé til koncept: Fange information fra brugerens offentligt tilgængelige data og brug det i en skræddersyet pakke
 
-
 # visionsproces
+
+![20190314_153748](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190314_153748.jpg)
+
 Oplevelsesbaseret design. Skal ikke søge mod praktiske lappeløsninger, men kvalitative og stærke oplevelser med grobund for refleksion. Det bliver lidt reklame, men det skal ikke tale ned til kunden. Det skal heller ikke være kritisk design, hvis formål ikke er relateret til forsikringsselskabets bedste interesse.
 
 - ikke tale ned til kunden
@@ -362,7 +374,12 @@ Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ik
 - Kritisk vs. affirmative
 
 # Idéproces
+![Markssketch_AlmBrandBellsignal](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/Markssketch_AlmBrandBellsignal.jpg)
+
 Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
 
 # afrunding
+
+![20190314_153758](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190314_153758.jpg)
+
 Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere. 
