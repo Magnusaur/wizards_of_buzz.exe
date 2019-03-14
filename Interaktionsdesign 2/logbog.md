@@ -319,8 +319,47 @@ Motivation for os: gøre noget for alm. brand. Kan gøres ved at gå efter midte
 
 
 ## 12/03/19
-Vi har præsenteret tanker og proces for Magnus. Vi er enige om den udtryksfulde/ekspressive retning. Lidt kritisk/men også ud fra brief. Vi skal skabe grobund for oplevelser. 
-Det skal også være framet, målrettet, så man skabe et scenarie. Vinkle det på den måde. 
+Vi har præsenteret tanker og proces for Magnus. Vi er enige om den udtryksfulde/ekspressive retning. Lidt kritisk/men også ud fra brief. Vi skal skabe grobund for oplevelser.
+Det skal også være framet, målrettet, så man skabe et scenarie. Vinkle det på den måde.
 
 Øvelse i overmorgen: hvordan kan vi tage en kasse og lave forsikring ud af det.
 Vi er på tærsklen til en byggefase.
+
+
+## 14/03/19
+- Martins interview
+- Vision
+- Idéworkshop
+- Planche
+
+Martins familie: Alm. Brand overtog lokalforsikring. Nu er det upersonligt. Søster er totalt ligeglad med forsikring.
+
+Idé til koncept: en *klokke* installeret på alle deres bygninger. Borgere kan få en forsikringsinformationspakke baseret på
+Idé til koncept: Fange information fra brugerens offentligt tilgængelige data og brug det i en skræddersyet pakke
+
+
+# visionsproces
+Oplevelsesbaseret design. Skal ikke søge mod praktiske lappeløsninger, men kvalitative og stærke oplevelser med grobund for refleksion. Det bliver lidt reklame, men det skal ikke tale ned til kunden. Det skal heller ikke være kritisk design, hvis formål ikke er relateret til forsikringsselskabets bedste interesse.
+
+- ikke tale ned til kunden
+- Ikke specificeret medium eller objekt eller event
+
+At lave noget event baseret design, der manifesterer sig fysisk i hhv. det offentlige rum/ særligt ved alm. brands kunde gruppe. målet med designet er ikke at gøre alm brand mere effektivt i forhold til at få flere kunder, men derimod at skabe opmærksomhed omkring forsikringer.
+
+- Temporal
+- Mere opmærksomhed på forsikringer overordnet
+
+Vores vision er at skabe en artefakt, som kan være fordre til en adfærdsændring hos dem som interagerer med den. Artefakten ønskes at skabe refleksion om forebyggende adfærd hos mennesker.
+
+  - Adfærdsændring
+  - Fysisk artefakt
+Super Vision
+
+Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ikke være kritisk design; det skal ikke være service design. Designet skal skabe opmærksomhed om forsikringer. Designet skal fordre til adfærdsændring.
+
+- Eventbaseret vs. fast installation
+- Offentlig rum vs. personlig interaktion
+- Kritisk vs. affirmative
+
+# Idéproces
+Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
