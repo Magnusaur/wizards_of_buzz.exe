@@ -204,11 +204,11 @@ KONKLUSIONER PÅ I DAG
 - Gågaden 11:30 - 13:00
 - Konvergere
 
-![20190228_103418](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190228_103418.jpg)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_103418.jpg?raw=true)
 
-![20190228_135534](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190228_135534.jpg)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_135534.jpg?raw=true)
 
-![20190228_135543](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190228_135543.jpg)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_135543.jpg?raw=true)
 
 # Spørgsmål
 
@@ -374,12 +374,12 @@ Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ik
 - Kritisk vs. affirmative
 
 # Idéproces
-![Markssketch_AlmBrandBellsignal](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/Markssketch_AlmBrandBellsignal.jpg)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Markssketch_AlmBrandBellsignal.jpg?raw=true)
 
 Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
 
 # afrunding
 
-![20190314_153758](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190314_153758.jpg)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190314_153758.jpg?raw=true)
 
 Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere. 
