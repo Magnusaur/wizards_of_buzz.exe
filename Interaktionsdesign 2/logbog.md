@@ -338,7 +338,7 @@ Idé til koncept: en *klokke* installeret på alle deres bygninger. Borgere kan 
 Idé til koncept: Fange information fra brugerens offentligt tilgængelige data og brug det i en skræddersyet pakke
 
 
-# visionsproces
+### visionsproces
 Oplevelsesbaseret design. Skal ikke søge mod praktiske lappeløsninger, men kvalitative og stærke oplevelser med grobund for refleksion. Det bliver lidt reklame, men det skal ikke tale ned til kunden. Det skal heller ikke være kritisk design, hvis formål ikke er relateret til forsikringsselskabets bedste interesse.
 
 - ikke tale ned til kunden
@@ -361,8 +361,30 @@ Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ik
 - Offentlig rum vs. personlig interaktion
 - Kritisk vs. affirmative
 
-# Idéproces
+### Idéproces
 Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
 
-# afrunding
-Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere. 
+### afrunding
+Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere.
+
+
+## 15/03/19
+Feedback: vi har ikke noget koncept; vi skal vælge retning, scenarie, kontekst. Konvergere. Vi har dog en retning, som er meget værd og særpræget, og som vi vil fokusere på. "Hvordan møder folk forsikringer og kan vi forbedre den kontakt". Fokus er på hverdag og på kontekster. Det skal være inversivt, men hvilken form for inversion skal det være.
+
+Denne retning stemmer fint overens med vores vision, idet Oplevelsesbaseret og udtryksfuldt og grobund for refleksion ligger centralt i arbejdet.
+
+Dette udgangspunkt er også godt, fordi vi samtidig kan dykke ned og zoome ud igen. Et eksempel på dette er ved at fokusere på events og midlertidige installationer i det offentlige rum. Der kan nemlig være en fordel ved events; det har de ikke selv tænkt meget over.
+Derudover blev vores portal-idé yderligere konkretiseret ved at ux-designeren pegede på den konkrette situation, hvor nedhentning af information vil ske: på cykel, i bil, i hjemmet, i banken, ved receptionen. Vi har blot tænkt én portal på et fast sted. Her i det her scenarie vil nedhentningen af informationen blive langt mere personliggjort.
+
+Fremtid:
+- manifestere portal (skitser, mock-up)
+- manifestere event
+- manifestere projection-idé
+- idékonkretisering
+- PD-workshop
+- Observere - vælg steder i byen, få folk ud og kig
+
+Task list:
+- Observer
+- Skriv til deltagere
+- Sæt tid af til at kigge noter, tekster og inspirationskilder
