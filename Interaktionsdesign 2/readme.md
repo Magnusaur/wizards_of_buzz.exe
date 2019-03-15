@@ -204,7 +204,14 @@ KONKLUSIONER PÅ I DAG
 - Gågaden 11:30 - 13:00
 - Konvergere
 
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_103418.jpg?raw=true)
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_135534.jpg?raw=true)
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_135543.jpg?raw=true)
+
 # Spørgsmål
+
 - Har du en forsikring?
 - Hvorfor/hvorfor ikke?
 - Hvordan kom du at tegne en forsikring?
@@ -304,6 +311,8 @@ Vi har en masse ideer - kan vi fremstille et mindmap. Vi kan udvinde fællestræ
 
 ### Agenda
 - Præsenter interviews
+  - link til marks familie
+  - link til la cours famille
 - Sammenføj interviews med brief
 - Oversigt over konkurrenter
 - Overblik over Idégenerering
@@ -328,6 +337,7 @@ Vi er på tærsklen til en byggefase.
 
 ## 14/03/19
 - Martins interview
+  - linke til martins interview???
 - Vision
 - Idéworkshop
 - Planche
@@ -337,8 +347,9 @@ Martins familie: Alm. Brand overtog lokalforsikring. Nu er det upersonligt. Søs
 Idé til koncept: en *klokke* installeret på alle deres bygninger. Borgere kan få en forsikringsinformationspakke baseret på
 Idé til koncept: Fange information fra brugerens offentligt tilgængelige data og brug det i en skræddersyet pakke
 
-
 ### visionsproces
+![20190314_153748](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190314_153748.jpg)
+
 Oplevelsesbaseret design. Skal ikke søge mod praktiske lappeløsninger, men kvalitative og stærke oplevelser med grobund for refleksion. Det bliver lidt reklame, men det skal ikke tale ned til kunden. Det skal heller ikke være kritisk design, hvis formål ikke er relateret til forsikringsselskabets bedste interesse.
 
 - ikke tale ned til kunden
@@ -362,11 +373,15 @@ Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ik
 - Kritisk vs. affirmative
 
 ### Idéproces
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Markssketch_AlmBrandBellsignal.jpg?raw=true)
+
 Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
 
 ### afrunding
-Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere.
 
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190314_153758.jpg?raw=true)
+
+Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere.
 
 ## 15/03/19
 Feedback: vi har ikke noget koncept; vi skal vælge retning, scenarie, kontekst. Konvergere. Vi har dog en retning, som er meget værd og særpræget, og som vi vil fokusere på. "Hvordan møder folk forsikringer og kan vi forbedre den kontakt". Fokus er på hverdag og på kontekster. Det skal være inversivt, men hvilken form for inversion skal det være.
