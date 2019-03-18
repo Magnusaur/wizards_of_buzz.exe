@@ -18,9 +18,9 @@
 - Alm. Brand er flyttet til Hedeager 44
 - Embrace fully digital/network presence, for man går ikke derud.
 
-![IMG_20190318_161317204_HDR](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202\Media\Strøget\IMG_20190318_161317204_HDR.jpg)
-![IMG_20190318_161449757_HDR](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202\Media\Strøget\IMG_20190318_161449757_HDR.jpg)
-![IMG_20190318_161514404](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202\Media\Strøget\IMG_20190318_161514404.jpg)
-![IMG_20190318_161726925](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202\Media\Strøget\IMG_20190318_161726925.jpg)
-![IMG_20190318_162805407](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202\Media\Strøget\IMG_20190318_161951994.jpg.jpg)
-![IMG_20190318_162805407](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202\Media\Strøget\IMG_20190318_162805407.jpg)
+![IMG_20190318_161317204_HDR](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Strøget/IMG_20190318_161317204_HDR.jpg)
+![IMG_20190318_161449757_HDR](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Strøget/IMG_20190318_161449757_HDR.jpg)
+![IMG_20190318_161514404](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Strøget/IMG_20190318_161514404.jpg)
+![IMG_20190318_161726925](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Strøget/IMG_20190318_161726925.jpg)
+![IMG_20190318_162805407](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Strøget/IMG_20190318_161951994.jpg)
+![IMG_20190318_162805407](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Strøget/IMG_20190318_162805407.jpg)
