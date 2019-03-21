@@ -403,3 +403,22 @@ Task list:
 - Observer
 - Skriv til deltagere
 - Sæt tid af til at kigge noter, tekster og inspirationskilder
+
+
+## 19/03/19
+
+Vi har gennemgået hele vores designproces. Vi har fundet ud af, at processen er en konstruktion af alt det arbejde, som vi har lavet. Det er super.
+
+Vi har sammenlagt fået etableret en retning for projektet; vi skal undersøge den underliggende teknologi for klokke/portal-idé. Det er et udgangspunkt for at gå i andre retninger.
+
+- Udvikling af kontakt-idéen: output skal ikke være en forsikringspakke, men kan være meget andet (fx statistik).
+
+Idéer:
+- klokke
+- portal
+- personal assistant
+- Humørlampe
+- Kinect/AR
+
+På torsdag: igangsat arrangeren af PD-workshop.
+La Cour , vores tech guy , kigger på teknologien.
