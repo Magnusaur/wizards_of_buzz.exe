@@ -422,3 +422,16 @@ Idéer:
 
 På torsdag: igangsat arrangeren af PD-workshop.
 La Cour , vores tech guy , kigger på teknologien.
+
+## 21/03/19
+
+Agenda:
+- Sketching
+- reflekterer over Data inputs i designet
+- iterationer på skitser
+- opsamling på ideer fra skitser i mindmap
+- kategorisering af koncepter fra mindmap
+- undersøgelse af cyber-security hos alm brand
+
+### skitser
+
