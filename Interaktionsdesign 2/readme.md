@@ -408,11 +408,12 @@ Task list:
 ## 19/03/19
 
 Vi har gennemgået hele vores designproces. Vi har fundet ud af, at processen er en konstruktion af alt det arbejde, som vi har lavet. Det er super.
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/RFID_NFC%20konkretisering%20af%20ide/20190319_153035.jpg)
 
 Vi har sammenlagt fået etableret en retning for projektet; vi skal undersøge den underliggende teknologi for klokke/portal-idé. Det er et udgangspunkt for at gå i andre retninger.
 
 - Udvikling af kontakt-idéen: output skal ikke være en forsikringspakke, men kan være meget andet (fx statistik).
-
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/RFID_NFC%20konkretisering%20af%20ide/20190319_161045.jpg)
 Idéer:
 - klokke
 - portal
