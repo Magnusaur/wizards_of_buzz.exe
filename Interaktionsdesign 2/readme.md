@@ -435,4 +435,6 @@ Agenda:
 
 ### skitser
 
-![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness.pdf)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-1.jpg)
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-2.jpg)
