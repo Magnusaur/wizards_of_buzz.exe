@@ -465,7 +465,7 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - interaktioner med mennesker
 - Martin's skitse - er blevet central for den videre process.
 
-## konsultation
+### konsultation
 - ideer blev fremført
 - god feedback
     - teknologier
@@ -498,7 +498,7 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - Amy Goodchild's - When in dome (http://art.amygoodchild.com/project/whenindome/) 
 ![](https://scontent-atl3-1.cdninstagram.com/vp/3af12bca30889dd45fc0b935ee1bd39c/5CFB4868/t51.2885-15/e35/s240x240/49913302_405261456883212_4997656925827750706_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&ig_cache_key=MTk1NDM4MjA4MzMwODk5OTc0Mg%3D%3D.2)
         
-## Dagens tredeling
+### Dagens tredeling
 
 - papir (skitsering)
 
@@ -516,4 +516,15 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Sirius%20Black-1.jpg)
 
-
+### Videre arbejde:
+- Martin undersøger projektionssoftware
+- prøve at arbejde lidt med wekinator
+- finde inspirationskilder i processen
+- Moodboard-flade: pinterest, note.ly, padlet
+    - billeder
+    - links
+    
+mandags agenda:
+- sætte noget op med kode
+- sammensætte forskellige slags recognition metode programmer
+- præsenteret koncepter og erfaringer gjort over weekenden med wekinator.
