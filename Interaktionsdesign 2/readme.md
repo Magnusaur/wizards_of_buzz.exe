@@ -458,6 +458,8 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
      - form
      - output
      - input
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/mindmapliste.jpg)
      
 - interaktioner med mennesker
 - Martin's skitse - er blevet central for den videre process.
