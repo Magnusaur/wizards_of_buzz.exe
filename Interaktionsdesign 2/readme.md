@@ -449,7 +449,7 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - vi kom fra et udgangspunkt i public events og personlige interaktioner, til en masse andre forskellige retninger og aspekter ved designprocessen.
 
 - vi opsamlede i fælleskab ideernes koncepter igennem et mindmap
-![]()
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/20190321_135901.jpg)
 
 - mindmappet converteres over til papir liste form
     - faste ideer
