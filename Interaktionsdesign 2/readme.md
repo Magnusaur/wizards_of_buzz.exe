@@ -438,3 +438,11 @@ Agenda:
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-1.jpg)
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-2.jpg)
+
+### første iterations prototype
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Sirius%20Black.pdf)
+
+### opsumering
+i begyndelsen af dagen valgte vi at tage ud for at drikke en kop kaffe i Storcenter nord. Underkaffen får Mark en idé
+og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten til Stonehenge ideen og dermed resten af skitseringsprocessen.
