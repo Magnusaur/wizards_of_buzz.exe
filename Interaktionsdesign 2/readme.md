@@ -490,12 +490,13 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
     - det ligger op til at vi skal kunne falde tilbage til kinect
     
 ### inspirations kilder fra konsultation:
-- http://stoj.io/projects/an-algorithm-watching-a-movie-trailer
-- http://ml4a.github.io/guides/ConvnetClassifier/
-- https://github.com/ml4a
-- https://www.youtube.com/watch?v=Qt3ZABW5lD0
-- https://www.youtube.com/watch?v=l058fnGf-u0
-- 
+- http://stoj.io/projects/an-algorithm-watching-a-movie-trailer (object detection)
+- http://ml4a.github.io/guides/ConvnetClassifier/ (Convnet Classifier)
+- https://github.com/ml4a (Machine learning 4 Artists)
+- https://www.youtube.com/watch?v=Qt3ZABW5lD0 (Tensorflow)
+- https://www.youtube.com/watch?v=l058fnGf-u0 (kinect skeleton-tracking)
+- Amy Goodchild's - When in dome (http://art.amygoodchild.com/project/whenindome/) 
+![](https://scontent-atl3-1.cdninstagram.com/vp/3af12bca30889dd45fc0b935ee1bd39c/5CFB4868/t51.2885-15/e35/s240x240/49913302_405261456883212_4997656925827750706_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&ig_cache_key=MTk1NDM4MjA4MzMwODk5OTc0Mg%3D%3D.2)
         
 ## Dagens tredeling
 
