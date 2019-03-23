@@ -488,6 +488,14 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
     - det bliver opfattende
     - ligger op til reduceringer i sketches
     - det ligger op til at vi skal kunne falde tilbage til kinect
+    
+### inspirations kilder fra konsultation:
+- http://stoj.io/projects/an-algorithm-watching-a-movie-trailer
+- http://ml4a.github.io/guides/ConvnetClassifier/
+- https://github.com/ml4a
+- https://www.youtube.com/watch?v=Qt3ZABW5lD0
+- https://www.youtube.com/watch?v=l058fnGf-u0
+- 
         
 ## Dagens tredeling
 
