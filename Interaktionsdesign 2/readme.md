@@ -433,6 +433,67 @@ Agenda:
 - kategorisering af koncepter fra mindmap
 - undersøgelse af cyber-security hos alm brand
 
+i begyndelsen af dagen valgte vi at tage ud for at drikke en kop kaffe i Storcenter nord. Underkaffen får Mark en idé
+og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten til Stonehenge ideen og dermed resten af skitseringsprocessen.
+
+- skitsering af vores ideer og koncepter
+    - starter fra portaler
+    - cyber-security opstår ud af skitseringsprocessen
+    - pseudo-hacker angreb
+    - Cyber-sec ende med at blive vores hovedfokus
+    
+- sociale zoner = stonehenge
+    - papiret som visuel, iteration, fælles ideer omkring papiret
+    - ideer opstår
+    
+- vi kom fra et udgangspunkt i public events og personlige interaktioner, til en masse andre forskellige retninger og aspekter ved designprocessen.
+
+- vi opsamlede i fælleskab ideernes koncepter igennem et mindmap
+![]()
+
+- mindmappet converteres over til papir liste form
+    - faste ideer
+    - forskellige aspekter og retninger
+     - rum
+     - form
+     - output
+     - input
+     
+- interaktioner med mennesker
+- Martin's skitse - er blevet central for den videre process.
+
+## konsultation
+- ideer blev fremført
+- god feedback
+    - teknologier
+    
+    - machine learning
+     - wekinator
+     - ml4a
+     - convnet-classifier (YOLO)
+    - kinect
+     - skeleton tracking
+- wifi
+- blop-detection
+- heat map
+- fade candy
+- tensor- flow (googles machine learning)
+
+- reducering af ideer
+    - fandt gode retninger allerede da
+- etableret at v skal bruge github aktivt for at kunne organiserer og manage det videre projekt
+    - det bliver opfattende
+    - ligger op til reduceringer i sketches
+    - det ligger op til at vi skal kunne falde tilbage til kinect
+        
+## Dagens tredeling
+
+- papir (skitsering)
+
+- board (mindmap - opsamling)
+
+- consultation/organisering (projekt-retning, og fremtidige målsætninger, inspirations kilder)
+  - Amy goodchild
 ### skitser
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-1.jpg)
@@ -441,8 +502,6 @@ Agenda:
 
 ### første iterations prototype
 
-![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Sirius%20Black.pdf)
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Sirius%20Black-1.jpg)
 
-### opsumering
-i begyndelsen af dagen valgte vi at tage ud for at drikke en kop kaffe i Storcenter nord. Underkaffen får Mark en idé
-og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten til Stonehenge ideen og dermed resten af skitseringsprocessen.
+
