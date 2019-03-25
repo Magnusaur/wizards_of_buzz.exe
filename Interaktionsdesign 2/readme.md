@@ -442,11 +442,11 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
     - cyber-security opstår ud af skitseringsprocessen
     - pseudo-hacker angreb
     - Cyber-sec ende med at blive vores hovedfokus
-    
+
 - sociale zoner = stonehenge
     - papiret som visuel, iteration, fælles ideer omkring papiret
     - ideer opstår
-    
+
 - vi kom fra et udgangspunkt i public events og personlige interaktioner, til en masse andre forskellige retninger og aspekter ved designprocessen.
 
 - vi opsamlede i fælleskab ideernes koncepter igennem et mindmap
@@ -461,7 +461,7 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
      - input
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/mindmapliste.jpg)
-     
+
 - interaktioner med mennesker
 - Martin's skitse - er blevet central for den videre process.
 
@@ -469,7 +469,7 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - ideer blev fremført
 - god feedback
     - teknologier
-    
+
     - machine learning
      - wekinator
      - ml4a
@@ -488,16 +488,16 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
     - det bliver opfattende
     - ligger op til reduceringer i sketches
     - det ligger op til at vi skal kunne falde tilbage til kinect
-    
+
 ### inspirations kilder fra konsultation:
 - http://stoj.io/projects/an-algorithm-watching-a-movie-trailer (object detection)
 - http://ml4a.github.io/guides/ConvnetClassifier/ (Convnet Classifier)
 - https://github.com/ml4a (Machine learning 4 Artists)
 - https://www.youtube.com/watch?v=Qt3ZABW5lD0 (Tensorflow)
 - https://www.youtube.com/watch?v=l058fnGf-u0 (kinect skeleton-tracking)
-- Amy Goodchild's - When in dome (http://art.amygoodchild.com/project/whenindome/) 
+- Amy Goodchild's - When in dome (http://art.amygoodchild.com/project/whenindome/)
 ![](https://scontent-atl3-1.cdninstagram.com/vp/3af12bca30889dd45fc0b935ee1bd39c/5CFB4868/t51.2885-15/e35/s240x240/49913302_405261456883212_4997656925827750706_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&ig_cache_key=MTk1NDM4MjA4MzMwODk5OTc0Mg%3D%3D.2)
-        
+
 ### Dagens tredeling
 
 - papir (skitsering)
@@ -523,8 +523,16 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - Moodboard-flade: pinterest, note.ly, padlet
     - billeder
     - links
-    
+
 mandags agenda:
 - sætte noget op med kode
 - sammensætte forskellige slags recognition metode programmer
 - præsenteret koncepter og erfaringer gjort over weekenden med wekinator.
+
+## 25/03/19
+I dag har vi arbejdet med at eksternalisere et flowchart for hele systemet i vores projekt. Det har resulteret i et godt overblik over omfanget og identificeringen af mulige problematikker fremadrettet. Vi har derfor også overvejet nogle ændringer til idéen, som vi kan forholde os til på et senere og mere relevant tidspunkt. Essentielt for fremtidigt arbejde er imidlertid, at vi skal arbejde med konkrette teknologier, og det begynder vi på her onsdag og torsdag. Vi skal således have styr på machine learning og identificering af menneske-objekter / gestik med hånd, og det er arbejde, som også er målrettet næste konceptpitch torsdag d. 4 april.
+
+Lektier til onsdag:
+https://www.youtube.com/watch?v=Qt3ZABW5lD0 : Fundamentals of Machine Learning, se videoer fra denne playliste
+
+Wekinator: Kat-eksempel skal kunne udføres af alle medlemmer: med henblik på at forstå interfacet og softwaren. Altså, vi skal ikke bøvle med at skulle sætte det op og navigere.
