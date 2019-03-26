@@ -532,6 +532,10 @@ mandags agenda:
 ## 25/03/19
 I dag har vi arbejdet med at eksternalisere et flowchart for hele systemet i vores projekt. Det har resulteret i et godt overblik over omfanget og identificeringen af mulige problematikker fremadrettet. Vi har derfor også overvejet nogle ændringer til idéen, som vi kan forholde os til på et senere og mere relevant tidspunkt. Essentielt for fremtidigt arbejde er imidlertid, at vi skal arbejde med konkrette teknologier, og det begynder vi på her onsdag og torsdag. Vi skal således have styr på machine learning og identificering af menneske-objekter / gestik med hånd, og det er arbejde, som også er målrettet næste konceptpitch torsdag d. 4 april.
 
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/teknisk%20skitse.jpg)
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/flowchart.jpg)
+
 Lektier til onsdag:
 https://www.youtube.com/watch?v=Qt3ZABW5lD0 : Fundamentals of Machine Learning, se videoer fra denne playliste
 
