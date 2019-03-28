@@ -558,9 +558,7 @@ påbaggrund af Shiffman's tutorials og tidl. workshop the "Augmented Self" hvor 
 
 at få en dybere forståelse for teknologi kræver nogle gange at man går "all in" i forhold til at experimentere.
 
-![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/myWhackyteam%3B).jpg)
-
-
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/myWhackyteam.jpg)
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Skeleton%20tracking.png)
 
