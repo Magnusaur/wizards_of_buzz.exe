@@ -568,3 +568,5 @@ at få en dybere forståelse for teknologi kræver nogle gange at man går "all 
 
 ## 28/03/19
 Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncept. Vi kom frem til en nøgleindsigt: form og indhold bør spille sammen. Derfor er vi kommer frem til en anden idé, som er mulig at opsøge (se billede) Først og fremmest involverer det imidlertid stadigvæk at vi får etableret en Kinect-prototype. Dette gøres ved at vi hver især opøver vores forståelse for Kinect og processing (opsøger biblioteker såsom OpenCV). På onsdag skal vi således være i stand til at sammensætte en skitse/interaktion til demonstration dagen efter.
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Ny%20id%C3%A9.jpg)
