@@ -541,5 +541,8 @@ https://www.youtube.com/watch?v=Qt3ZABW5lD0 : Fundamentals of Machine Learning, 
 
 Wekinator: Kat-eksempel skal kunne udføres af alle medlemmer: med henblik på at forstå interfacet og softwaren. Altså, vi skal ikke bøvle med at skulle sætte det op og navigere.
 
-## 28/03/19
+## 27/03/19
 Vi fik delt  idéen med alle, så alle er nu med. Vi fik konkretiseret de tekniske muligheder. Vi fik eksperimenteret med Kinect, og det er klart muligt at bruge den. Vi mangler at kombinere object recignition og Kinect.
+
+## 28/03/19
+Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncept. Vi kom frem til en nøgleindsigt: form og indhold bør spille sammen. Derfor er vi kommer frem til en anden idé, som er mulig at opsøge (se billede) Først og fremmest involverer det imidlertid stadigvæk at vi får etableret en Kinect-prototype. Dette gøres ved at vi hver især opøver vores forståelse for Kinect og processing (opsøger biblioteker såsom OpenCV). På onsdag skal vi således være i stand til at sammensætte en skitse/interaktion til demonstration dagen efter.
