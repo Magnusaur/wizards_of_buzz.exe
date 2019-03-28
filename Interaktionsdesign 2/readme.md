@@ -540,3 +540,6 @@ Lektier til onsdag:
 https://www.youtube.com/watch?v=Qt3ZABW5lD0 : Fundamentals of Machine Learning, se videoer fra denne playliste
 
 Wekinator: Kat-eksempel skal kunne udføres af alle medlemmer: med henblik på at forstå interfacet og softwaren. Altså, vi skal ikke bøvle med at skulle sætte det op og navigere.
+
+## 28/03/19
+Vi fik delt  idéen med alle, så alle er nu med. Vi fik konkretiseret de tekniske muligheder. Vi fik eksperimenteret med Kinect, og det er klart muligt at bruge den. Vi mangler at kombinere object recignition og Kinect.
