@@ -4,6 +4,6 @@ This is the group repository for the group "wizards_of_buzz_exe" - also known as
 
 Additionally, now we are going to use this platform for the course Interaction Design 2. Denne gruppe består af Mark Poulsen, Frederik la Cour, Magnus og Martin
   
-  
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/myWhackyteam.jpg)
     
 ![Buzz](27783907_10156086247702856_1276388551_n.png)
