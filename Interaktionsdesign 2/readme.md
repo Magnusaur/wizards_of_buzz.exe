@@ -546,6 +546,10 @@ Vi fik delt  idéen med alle, så alle er nu med. Vi fik konkretiseret de teknis
 
 arbejde i fælleskab med at få en forståelse for det at arbejde med Kinect indenfor Processing og Machine Learning miljøet. <https://www.youtube.com/watch?v=QmVNgdapJJM&list=PLRqwX-V7Uu6ZMlWHdcy8hAGDy6IaoxUKf&index=1>
 
+https://github.com/AndreasRef/ml4ixd_weki
+
+https://shiffman.net/p5/kinect/
+
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Shiffman1984.jpg)
 
 reflekterede yderligere over hvordan machine learning skulle incorporeres med kinect i henhold til skeleton tracking og dets inputs og outputs og hvordan disse skulle processeseres. i forhold til at få en forståelse for kinect og machinelearning i forhold til videre at arbejde med denne teknologi i vores projekt.
