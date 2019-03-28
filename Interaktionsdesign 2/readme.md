@@ -560,6 +560,8 @@ at få en dybere forståelse for teknologi kræver nogle gange at man går "all 
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/myWhackyteam%3B).jpg)
 
+
+
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Skeleton%20tracking.png)
 
 ## 28/03/19
