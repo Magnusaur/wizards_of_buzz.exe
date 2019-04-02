@@ -53,25 +53,25 @@ Formelle krav til design:
 Alm Brand's Antagelser:
 
     - Den nuværende forståelse af forsikring er reaktiv,
-    
+
     - "young people do not prevent because they have a hard time imagining that an accident will ever happen to them."
-    
+
     - "[Families] often don’t have the time to research for different types of preventive products even though they are concerned"
-    
+
     - Det er bedre at undgå ulykker, end at betale for dem; jo flere der har forsikring, jo billigere kan prisen blive.
-    
+
     - Både familier og unge har en stram økonomi.
-    
+
     - Greater number of accidents in houses.
-    
+
     - Fremtiden er proaktiv.
-    
+
     - IoT-teknologi
-    
+
     - "The future role for us, as an insurance company, should be to offer products and services that helps the customer prevent these unwanted experiences through technology."
-    
+
     HVORFOR ER DATA VIGTIG: This data is crucial in order to prevent accidents from happening, because the technology can inform the customer about a potential accident. This data is also valuable for insurance companies to create even better services for predicting future risks for the customer.
-    
+
     - JOYFUL AND EDUCATIONAL:  User-Experience. Større trend.
 
 
@@ -556,7 +556,7 @@ reflekterede yderligere over hvordan machine learning skulle incorporeres med ki
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/reflektioner%20omkring%20skeletontracking%20og%20kinect.jpg)
 
-påbaggrund af Shiffman's tutorials og tidl. workshop the "Augmented Self" hvor der var særligt fokus på wekinator arbejde vi her med at connected kinect igennem wekintor til en processing sketch med dette setup. 
+påbaggrund af Shiffman's tutorials og tidl. workshop the "Augmented Self" hvor der var særligt fokus på wekinator arbejde vi her med at connected kinect igennem wekintor til en processing sketch med dette setup.
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Setup.jpg)
 
@@ -570,3 +570,9 @@ at få en dybere forståelse for teknologi kræver nogle gange at man går "all 
 Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncept. Vi kom frem til en nøgleindsigt: form og indhold bør spille sammen. Derfor er vi kommer frem til en anden idé, som er mulig at opsøge (se billede) Først og fremmest involverer det imidlertid stadigvæk at vi får etableret en Kinect-prototype. Dette gøres ved at vi hver især opøver vores forståelse for Kinect og processing (opsøger biblioteker såsom OpenCV). På onsdag skal vi således være i stand til at sammensætte en skitse/interaktion til demonstration dagen efter.
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Ny%20id%C3%A9.jpg)
+
+## 02/04/19
+
+Agenda:
+- 
+-
