@@ -693,6 +693,8 @@ void draw() {
 - forsøge at connecte Object detection software med Kinect muligvis igennem OSC, Kinectron software etc.
     - https://kinectron.github.io/docs/intro.html
     
+- forberede Slides til koncept pitch præsentation af prototype/conceptet.
+    
 ## 04/04/19
 vi pitchede vores anden konceptpitch idé
 https://docs.google.com/presentation/d/1Amf0z6vPSQGNKXkBaKNxyEreaGMH169bPIO0n-_Ppgk/edit?fbclid=IwAR3LS0FCqNLDHiqpi9g9H44TAMiKQjRe7x0czP0dB7nHrt0LgF-kzsXPV2A#slide=id.p
