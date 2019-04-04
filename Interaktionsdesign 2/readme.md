@@ -572,6 +572,7 @@ Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncep
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Ny%20id%C3%A9.jpg)
 
 ## 02/04/19
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Coding%20and%20fun.jpg)
 
 Agenda:
 - arbejde med YOLO og få den til at genkender telefoner igennem ml5.js framework
@@ -638,7 +639,9 @@ function detect() {
     detect();
   });
 }  
-```     
+``` 
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cell%20phone%20detection.png)
+
 - arbejde med Kinect og Threshold i forhold til at gøre YOLO's arbejde bedre
     - https://www.youtube.com/watch?v=E1eIg54clGo&t=814s
     
@@ -690,6 +693,8 @@ void draw() {
 
 }
 ```
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Detection%20neutral%20background%20prototype.jpg)
+
 - forsøge at connecte Object detection software med Kinect muligvis igennem OSC, Kinectron software etc.
     - https://kinectron.github.io/docs/intro.html
     
