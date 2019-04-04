@@ -576,3 +576,28 @@ Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncep
 Agenda:
 - 
 -
+## 04/04/19
+vi pitchede vores anden konceptpitch idé
+https://docs.google.com/presentation/d/1Amf0z6vPSQGNKXkBaKNxyEreaGMH169bPIO0n-_Ppgk/edit?fbclid=IwAR3LS0FCqNLDHiqpi9g9H44TAMiKQjRe7x0czP0dB7nHrt0LgF-kzsXPV2A#slide=id.p
+
+her bragte vi fokus på vores konceptuelle idé samt vores tekniske fremskridt med hensyn til vores arbejde med YOLO(You Only Look Ones) i forhold til cell phone detection samt Kinect cam i forhold til Thresholds for at gøre vores object detection bedre i rummet.
+
+### de fire fokus punkter:
+- bruger undersøgelse, diskussion, test
+    - hvordan opfattes invasiviteten.
+    - har vi ramt det vi gerne ville i forhold til om folk har forstået konceptet
+- få reconceptueliseret konceptet (udbygget)
+    - etiske datasikkerhed
+    - designet skal være invasivt, men hvordan opleves invasiviteten
+- få det tekniske til at virke
+- bygge et rum (externaliseret i rummet)
+- herefter genovervejes vores idé
+
+### feedback fra ALM Brand
+- de synes det er fedt
+- vi har ideen, lad os forsætte retningen, og gøre det godt
+- Hvordan kan folk få info efterfølgerne (kan konceptet modificeres i forhold til at give et større indtryk....) - NFC Stand?
+    - noget der ikke nødvendigvis indgår i installation, men er noget eksterns i forhold til at udbygge konceptet, er designet effektivt
+    
+- komme med eksempler på andre installationer eller udstillinger der gør noget hen af det samme
+
