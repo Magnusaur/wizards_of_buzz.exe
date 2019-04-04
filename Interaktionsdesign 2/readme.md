@@ -582,6 +582,10 @@ https://docs.google.com/presentation/d/1Amf0z6vPSQGNKXkBaKNxyEreaGMH169bPIO0n-_P
 
 her bragte vi fokus på vores konceptuelle idé samt vores tekniske fremskridt med hensyn til vores arbejde med YOLO(You Only Look Ones) i forhold til cell phone detection samt Kinect cam i forhold til Thresholds for at gøre vores object detection bedre i rummet.
 
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cellphone%20Detection.png)
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect%20Threshhold.png)
+
 ### de fire fokus punkter:
 - bruger undersøgelse, diskussion, test
     - hvordan opfattes invasiviteten.
