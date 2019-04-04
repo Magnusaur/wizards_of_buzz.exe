@@ -586,6 +586,17 @@ her bragte vi fokus på vores konceptuelle idé samt vores tekniske fremskridt m
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect%20Threshhold.png)
 
+### Form og Indhold
+Omfattende idégenerering. Vi har lavet skitser, og skitserne er vores prototyper i processen. Vi finder ud af ting som vi kører idéerne igennem. DEt var ikke “viable”, og nu får vi overensstemmelse i vores koncept.
+
+Konceptet skal tale til folk, ikke ned til folk.
+Tænke over udtryk: Design som sprog, retorik, stemme i debatten. Her bliver det en manifestering af cybercrime, som jo ellers er usynligt og svært at anskue.
+
+Behov for overensstemmelse med form og indhold.
+Ganske vist er det ikke et reelt cybercrime, men det visuelle sprog er forståeligt
+
+Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de tekniske muligheder og begrænsninger, som vi opdager undervejs.
+
 ### de fire fokus punkter:
 - bruger undersøgelse, diskussion, test
     - hvordan opfattes invasiviteten.
