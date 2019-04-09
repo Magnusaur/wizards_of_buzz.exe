@@ -639,12 +639,12 @@ function detect() {
     detect();
   });
 }  
-``` 
+```
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cell%20phone%20detection.png)
 
 - arbejde med Kinect og Threshold i forhold til at gøre YOLO's arbejde bedre
     - https://www.youtube.com/watch?v=E1eIg54clGo&t=814s
-    
+
 ```
 import org.openkinect.processing.*;
 
@@ -658,7 +658,7 @@ PImage img;
 void setup() {
   size(800, 600);
   kinect2 = new Kinect2(this);
-  
+
   kinect2.initDepth();
   kinect2.initDevice();
   img = createImage(kinect2.depthWidth,kinect2.depthHeight, RGB);
@@ -666,12 +666,12 @@ void setup() {
 
 void draw() {
  background(0);
- 
+
  img.loadPixels();
- 
+
  //minThresh = map(mouseX, 0, width, 0, 4500);
  //maxThresh = map(mouseY, 0, height, 0, 4500);
- 
+
  // showing video feed
  int[] depth = kinect2.getRawDepth();
 
@@ -679,7 +679,7 @@ void draw() {
    for (int y = 0; y < kinect2.depthHeight; y++) {
      int offset = x + y * kinect2.depthWidth;
      int d = depth[offset];
-     
+
      if (d > minThresh && d < maxThresh){
      img.pixels[offset] = color(0, 255 , 0);
    } else {
@@ -687,7 +687,7 @@ void draw() {
      }
    }
  }
- 
+
  img.updatePixels();
  image(img, 0, 0);
 
@@ -697,9 +697,9 @@ void draw() {
 
 - forsøge at connecte Object detection software med Kinect muligvis igennem OSC, Kinectron software etc.
     - https://kinectron.github.io/docs/intro.html
-    
+
 - forberede Slides til koncept pitch præsentation af prototype/conceptet.
-    
+
 ## 04/04/19
 vi pitchede vores anden konceptpitch idé
 https://docs.google.com/presentation/d/1Amf0z6vPSQGNKXkBaKNxyEreaGMH169bPIO0n-_Ppgk/edit?fbclid=IwAR3LS0FCqNLDHiqpi9g9H44TAMiKQjRe7x0czP0dB7nHrt0LgF-kzsXPV2A#slide=id.p
@@ -737,6 +737,20 @@ Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de t
 - vi har ideen, lad os forsætte retningen, og gøre det godt
 - Hvordan kan folk få info efterfølgerne (kan konceptet modificeres i forhold til at give et større indtryk....) - NFC Stand?
     - noget der ikke nødvendigvis indgår i installation, men er noget eksterns i forhold til at udbygge konceptet, er designet effektivt
-    
+
 - komme med eksempler på andre installationer eller udstillinger der gør noget hen af det samme
 
+## 09/04/19
+Design med fokus på cybercrime. Oplevelsen er et narrativ; brugeren tilgår maskineopstillingen, hvorpå Kinect opfatter noget, der kommer nær, hvilket får maskinen til at opsamle billeder. Billederne oplagres inde på en p5-sketch, som samtidig er en live server, der kan tilgås af alle med rette hyperlink (Github io). Denne interaktion med hyperlink vil ske med QR-kode, hvor brugeren selv registrerer en kode vist på en skærm og åbner gennem telefon.
+På telefon vil man kunne se de oplagrede billeder (og nu vil billederne også dukke op på skærmen). Brugeren kan så gennem telefonen stoppe for denne proces og få kontrol over sit data og datastrømmen med delete.
+- Måske med mulighed for at sløre billeder?
+
+Dermed har vi skabt en overgribelsesproces, hvor brugeren kan vinde i sidste ende for at sætte fokus på the real deal, og hvordan forsikringsselskaber kan indgå i denne sammenhæng. Designet handler ikke om overvågning; det handler i stedet om manifesteringen af data og synliggørelsen af datastrømmenes materialitet, og hvordan vi alle indgår i dette og må forholde os til dette.  
+
+Hvis man trykker på delete, kan vi også samtidig her vise alm. brand og dets relation.
+
+MVP der skal laves til sluttorsdag:
+- hyperlink til github.io - p5-skect som udgør hyperlink
+- Sketch er photo-booth, som aktiveres af distancesensor og tager billeder hvert 3. sekund (Schiffman tutorial)
+- billeder lægges op på sketch i grid
+- Machine Learning laver rammer om enhver person i billedet
