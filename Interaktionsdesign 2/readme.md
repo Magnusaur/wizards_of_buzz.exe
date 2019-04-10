@@ -741,6 +741,8 @@ Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de t
 - komme med eksempler på andre installationer eller udstillinger der gør noget hen af det samme
 
 ## 09/04/19
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/prototyping%20og%20ide%20udvikling%20.jpg)
+
 Design med fokus på cybercrime. Oplevelsen er et narrativ; brugeren tilgår maskineopstillingen, hvorpå Kinect opfatter noget, der kommer nær, hvilket får maskinen til at opsamle billeder. Billederne oplagres inde på en p5-sketch, som samtidig er en live server, der kan tilgås af alle med rette hyperlink (Github io). Denne interaktion med hyperlink vil ske med QR-kode, hvor brugeren selv registrerer en kode vist på en skærm og åbner gennem telefon.
 På telefon vil man kunne se de oplagrede billeder (og nu vil billederne også dukke op på skærmen). Brugeren kan så gennem telefonen stoppe for denne proces og få kontrol over sit data og datastrømmen med delete.
 - Måske med mulighed for at sløre billeder?
