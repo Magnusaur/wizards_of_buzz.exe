@@ -1,6 +1,6 @@
 # Logbog
 
-Table of Contents
+### Table of Contents
 
 [22/02/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#220219)</br>
 [25/02/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#250219)</br>
