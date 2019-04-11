@@ -837,15 +837,15 @@ Jonas: experience prototyping. Vi skal altså ud og teste vores assumptions. Det
 Nicolai: fokus på kommunikation mellem servere og programmer. Server/local/Cloud. OpenCV som nem face-detection. Billeder fra sidste 5 minutter ind, stop-knap.
 
 **Litteratur**
-https://appear.in/
-https://webrtc.org/
-Awesome Creative Coding Repo
-- https://github.com/terkelg/awesome-creative-coding
-New Media Tools
-Schiffman-videoer
-    - https://www.youtube.com/watch?v=bjULmG8fqc8
-    - https://www.youtube.com/watch?v=oLiaUEKsRws&t=355s
-    - https://www.youtube.com/watch?v=bkGf4fEHKak&t=5s
+https://appear.in/ </br>
+https://webrtc.org/</br>
+Awesome Creative Coding Repo</br>
+- https://github.com/terkelg/awesome-creative-coding</br>
+New Media Tools</br>
+Schiffman-videoer</br>
+    - https://www.youtube.com/watch?v=bjULmG8fqc8</br>
+    - https://www.youtube.com/watch?v=oLiaUEKsRws&t=355s</br>
+    - https://www.youtube.com/watch?v=bkGf4fEHKak&t=5s</br>
 
 **CODE:**
 ```
