@@ -829,13 +829,52 @@ MVP der skal laves til sluttorsdag:
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 11/04/19
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Photobooth_eurika.jpg)
 I dag har vi arbejdet hårdt på p5-skitsen og integrationen af webcam + gridopstilling. Vi har fået god feedback.
 Jonas: experience prototyping. Vi skal altså ud og teste vores assumptions. Det bygger vi mod.
 Nicolai: fokus på kommunikation mellem servere og programmer. Server/local/Cloud. OpenCV som nem face-detection. Billeder fra sidste 5 minutter ind, stop-knap.
 
-Litteratur
+**Litteratur**
+https://appear.in/
+https://webrtc.org/
 Awesome Creative Coding Repo
+- https://github.com/terkelg/awesome-creative-coding
 New Media Tools
 Schiffman-videoer
+    - https://www.youtube.com/watch?v=bjULmG8fqc8
+    - https://www.youtube.com/watch?v=oLiaUEKsRws&t=355s
+    - https://www.youtube.com/watch?v=bkGf4fEHKak&t=5s
+
+**CODE:**
+```
+var video;
+var button;
+var snapshots = [];
+
+function setup() {
+  createCanvas(800, 240);
+  background(51);
+  video = createCapture(VIDEO);
+  video.size(320, 240);
+  //video.hide();
+
+  button = createButton('snap');
+  button.mousePressed(takesnap);
+}
+
+function takesnap() {
+  //snapshots.push(video.get())
+  image(video, 0, 0);
+}
+
+
+function draw() {
+  for (var i = 0; i < snapshots.length; i++) {
+    image(snapshots[i], 320, 240);
+  }
+
+//image(video, 0, 0);
+}
+```
 
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
