@@ -1,8 +1,24 @@
 # Logbog
 
-[TOC]
+Table of Contents
 
-
+[22/02/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#220219)
+[25/02/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#250219)
+[26/02/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#260219)
+[28/02/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#280219)
+[07/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#070319)
+[12/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#120319)
+[14/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#140319)
+[15/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#150319)
+[19/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#190319)
+[21/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#210319)
+[25/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#250319)
+[27/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#270319)
+[28/03/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#280319)
+[02/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#020419)
+[04/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#040419)
+[09/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#090419)
+[11/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#110419)
 
 ## 22/02/19
 
