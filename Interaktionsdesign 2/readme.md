@@ -756,3 +756,13 @@ MVP der skal laves til sluttorsdag:
 - Sketch er photo-booth, som aktiveres af distancesensor og tager billeder hvert 3. sekund (Schiffman tutorial)
 - billeder lægges op på sketch i grid
 - Machine Learning laver rammer om enhver person i billedet
+
+## 11/04/19
+I dag har vi arbejdet hårdt på p5-skitsen og integrationen af webcam + gridopstilling. Vi har fået god feedback.
+Jonas: experience prototyping. Vi skal altså ud og teste vores assumptions. Det bygger vi mod.
+Nicolai: fokus på kommunikation mellem servere og programmer. Server/local/Cloud. OpenCV som nem face-detection. Billeder fra sidste 5 minutter ind, stop-knap.
+
+Litteratur
+Awesome Creative Coding Repo
+New Media Tools
+Schiffman-videoer
