@@ -128,6 +128,7 @@ Indhente egen data
 
 Hønen og ægget - data eller vision først?
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 25/02/19  
 
@@ -177,6 +178,7 @@ Vi skal have information; hvor finder vi det
 - Målet er at udfordre antagelser ved hele at lave “assessment” på vores vidensgrundlag
 - Planlæg etnografisk plan
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 26/02/19
 
@@ -217,6 +219,7 @@ KONKLUSIONER PÅ I DAG
 - Husk søvn
 - Vi var blokerede i dag; problemer med at divergere.
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 28/02/19
 
@@ -340,6 +343,7 @@ Næste trin:
 
 Vi har en masse ideer - kan vi fremstille et mindmap. Vi kan udvinde fællestræk, og så forsamle os om noget vi alle synes er fedt.  
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 07/03/19
 
@@ -361,6 +365,7 @@ Lav den bedste service. Udforsk den gode service.
 
 Motivation for os: gøre noget for alm. brand. Kan gøres ved at gå efter midten.
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 12/03/19
 Vi har præsenteret tanker og proces for Magnus. Vi er enige om den udtryksfulde/ekspressive retning. Lidt kritisk/men også ud fra brief. Vi skal skabe grobund for oplevelser.
@@ -369,6 +374,7 @@ Det skal også være framet, målrettet, så man skabe et scenarie. Vinkle det p
 Øvelse i overmorgen: hvordan kan vi tage en kasse og lave forsikring ud af det.
 Vi er på tærsklen til en byggefase.
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 14/03/19
 - Martins interview
@@ -420,6 +426,8 @@ Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter informat
 
 Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig til, hvor vi er på nuværende tidspunkt. Vi har nogle vigtige vinkler, og vi har så sandelig snakket meget om det. Ikke desto mindre har vi en fælles vision, og den vision vil vi fremadrettet forholde os til og evt. justere.
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
 ## 15/03/19
 Feedback: vi har ikke noget koncept; vi skal vælge retning, scenarie, kontekst. Konvergere. Vi har dog en retning, som er meget værd og særpræget, og som vi vil fokusere på. "Hvordan møder folk forsikringer og kan vi forbedre den kontakt". Fokus er på hverdag og på kontekster. Det skal være inversivt, men hvilken form for inversion skal det være.
 
@@ -441,6 +449,7 @@ Task list:
 - Skriv til deltagere
 - Sæt tid af til at kigge noter, tekster og inspirationskilder
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 19/03/19
 
@@ -460,6 +469,8 @@ Idéer:
 
 På torsdag: igangsat arrangeren af PD-workshop.
 La Cour , vores tech guy , kigger på teknologien.
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 21/03/19
 
@@ -572,6 +583,8 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - sammensætte forskellige slags recognition metode programmer
 - præsenteret koncepter og erfaringer gjort over weekenden med wekinator.
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
 ## 25/03/19
 I dag har vi arbejdet med at eksternalisere et flowchart for hele systemet i vores projekt. Det har resulteret i et godt overblik over omfanget og identificeringen af mulige problematikker fremadrettet. Vi har derfor også overvejet nogle ændringer til idéen, som vi kan forholde os til på et senere og mere relevant tidspunkt. Essentielt for fremtidigt arbejde er imidlertid, at vi skal arbejde med konkrette teknologier, og det begynder vi på her onsdag og torsdag. Vi skal således have styr på machine learning og identificering af menneske-objekter / gestik med hånd, og det er arbejde, som også er målrettet næste konceptpitch torsdag d. 4 april.
 
@@ -583,6 +596,8 @@ Lektier til onsdag:
 https://www.youtube.com/watch?v=Qt3ZABW5lD0 : Fundamentals of Machine Learning, se videoer fra denne playliste
 
 Wekinator: Kat-eksempel skal kunne udføres af alle medlemmer: med henblik på at forstå interfacet og softwaren. Altså, vi skal ikke bøvle med at skulle sætte det op og navigere.
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 27/03/19
 Vi fik delt  idéen med alle, så alle er nu med. Vi fik konkretiseret de tekniske muligheder. Vi fik eksperimenteret med Kinect, og det er klart muligt at bruge den. Vi mangler at kombinere object recignition og Kinect.
@@ -609,10 +624,14 @@ at få en dybere forståelse for teknologi kræver nogle gange at man går "all 
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Skeleton%20tracking.png)
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
 ## 28/03/19
 Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncept. Vi kom frem til en nøgleindsigt: form og indhold bør spille sammen. Derfor er vi kommer frem til en anden idé, som er mulig at opsøge (se billede) Først og fremmest involverer det imidlertid stadigvæk at vi får etableret en Kinect-prototype. Dette gøres ved at vi hver især opøver vores forståelse for Kinect og processing (opsøger biblioteker såsom OpenCV). På onsdag skal vi således være i stand til at sammensætte en skitse/interaktion til demonstration dagen efter.
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Ny%20id%C3%A9.jpg)
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 02/04/19
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Coding%20and%20fun.jpg)
@@ -743,6 +762,8 @@ void draw() {
 
 - forberede Slides til koncept pitch præsentation af prototype/conceptet.
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
 ## 04/04/19
 vi pitchede vores anden konceptpitch idé
 https://docs.google.com/presentation/d/1Amf0z6vPSQGNKXkBaKNxyEreaGMH169bPIO0n-_Ppgk/edit?fbclid=IwAR3LS0FCqNLDHiqpi9g9H44TAMiKQjRe7x0czP0dB7nHrt0LgF-kzsXPV2A#slide=id.p
@@ -786,6 +807,8 @@ Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de t
 
 - komme med eksempler på andre installationer eller udstillinger der gør noget hen af det samme
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
 ## 09/04/19
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/prototyping%20og%20ide%20udvikling%20.jpg)
 
@@ -803,6 +826,8 @@ MVP der skal laves til sluttorsdag:
 - billeder lægges op på sketch i grid
 - Machine Learning laver rammer om enhver person i billedet
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
 ## 11/04/19
 I dag har vi arbejdet hårdt på p5-skitsen og integrationen af webcam + gridopstilling. Vi har fået god feedback.
 Jonas: experience prototyping. Vi skal altså ud og teste vores assumptions. Det bygger vi mod.
@@ -812,3 +837,5 @@ Litteratur
 Awesome Creative Coding Repo
 New Media Tools
 Schiffman-videoer
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
