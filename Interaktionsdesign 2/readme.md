@@ -1,6 +1,11 @@
 # Logbog
 
+[TOC]
+
+
+
 ## 22/02/19
+
 - Vi skal gennem briefet
 - Preliminary idé
 
@@ -53,25 +58,25 @@ Formelle krav til design:
 Alm Brand's Antagelser:
 
     - Den nuværende forståelse af forsikring er reaktiv,
-
+    
     - "young people do not prevent because they have a hard time imagining that an accident will ever happen to them."
-
+    
     - "[Families] often don’t have the time to research for different types of preventive products even though they are concerned"
-
+    
     - Det er bedre at undgå ulykker, end at betale for dem; jo flere der har forsikring, jo billigere kan prisen blive.
-
+    
     - Både familier og unge har en stram økonomi.
-
+    
     - Greater number of accidents in houses.
-
+    
     - Fremtiden er proaktiv.
-
+    
     - IoT-teknologi
-
+    
     - "The future role for us, as an insurance company, should be to offer products and services that helps the customer prevent these unwanted experiences through technology."
-
+    
     HVORFOR ER DATA VIGTIG: This data is crucial in order to prevent accidents from happening, because the technology can inform the customer about a potential accident. This data is also valuable for insurance companies to create even better services for predicting future risks for the customer.
-
+    
     - JOYFUL AND EDUCATIONAL:  User-Experience. Større trend.
 
 
@@ -110,8 +115,8 @@ Hønen og ægget - data eller vision først?
 
 ## 25/02/19  
 
+**Agenda:**
 
-#### Agenda:
 - Overblik
 - Idégen
 - Visionetablering
@@ -147,8 +152,8 @@ Vi skal have information; hvor finder vi det
 - Brugere, unge såvel som familier såvel som gamle. Under 18, proaktive.
 - Hvilke forsikringsselskaber bruger folk? Undersøg folks relation til Alm. Brand; vi skal isolere dem selv som påvirkende faktor.
 
+**Idé til i morgen**
 
-#### Idé til i morgen
 - mindmap og brainstorm omkring aktørnetværk. Isoler forskellige faktorer og bring denne forståelse ud i felten
   - Antagelser i forhold til facts.
 - Forudsætter at vi også har læst op på forsikringsselskaber.
@@ -199,7 +204,8 @@ KONKLUSIONER PÅ I DAG
 
 ## 28/02/19
 
-#### Agenda
+**Agenda**
+
 - DOKK1 9:30 - 11:00
 - Gågaden 11:30 - 13:00
 - Konvergere
@@ -210,7 +216,7 @@ KONKLUSIONER PÅ I DAG
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190228_135543.jpg?raw=true)
 
-# Spørgsmål
+**Spørgsmål**
 
 - Har du en forsikring?
 - Hvorfor/hvorfor ikke?
@@ -218,10 +224,9 @@ KONKLUSIONER PÅ I DAG
 
 okokok, vi har ikke lavet etnografi. Vi har til gengæld skitseret en masse idéer ud fra ting præsenterert i brief og vores fælles idegeneration. Vi har altså derigennem baseret resultater på antagelser, briefresultater og inspiration fra bl.a. mobilbank-app. Vi har tænkt ud fra mulighederne med teknologi.
 
-### Idé sketches:
+**Idé sketches:**
 
-
-#### 1. VR:
+1. VR:
 
 En form for simulationsspil, som fører spilleren gennem en dag hvori alting går galt.
 Stikord:
@@ -235,7 +240,9 @@ Stikord:
   - Humoristisk element - Det bliver sat på spidsen. Det må holdes grundet i virkeligheden - overdrivelse fremmer forståelse. Legesygt.
   - Kropsligt - i VR mærker man det til en hvis grad på egen krop.
   - Scenariebaseret - baser spillets handling på konkret scenarie.
-#### 2. App:
+
+2. App:
+
   - Let fordøjeligt - Fremstil al den relevante information kort og konkret. Strømligning.
   - Christopher Bauder - alternativ opstilling af information (frem for kedelige bjælker).
   - “Guide” - et system som fører dig gennem et lineært handlingsforløb som ender med et pakketilbud.
@@ -249,7 +256,9 @@ Stikord:
   - Educational - meget lærerigt.
   - Utilitaristisk - ikke noget fluff - meget fact baseret. Er det joyful? hvordan lokker man folk ind?
   - Playful: gør interaktionerne engagerende. Ligesom Florence (https://en.wikipedia.org/wiki/Florence_(video_game))
-#### 3. Wearable:
+
+3. Wearable:
+
   - Sensorer - Tjeklisten skabes automatisk - Har du lukket vinduerne? Sensorerne er reaktive - men fordrer til proaktiv opførsel.
   - Sindsro - Man behøver ikke længere tænke om man har glemt noget. Både til neurotikere, men også folk der ikke har lyst til at tænke så meget over tingende.
   - Statistik/oversigt - Dataindsamling. Gennem tjeklisten kan man få overblik over hvilken elektronisk aktivitet der stadig kører i huset. Det kan samle statistik.
@@ -258,14 +267,18 @@ Stikord:
   - Educational - Gør dig opmærksom på dine omgivelser - måske kan du bedre huske det. Forebygger proaktiv adfærd. Kan tjeklister gøre folk glemsomme?
   - Wearable design - Hvilken form tager det? et armbånd, en sten, en app?
   - IOT!!
-#### 4. Google Home ideen:
+
+4. Google Home ideen:
+
   - Kommende kunder: Man kan designe til nuværende kunder - men også til kommende. Det kunne virke som et kit man sender ud, ligesom en probe. Kan være incentiverende til dovne.
   -  Gratis med forsikring - Kan gøre det mere tiltrækkende at tegne forsikring.
   - Specifikke domæner som et kit kan hjælpe med - det skal ikke bare være en ny slags røgalarm. Kan man skabe en centraliseret enhed?
   - Den kan huske ting for dig - to-do lister osv.
   - Behagelig - formen skal være dejligt. Det er behageligt at have en forsikring, så den skal også være behageligt. Den skal eventuelt blive kunne usynlig i ens hjem - eller ihvertfald ikke alt for skrigende.
   - Rund og wireless.
-#### 5. AR: Et system der skaber en virtuel dystopisk genskabelse af din bostand.
+
+5. AR: Et system der skaber en virtuel dystopisk genskabelse af din bostand.
+
   - Den skal kunne tage billeder.
   - Humor - skal igen overvejes.
   - Museumsinstallation: Man bevæger sig ind i et virtuelt rum og forsøger at løse virtuelle boligproblemer.
@@ -275,7 +288,9 @@ Stikord:
   - Gutten med stokken - videoen.
   - Data Capture - du fanger noget data ift. hvordan folk bruger programmet. Kunne man inddrage andre aktører i det? Scoreboard?
   - Cyber crime: Kan man visualisere cyber crime i AR?
-#### 6. Cykel uheld.
+
+6. Cykel uheld.
+
   - LED og bling - det virker meget som en event - det virker flashy og futuristisk.
   - Interaktiv - tænk på musikhusets brug af event designet. Det handler om at gøre folk opmærksomme på noget.
   - Personen der cykler kan ikke selv se hvad der sker, men andre kan godt se det udspille sig.
@@ -285,14 +300,18 @@ Stikord:
   - Event space: Man kunne lave værker til forskellige situationer - placere værker forskellige steder i landet. Disse værker vil så blive samlet på en central skærm, hvori folk kan se hele handlingen udfolde sig. Individuelle scenarier samles på en central skærm.
   - Eftertænksom - når man ser det, så tænker man måske efterfølgende om hvordan det kunne ske.
   - Joyful - det er også et sjovt projekt.
-#### 7. Heatmap ting (App, busstoppested?) -
+
+7. Heatmap ting (App, busstoppested?) -
+
   - Det skal være hjælpsomt - man skal ikke føle sig talt ned til.
   - Snedig - Den påvirker dig måske til at tænke på din egen sikkerhed mere.
   - Hjælpsom - du kan planlægge dine aktiviteter ud fra informationen.
   - forskrækkende - det kan være en øjenåbner for hvor meget der sker omkring en.
   - Educational - Man kan lære om sine omgivelser.
   - Tjekliste-agtig - Der sker en masse ting - det er et katalog.
-#### 8. Pricetag - Kinect
+
+8. Pricetag - Kinect
+
   - Offentlig rum - Det er noget man kan finde i det offentlige rum (ikke hjemme).
   - Refleksion - Det er et spejl, hehe. Men det skaber også refleksion i brugeren.
   - Interaktiv menu - Er der mere man kan gøre ift. interaktion?
@@ -301,15 +320,15 @@ Stikord:
   - Event - stor flade.
   - opmærksomhed - noget folk kommer til at kunne være nysgerrige over.
 
-
-#### Næste trin:
+Næste trin:
 
 Vi har en masse ideer - kan vi fremstille et mindmap. Vi kan udvinde fællestræk, og så forsamle os om noget vi alle synes er fedt.  
 
 
 ## 07/03/19
 
-### Agenda
+**Agenda**
+
 - Præsenter interviews
   - link til marks familie
   - link til la cours famille
@@ -347,7 +366,8 @@ Martins familie: Alm. Brand overtog lokalforsikring. Nu er det upersonligt. Søs
 Idé til koncept: en *klokke* installeret på alle deres bygninger. Borgere kan få en forsikringsinformationspakke baseret på
 Idé til koncept: Fange information fra brugerens offentligt tilgængelige data og brug det i en skræddersyet pakke
 
-### visionsproces
+**visionsproces**
+
 ![20190314_153748](/Users/Pacour/Developer/wizards_of_buzz.exe/Interaktionsdesign 2/Media/20190314_153748.jpg)
 
 Oplevelsesbaseret design. Skal ikke søge mod praktiske lappeløsninger, men kvalitative og stærke oplevelser med grobund for refleksion. Det bliver lidt reklame, men det skal ikke tale ned til kunden. Det skal heller ikke være kritisk design, hvis formål ikke er relateret til forsikringsselskabets bedste interesse.
@@ -372,12 +392,13 @@ Oplevelsesbaseret og udtryksfuldt design med grobund for refleksion. Det skal ik
 - Offentlig rum vs. personlig interaktion
 - Kritisk vs. affirmative
 
-### Idéproces
+**Idéproces**
+
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Markssketch_AlmBrandBellsignal.jpg?raw=true)
 
 Vi har diskuteret idéer. En fællesnævner med teknologi som nedhenter information om dig uden at du skal skrive det ind.
 
-### afrunding
+**afrunding**
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190314_153758.jpg?raw=true)
 
@@ -426,7 +447,8 @@ La Cour , vores tech guy , kigger på teknologien.
 
 ## 21/03/19
 
-Agenda:
+**Agenda:**
+
 - Sketching
 - reflekterer over Data inputs i designet
 - iterationer på skitser
@@ -465,7 +487,8 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - interaktioner med mennesker
 - Martin's skitse - er blevet central for den videre process.
 
-### konsultation
+**konsultation**
+
 - ideer blev fremført
 - god feedback
     - teknologier
@@ -489,7 +512,8 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
     - ligger op til reduceringer i sketches
     - det ligger op til at vi skal kunne falde tilbage til kinect
 
-### inspirations kilder fra konsultation:
+**inspirations kilder fra konsultation:**
+
 - http://stoj.io/projects/an-algorithm-watching-a-movie-trailer (object detection)
 - http://ml4a.github.io/guides/ConvnetClassifier/ (Convnet Classifier)
 - https://github.com/ml4a (Machine learning 4 Artists)
@@ -498,7 +522,7 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 - Amy Goodchild's - When in dome (http://art.amygoodchild.com/project/whenindome/)
 ![](https://scontent-atl3-1.cdninstagram.com/vp/3af12bca30889dd45fc0b935ee1bd39c/5CFB4868/t51.2885-15/e35/s240x240/49913302_405261456883212_4997656925827750706_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&ig_cache_key=MTk1NDM4MjA4MzMwODk5OTc0Mg%3D%3D.2)
 
-### Dagens tredeling
+**Dagens tredeling**
 
 - papir (skitsering)
 
@@ -506,17 +530,19 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
 
 - consultation/organisering (projekt-retning, og fremtidige målsætninger, inspirations kilder)
   - Amy goodchild
-### skitser
+
+**skitser**
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-1.jpg)
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Skitserings%20madness-2.jpg)
 
-### første iterations prototype
+**første iterations prototype**
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Skitse%20ideer%20-%20cyber-sec/Sirius%20Black-1.jpg)
 
-### Videre arbejde:
+**Videre arbejde:**
+
 - Martin undersøger projektionssoftware
 - prøve at arbejde lidt med wekinator
 - finde inspirationskilder i processen
@@ -524,7 +550,8 @@ og illustrerer denne ad hoc med kaffesticks og servietter, dette bliver optakten
     - billeder
     - links
 
-mandags agenda:
+**mandags agenda:**
+
 - sætte noget op med kode
 - sammensætte forskellige slags recognition metode programmer
 - præsenteret koncepter og erfaringer gjort over weekenden med wekinator.
@@ -710,7 +737,8 @@ her bragte vi fokus på vores konceptuelle idé samt vores tekniske fremskridt m
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect%20Threshhold.png)
 
-### Form og Indhold
+**Form og Indhold**
+
 Omfattende idégenerering. Vi har lavet skitser, og skitserne er vores prototyper i processen. Vi finder ud af ting som vi kører idéerne igennem. DEt var ikke “viable”, og nu får vi overensstemmelse i vores koncept.
 
 Konceptet skal tale til folk, ikke ned til folk.
@@ -721,7 +749,8 @@ Ganske vist er det ikke et reelt cybercrime, men det visuelle sprog er forståel
 
 Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de tekniske muligheder og begrænsninger, som vi opdager undervejs.
 
-### de fire fokus punkter:
+**de fire fokus punkter:**
+
 - bruger undersøgelse, diskussion, test
     - hvordan opfattes invasiviteten.
     - har vi ramt det vi gerne ville i forhold til om folk har forstået konceptet
@@ -732,7 +761,8 @@ Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de t
 - bygge et rum (externaliseret i rummet)
 - herefter genovervejes vores idé
 
-### feedback fra ALM Brand
+**feedback fra ALM Brand**
+
 - de synes det er fedt
 - vi har ideen, lad os forsætte retningen, og gøre det godt
 - Hvordan kan folk få info efterfølgerne (kan konceptet modificeres i forhold til at give et større indtryk....) - NFC Stand?
