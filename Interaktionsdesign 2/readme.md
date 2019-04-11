@@ -572,7 +572,187 @@ Pga. manglende manskab tog vi et skridt tilbage og betragtede nøje vores koncep
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect_ML/Ny%20id%C3%A9.jpg)
 
 ## 02/04/19
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Coding%20and%20fun.jpg)
 
 Agenda:
-- 
--
+- arbejde med YOLO og få den til at genkender telefoner igennem ml5.js framework
+    - https://ml5js.org/docs/YOLO
+```
+// Copyright (c) 2018 ml5
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+/* ===
+ml5 Example
+Real time Object Detection using YOLO and p5.js
+=== */
+
+let video;
+let yolo;
+let status;
+let objects = [];
+let smiley;
+
+function setup() {
+  createCanvas(320, 240);
+  video = createCapture(VIDEO);
+  video.size(320, 240);
+
+  // Create a YOLO method
+  yolo = ml5.YOLO(video, startDetecting);
+
+  // Hide the original video
+  video.hide();
+  status = select('#status');
+
+  smiley = loadImage("smiley.png")
+
+}
+
+function draw() {
+  image(video, 0, 0, width, height);
+  for (let i = 0; i < objects.length; i++) {
+    noStroke();
+    fill(0, 255, 0);
+    text(objects[i].className, objects[i].x * width, objects[i].y * height - 5);
+    noFill();
+    strokeWeight(4);
+    stroke(0, 255, 0);
+    rect(objects[i].x * width, objects[i].y * height, objects[i].w * width, objects[i].h * height);
+
+    if (objects[i].className === "cell phone") { image(smiley, objects[i].x *
+    width, objects[i].y * height, objects[i].w * width, objects[i].h * height);
+    }
+
+  }
+}
+
+function startDetecting() {
+  status.html('Model loaded!');
+  detect();
+}
+
+function detect() {
+  yolo.detect(function(err, results) {
+    objects = results;
+    detect();
+  });
+}  
+```
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cell%20phone%20detection.png)
+
+- arbejde med Kinect og Threshold i forhold til at gøre YOLO's arbejde bedre
+    - https://www.youtube.com/watch?v=E1eIg54clGo&t=814s
+
+```
+import org.openkinect.processing.*;
+
+Kinect2 kinect2;
+
+float minThresh = 380;
+float maxThresh = 750;
+
+PImage img;
+
+void setup() {
+  size(800, 600);
+  kinect2 = new Kinect2(this);
+
+  kinect2.initDepth();
+  kinect2.initDevice();
+  img = createImage(kinect2.depthWidth,kinect2.depthHeight, RGB);
+}
+
+void draw() {
+ background(0);
+
+ img.loadPixels();
+
+ //minThresh = map(mouseX, 0, width, 0, 4500);
+ //maxThresh = map(mouseY, 0, height, 0, 4500);
+
+ // showing video feed
+ int[] depth = kinect2.getRawDepth();
+
+ for (int x = 0; x < kinect2.depthWidth; x++) {
+   for (int y = 0; y < kinect2.depthHeight; y++) {
+     int offset = x + y * kinect2.depthWidth;
+     int d = depth[offset];
+
+     if (d > minThresh && d < maxThresh){
+     img.pixels[offset] = color(0, 255 , 0);
+   } else {
+     img.pixels[offset] = color(0);
+     }
+   }
+ }
+
+ img.updatePixels();
+ image(img, 0, 0);
+
+}
+```
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Detection%20neutral%20background%20prototype.jpg)
+
+- forsøge at connecte Object detection software med Kinect muligvis igennem OSC, Kinectron software etc.
+    - https://kinectron.github.io/docs/intro.html
+
+- forberede Slides til koncept pitch præsentation af prototype/conceptet.
+
+## 04/04/19
+vi pitchede vores anden konceptpitch idé
+https://docs.google.com/presentation/d/1Amf0z6vPSQGNKXkBaKNxyEreaGMH169bPIO0n-_Ppgk/edit?fbclid=IwAR3LS0FCqNLDHiqpi9g9H44TAMiKQjRe7x0czP0dB7nHrt0LgF-kzsXPV2A#slide=id.p
+
+her bragte vi fokus på vores konceptuelle idé samt vores tekniske fremskridt med hensyn til vores arbejde med YOLO(You Only Look Ones) i forhold til cell phone detection samt Kinect cam i forhold til Thresholds for at gøre vores object detection bedre i rummet.
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cellphone%20Detection.png)
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Kinect%20Threshhold.png)
+
+### Form og Indhold
+Omfattende idégenerering. Vi har lavet skitser, og skitserne er vores prototyper i processen. Vi finder ud af ting som vi kører idéerne igennem. DEt var ikke “viable”, og nu får vi overensstemmelse i vores koncept.
+
+Konceptet skal tale til folk, ikke ned til folk.
+Tænke over udtryk: Design som sprog, retorik, stemme i debatten. Her bliver det en manifestering af cybercrime, som jo ellers er usynligt og svært at anskue.
+
+Behov for overensstemmelse med form og indhold.
+Ganske vist er det ikke et reelt cybercrime, men det visuelle sprog er forståeligt
+
+Fremtid: behov for at teste, behov for at udbygge koncept i forlængelse af de tekniske muligheder og begrænsninger, som vi opdager undervejs.
+
+### de fire fokus punkter:
+- bruger undersøgelse, diskussion, test
+    - hvordan opfattes invasiviteten.
+    - har vi ramt det vi gerne ville i forhold til om folk har forstået konceptet
+- få reconceptueliseret konceptet (udbygget)
+    - etiske datasikkerhed
+    - designet skal være invasivt, men hvordan opleves invasiviteten
+- få det tekniske til at virke
+- bygge et rum (externaliseret i rummet)
+- herefter genovervejes vores idé
+
+### feedback fra ALM Brand
+- de synes det er fedt
+- vi har ideen, lad os forsætte retningen, og gøre det godt
+- Hvordan kan folk få info efterfølgerne (kan konceptet modificeres i forhold til at give et større indtryk....) - NFC Stand?
+    - noget der ikke nødvendigvis indgår i installation, men er noget eksterns i forhold til at udbygge konceptet, er designet effektivt
+
+- komme med eksempler på andre installationer eller udstillinger der gør noget hen af det samme
+
+## 09/04/19
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/prototyping%20og%20ide%20udvikling%20.jpg)
+
+Design med fokus på cybercrime. Oplevelsen er et narrativ; brugeren tilgår maskineopstillingen, hvorpå Kinect opfatter noget, der kommer nær, hvilket får maskinen til at opsamle billeder. Billederne oplagres inde på en p5-sketch, som samtidig er en live server, der kan tilgås af alle med rette hyperlink (Github io). Denne interaktion med hyperlink vil ske med QR-kode, hvor brugeren selv registrerer en kode vist på en skærm og åbner gennem telefon.
+På telefon vil man kunne se de oplagrede billeder (og nu vil billederne også dukke op på skærmen). Brugeren kan så gennem telefonen stoppe for denne proces og få kontrol over sit data og datastrømmen med delete.
+- Måske med mulighed for at sløre billeder?
+
+Dermed har vi skabt en overgribelsesproces, hvor brugeren kan vinde i sidste ende for at sætte fokus på the real deal, og hvordan forsikringsselskaber kan indgå i denne sammenhæng. Designet handler ikke om overvågning; det handler i stedet om manifesteringen af data og synliggørelsen af datastrømmenes materialitet, og hvordan vi alle indgår i dette og må forholde os til dette.  
+
+Hvis man trykker på delete, kan vi også samtidig her vise alm. brand og dets relation.
+
+MVP der skal laves til sluttorsdag:
+- hyperlink til github.io - p5-skect som udgør hyperlink
+- Sketch er photo-booth, som aktiveres af distancesensor og tager billeder hvert 3. sekund (Schiffman tutorial)
+- billeder lægges op på sketch i grid
+- Machine Learning laver rammer om enhver person i billedet
