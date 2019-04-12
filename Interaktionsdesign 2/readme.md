@@ -885,3 +885,13 @@ function draw() {
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 12/04/19
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/modulo_virker.png)
+idag har vi arbejdet med koden for at lave vores MVP til experience prototyping, i den process har vi arbejdet med at lave en p5.js sketch der kan opfange billeder og gemme dem i en lokal mappe, ligeledes har vi også arbejdet med at få billederne fra en lokal folder in i en p5 sketch for at displaye dem en efter 1.
+vi har også kort snakket om hvordan vi kan udvikle noget forskellige versioner mvp's for at lave en experience prototype. vi har således udviklet en [wireframe](https://www.draw.io/#HMagnusaur%2Fwizards_of_buzz.exe%2Fmaster%2FInteraktionsdesign%202%2FMVP%20IxD2%20project.drawio)
+
+![Wireframe](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Screen%20Shot%202019-04-12%20at%2013.33.43.png)
+
+Vi har også snakket om hvordan man yderligere kunne anvende en node.js server for at kommunikkere sketches mellem flere maskiner, og lavet et mindmap for denne kommunikation, med udgangspunkt i shiffmans node.js tutorial serie. 
+![NodeStructure](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Nodejs_structure.jpg)
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
