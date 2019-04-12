@@ -882,3 +882,5 @@ function draw() {
 ```
 
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
+## 12/04/19
