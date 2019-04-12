@@ -2,25 +2,24 @@ var loaded;
 var Img = [];
 var xPs = 0;
 var yPs = 0;
-var c;
 var counter = 0;
+var cycleNum = 256;
 
 function setup() {
+  createCanvas(windowWidth, windowHeight);
   frameRate(1);
-  c = createCanvas(windowWidth, windowHeight);
+
+
   takeSnap(counter);
 }
 
 function takeSnap(i) {
-  // saveCanvas(c, 'prototype('+i+')','jpg');
-  loaded = loadImage('Users/Mark/Downloads/prototype('+i+').jpg');
-  // loaded = loadImage('puffin.jpg');
-
+  loaded = loadImage('prototype ('+i+').jpg');
   Img.push(new Imgs(loaded));
 }
 
+
 function draw() {
-  // Img[0].display(0, 0)
   let x = windowWidth/5
   let y = windowHeight/4
   for(let i = 0; i < Img.length; i++) {
@@ -35,8 +34,8 @@ function draw() {
 
   counter++
   takeSnap(counter)
-}
 
+}
 
 class Imgs {
   constructor(loaded) {

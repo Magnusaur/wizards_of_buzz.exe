@@ -1,6 +1,6 @@
 var c;
 var video;
-var cycleNum = 516;
+var cycleNum = 50;
 
 function setup() {
   c = createCanvas(windowWidth/3, windowHeight/2);
