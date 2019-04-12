@@ -1,21 +1,20 @@
 var loaded;
-var Img = [];
-var xPs = 0;
-var yPs = 0;
-var counter = 0;
-var cycleNum = 256;
+var Img = []; //Array for billede-objekter
+var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
+var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
+var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(1);
+  frameRate(1); //Kontrollerer hastighed
 
 
   takeSnap(counter);
 }
 
 function takeSnap(i) {
-  loaded = loadImage('prototype ('+i+').jpg');
-  Img.push(new Imgs(loaded));
+  loaded = loadImage('prototype ('+i+').jpg'); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  Img.push(new Imgs(loaded)); //placerer billede i et objekt, som selv placeres i et array
 }
 
 
@@ -32,9 +31,8 @@ function draw() {
     xPs += x
   }
 
-  counter++
+  counter++ //counter stiger
   takeSnap(counter)
-
 }
 
 class Imgs {
@@ -43,11 +41,11 @@ class Imgs {
   }
 
   display(xPs, yPs, x, y) {
-    this.xPs = xPs;
+    this.xPs = xPs; //startposition
     this.yPs = yPs;
-    this.x = x;
+    this.x = x; //størrelse på billede
     this.y = y;
 
-    image(loaded, this.xPs, this.yPs, this.x, this.y); //Every image drawn will show the capture feed
+    image(loaded, this.xPs, this.yPs, this.x, this.y);
   }
 }
