@@ -24,10 +24,11 @@ function draw() {
   for(let i = 0; i < Img.length; i++) {
     Img[i].display(xPs, yPs, x, y);
   }
-  if (xPs > width) {
+  if ((xPs + x) > width-1) {
     xPs = 0;
     yPs += y;
   } else {
+
     xPs += x
   }
 
