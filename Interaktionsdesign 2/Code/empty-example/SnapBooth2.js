@@ -13,7 +13,7 @@ function setup() {
 }
 
 function takeSnap(i) {
-  loaded = loadImage('prototype ('+i+').jpg'); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  loaded = loadImage('prototype ('+(i+1)+').jpg'); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
   Img.push(new Imgs(loaded)); //placerer billede i et objekt, som selv placeres i et array
 }
 
