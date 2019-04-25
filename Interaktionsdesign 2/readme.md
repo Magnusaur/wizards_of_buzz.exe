@@ -75,25 +75,25 @@ Formelle krav til design:
 Alm Brand's Antagelser:
 
     - Den nuværende forståelse af forsikring er reaktiv,
-    
+
     - "young people do not prevent because they have a hard time imagining that an accident will ever happen to them."
-    
+
     - "[Families] often don’t have the time to research for different types of preventive products even though they are concerned"
-    
+
     - Det er bedre at undgå ulykker, end at betale for dem; jo flere der har forsikring, jo billigere kan prisen blive.
-    
+
     - Både familier og unge har en stram økonomi.
-    
+
     - Greater number of accidents in houses.
-    
+
     - Fremtiden er proaktiv.
-    
+
     - IoT-teknologi
-    
+
     - "The future role for us, as an insurance company, should be to offer products and services that helps the customer prevent these unwanted experiences through technology."
-    
+
     HVORFOR ER DATA VIGTIG: This data is crucial in order to prevent accidents from happening, because the technology can inform the customer about a potential accident. This data is also valuable for insurance companies to create even better services for predicting future risks for the customer.
-    
+
     - JOYFUL AND EDUCATIONAL:  User-Experience. Større trend.
 
 
@@ -891,7 +891,16 @@ vi har også kort snakket om hvordan vi kan udvikle noget forskellige versioner 
 
 ![Wireframe](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Screen%20Shot%202019-04-12%20at%2013.33.43.png)
 
-Vi har også snakket om hvordan man yderligere kunne anvende en node.js server for at kommunikkere sketches mellem flere maskiner, og lavet et mindmap for denne kommunikation, med udgangspunkt i shiffmans node.js tutorial serie. 
+Vi har også snakket om hvordan man yderligere kunne anvende en node.js server for at kommunikkere sketches mellem flere maskiner, og lavet et mindmap for denne kommunikation, med udgangspunkt i shiffmans node.js tutorial serie.
 ![NodeStructure](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Nodejs_structure.jpg)
 
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
+## 25/04/19
+I dag har vi opnået to ting.
+
+1) Vi har rettet på fejl i vores skitse. Herunder småting. Og fået opsat en stop-knap.
+
+2) Vi har lavet node server med express og socket.io. Altså er vi klar til at sende billeder afsted.
+
+I morgen vil vi få det sat endeligt sammen og bygge vores MVP færdig. Så skal vi ud og teste.
