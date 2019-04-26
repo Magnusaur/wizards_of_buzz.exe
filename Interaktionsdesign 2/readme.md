@@ -904,3 +904,12 @@ I dag har vi opnået to ting.
 2) Vi har lavet node server med express og socket.io. Altså er vi klar til at sende billeder afsted.
 
 I morgen vil vi få det sat endeligt sammen og bygge vores MVP færdig. Så skal vi ud og teste.
+
+## 26/04/19
+Dagen begyndte med voldsom placering af hoved på væg, idet vi måtte genstarte hele vores arbejde med node. js. Vi kunne nemlig ikke, efter at have opstartet en server, få serveren til at lokalisere lokale filer i "public"-mappen. Vi indså at problemet måske havde noget at gøre med "corruption", hvorfor vi lavede en helt ny folder til en helt ny skitser og server. Det var med succes.
+
+Derfra kunne vi så få lavet MVP'en færdig. Vi fulgte Shiffman's videoer og fik lavet socket.io + express. Det ledte til at vi kunne succesfuldt køre vores in-snapbooth-skitse gennem node.js.
+
+Nu skulle vi så få det til at køre med out-display. Vi fandt ud af, at denne skitse også skulle køre gennem node.js for ikke at opleve konstant "refresh" ovenpå at få billeder tilført til sin mappe. Det fik vi gjort og så fungerede vores MVP. Vi kan altså nu tage billeder i den ene skitse, oplagre dem i en folder og få den anden skitse til at nedhente billederne og vise dem.
+
+Vi stødte på et nyt problem. Hastigheden og display-skitsen passede ikke overens med in-snapbooth. Vi mådte lave loadImage med callback for at sikre os, at display-skitsen ikke blev ved med at lave billedeobjekter uden dertilhørende billeder. Det hjalp Nicolai os med.
