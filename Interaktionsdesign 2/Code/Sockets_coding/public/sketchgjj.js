@@ -4,7 +4,7 @@ var cycleNum = 50;
 
 function setup() {
   c = createCanvas(windowWidth/3, windowHeight/2);
-  frameRate(10);
+  frameRate(15);
   video = createCapture(VIDEO);
   video.size(width, height);
   video.hide();
