@@ -3,10 +3,13 @@ var Img = []; //Array for billede-objekter
 var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
+var button;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(8); //Kontrollerer hastighed
+  button = createButton('Stop denne galskab');
+  button.mousePressed(wipeOut);
 
 
   takeSnap(counter);
@@ -76,4 +79,9 @@ class Imgs {
 
     image(loaded, this.xPs, this.yPs, this.x, this.y);
   }
+}
+
+function wipeOut() {
+ background(100);
+ noloop();
 }
