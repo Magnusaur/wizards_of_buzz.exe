@@ -913,3 +913,6 @@ Derfra kunne vi så få lavet MVP'en færdig. Vi fulgte Shiffman's videoer og fi
 Nu skulle vi så få det til at køre med out-display. Vi fandt ud af, at denne skitse også skulle køre gennem node.js for ikke at opleve konstant "refresh" ovenpå at få billeder tilført til sin mappe. Det fik vi gjort og så fungerede vores MVP. Vi kan altså nu tage billeder i den ene skitse, oplagre dem i en folder og få den anden skitse til at nedhente billederne og vise dem.
 
 Vi stødte på et nyt problem. Hastigheden og display-skitsen passede ikke overens med in-snapbooth. Vi mådte lave loadImage med callback for at sikre os, at display-skitsen ikke blev ved med at lave billedeobjekter uden dertilhørende billeder. Det hjalp Nicolai os med.
+
+## 30/04/19
+I dag testede vi vores prototype; den virker fortsat. Vi har identificeret en framgangsmåde til at færdiggøre prototypen på onsdag / torsdag / fredag. Vi vil følge den (se billede).

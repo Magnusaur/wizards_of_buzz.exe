@@ -7,12 +7,12 @@ var button;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(8); //Kontrollerer hastighed
+  frameRate(1); //Kontrollerer hastighed
   button = createButton('Stop denne galskab');
   button.mousePressed(wipeOut);
 
 
-  takeSnap(counter);
+  // takeSnap(counter);
 }
 
 function takeSnap(i) {
