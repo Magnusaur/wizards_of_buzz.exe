@@ -4,15 +4,25 @@ var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
 var button;
+var button2;
+var bool = false;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(1); //Kontrollerer hastighed
-  button = createButton('Stop denne galskab');
-  button.mousePressed(wipeOut);
+  frameRate(8); //Kontrollerer hastighed
+  button2 = createButton('Press me');
+  button2.mousePressed(initiate);
 
 
   // takeSnap(counter);
+}
+
+function initiate() {
+  clear()
+  bool = true
+
+  button = createButton('Stop denne galskab');
+  button.mousePressed(wipeOut);
 }
 
 function takeSnap(i) {
@@ -61,9 +71,10 @@ function draw() {
     xPs += x
   }
 */
-  counter++ //counter stiger
-  takeSnap(counter);
-
+  if(bool == true) {
+    counter++ //counter stiger
+    takeSnap(counter);
+  }
 }
 
 class Imgs {
@@ -82,6 +93,6 @@ class Imgs {
 }
 
 function wipeOut() {
- background(100);
+ background(255);
  noloop();
 }
