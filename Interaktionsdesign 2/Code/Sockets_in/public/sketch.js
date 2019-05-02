@@ -8,7 +8,7 @@ var button2;
 var bool = false;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
   button2 = createButton('Press me');
   button2.addClass('btn');
@@ -44,6 +44,7 @@ function loadSucces(img){
   if ((xPs + x) > width-1) {
     xPs = 0;
     yPs += y;
+    windowResized()
   } else {
 
     xPs += x
@@ -88,12 +89,17 @@ class Imgs {
     this.yPs = yPs;
     this.x = x; //størrelse på billede
     this.y = y;
-
     image(loaded, this.xPs, this.yPs, this.x, this.y);
   }
 }
 
+
+
 function wipeOut() {
  background(255);
  noloop();
+}
+
+function windowResized() {
+  //resizeCanvas(windowWidth, height + windowWidth/7.5);
 }
