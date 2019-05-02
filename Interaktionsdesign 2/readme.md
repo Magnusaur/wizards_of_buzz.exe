@@ -20,6 +20,8 @@
 [09/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#090419)</br>
 [11/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#110419)</br>
 [12/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#120419)</br>
+[25/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#250419)</br>
+[26/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#260419)</br>
 [30/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#300419)</br>
 [02/05/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#020519)</br>
 
