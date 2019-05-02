@@ -104,12 +104,6 @@ class Imgs {
 }
 
 
-
-function wipeOut() {
- background(255);
- noloop();
-}
-
 function windowResized() {
   //resizeCanvas(windowWidth, height + windowWidth/7.5);
 }
