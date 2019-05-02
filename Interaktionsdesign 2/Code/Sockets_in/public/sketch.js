@@ -2,6 +2,7 @@ var loaded;
 var Img = []; //Array for billede-objekter
 var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
+var alf = 0;
 var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
 var button;
 var button2;
@@ -11,26 +12,25 @@ var bool2 = false;
 function setup() {
   createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
-  button2 = createButton('Press me');
-  button2.addClass('btn');
-  button2.mousePressed(initiate);
+  button = createButton('Press me');
+  button.addClass('btn');
+  button.mousePressed(initiate);
 
-
-  // takeSnap(counter);
+  takeSnap(counter);
 }
 
 function initiate() {
-  clear()
-  bool = true
+  button2 = createButton('Stop denne galskab');
+  button2.addClass('btn');
+  button2.mousePressed(wipeOut);
 
-  button = createButton('Stop denne galskab');
-  button.addClass('btn');
-  button.mousePressed(wipeOut);
+  bool2 = true
 }
 
 function wipeOut() {
-    bool2 = true
+    bool = true
 }
+
 
 function takeSnap(i) {
   loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
@@ -38,72 +38,80 @@ function takeSnap(i) {
 }
 
 function loadSucces(img){
-  Img.push(new Imgs(img)); //placerer billede i et objekt, som selv placeres i et array
+  let x = windowWidth/5
+  let y = windowHeight/4
+
+  Img.push(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array   BRUG UNSHIFT METODE FOR AT VENDE DET OM
 
   console.log('succes');
 
-  let x = windowWidth/5
-  let y = windowHeight/4
-  for(let i = 0; i < Img.length; i++) {
-    Img[i].display(xPs, yPs, x, y);
-  }
   if ((xPs + x) > width-1) {
     xPs = 0;
     yPs += y;
-    windowResized()
   } else {
-
     xPs += x
   }
+
+  counter++ //counter stiger
+  takeSnap(counter);
 }
 
 function loadFail(){
-  counter--;
-  if(counter < 0){
-    counter = 0;
-  }
+  // counter--;
+  // if(counter < 0){
+  //   counter = 0;
+  // }
   console.log('fail');
+  takeSnap(counter);
 }
+
 
 function draw() {
-/*  let x = windowWidth/5
-  let y = windowHeight/4
-  for(let i = 0; i < Img.length; i++) {
-    Img[i].display(xPs, yPs, x, y);
+  if (bool == true) {
+    bool2 = false;
+    if (alf == 255) {
+      clear();
+    } else {
+      background(255, alf);
+      alf += 1
+    }
   }
-  if ((xPs + x) > width-1) {
-    xPs = 0;
-    yPs += y;
-  } else {
-
-    xPs += x
-  }
-*/
-  if(bool == true) {
-    counter++ //counter stiger
-    takeSnap(counter);
-  }
-
   if (bool2 == true) {
-    background(255, 150);
+    let i = 0;
+    var intervalId = setInterval(function() {
+      if(i == Img.length) {
+        clearInterval(intervalId)
+      }
+      Img[i].display();
+      i++
+    }, 50)
   }
 }
 
-class Imgs {
-  constructor(loaded) {
-    this.loaded = loaded;
-  }
+// function draw() {
+//   if (bool == true) {
+//     if(alf == 255) {
+//       clear();
+//     } else {
+//       background(255, alf);
+//       alf += 1
+//     }
+//   }
+// }
 
-  display(xPs, yPs, x, y) {
+
+
+
+class Imgs {
+  constructor(loaded, xPs, yPs, x, y) {
+    this.loaded = loaded;
     this.xPs = xPs; //startposition
     this.yPs = yPs;
     this.x = x; //størrelse på billede
     this.y = y;
-    image(loaded, this.xPs, this.yPs, this.x, this.y);
   }
-}
 
-
-function windowResized() {
-  //resizeCanvas(windowWidth, height + windowWidth/7.5);
+  display() {
+    image(this.loaded, this.xPs, this.yPs, this.x, this.y);
+  }
 }
