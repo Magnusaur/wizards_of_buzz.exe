@@ -924,7 +924,7 @@ I dag testede vi vores prototype; den virker fortsat. Vi har identificeret en fr
 ## 02/05/19
 
 Hejsa!
-
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/prototype%20(14).jpg)
 I dag har vi nørklet en hulens masse med kode, i håb om at færdiggøre vores MVP til testning.
 
 Vi havde sat os in del milepæle at nå, før vi kunne frigøre vores prototype på den intetanende befolkning. Det vigtigste for prototypen har været, at potentialet for kommunikationen af den narrative oplevelse findes i vores MVP. Dette er blandt andet et fokuspunkt vi må teste.
@@ -932,3 +932,6 @@ Vi havde sat os in del milepæle at nå, før vi kunne frigøre vores prototype 
  Som det er nu, besidder vores protoype størstedelen af de interaktioner vi tidligere har udpenslet i vores planer. Prototypen kan nu via. ML udelukkende tage billeder af mennesker, som så vil blive vist løbende i vores P5 skitse. Det er her brugerens valg både at initiere og stoppe interaktionen, gennem to knapper vi har fremstillet.  
 
 Så der er ihvertfald sket en hel del siden sidst. Vi har på nuværende tidspunkt opsat vores MVP (minus lidt finpusning), således at vi kan drage ud på DOKK1 for at experience protoype. Det bliver spændende!
+
+P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt andet Imgur og en form for automatisk pushing med github 
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cour.PNG)
