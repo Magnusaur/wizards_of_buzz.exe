@@ -17,7 +17,7 @@ var cycleNum = 50;
 
 
 function setup() {
-  createCanvas(320*2, 240*2);
+  c = createCanvas(320*2, 240*2);
   video = createCapture(VIDEO);
   video.size(320, 240);
 
