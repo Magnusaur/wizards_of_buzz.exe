@@ -26,7 +26,7 @@ function initiate() {
 }
 
 function takeSnap(i) {
-  loaded = loadImage('prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  loaded = loadImage('Media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
   return loaded;
 }
 
