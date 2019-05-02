@@ -13,7 +13,7 @@ let yolo;
 let status;
 let objects = [];
 var c;
-var cycleNum = 15;
+var cycleNum = 12;
 
 
 function setup() {
@@ -28,7 +28,7 @@ function setup() {
   // Hide the original video
   video.hide();
   status = select('#status');
-  frameRate(8);
+  frameRate(4);
 
 }
 
@@ -53,11 +53,21 @@ function timeLoop() {
       saveCanvas(c, 'prototype','jpg');
 
     }
-console.log(objects[i].className);
-  }
+    }
+    if (objects[i].className === "cell phone" || objects[i].className === "remote" ) {
+    noStroke();
+    fill(255, 0, 0);
+    text('Cell phone.', objects[i].x * width, objects[i].y * height - 5);
+    noFill();
+    strokeWeight(4);
+    stroke(255, 0, 0);
+    rect(objects[i].x * width, objects[i].y * height, objects[i].w * width, objects[i].h * height);
 
+  }
+console.log(objects[i].className);
     }
 }
+
 
 function startDetecting() {
   status.html('Model loaded!');
