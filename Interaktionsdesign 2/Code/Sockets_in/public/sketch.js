@@ -11,6 +11,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(8); //Kontrollerer hastighed
   button2 = createButton('Press me');
+  button2.addClass('btn');
   button2.mousePressed(initiate);
 
 
@@ -26,7 +27,7 @@ function initiate() {
 }
 
 function takeSnap(i) {
-  loaded = loadImage('prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
   return loaded;
 }
 
