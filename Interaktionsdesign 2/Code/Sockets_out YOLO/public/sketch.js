@@ -13,7 +13,7 @@ let yolo;
 let status;
 let objects = [];
 var c;
-var cycleNum = 50;
+var cycleNum = 15;
 
 
 function setup() {
