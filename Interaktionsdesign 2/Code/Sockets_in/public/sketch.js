@@ -71,6 +71,7 @@ function draw() {
     bool2 = false;
     if (alf == 255) {
       clear();
+      noLoop();
     } else {
       background(255, alf);
       alf += 1
@@ -80,11 +81,12 @@ function draw() {
     let i = 0;
     var intervalId = setInterval(function() {
       if(i == Img.length) {
-        clearInterval(intervalId)
+        i--
+        clearInterval(intervalId);
       }
       Img[i].display();
       i++
-    }, 50)
+    }, 60)
   }
 }
 
