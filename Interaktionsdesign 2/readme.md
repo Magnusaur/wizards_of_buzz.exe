@@ -934,4 +934,5 @@ Vi havde sat os in del milepæle at nå, før vi kunne frigøre vores prototype 
 Så der er ihvertfald sket en hel del siden sidst. Vi har på nuværende tidspunkt opsat vores MVP (minus lidt finpusning), således at vi kan drage ud på DOKK1 for at experience protoype. Det bliver spændende!
 
 P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt andet Imgur og en form for automatisk pushing med github 
+
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cour.PNG)
