@@ -6,6 +6,7 @@ var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæs
 var button;
 var button2;
 var bool = false;
+var bool2 = false;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -23,7 +24,12 @@ function initiate() {
   bool = true
 
   button = createButton('Stop denne galskab');
+  button.addClass('btn');
   button.mousePressed(wipeOut);
+}
+
+function wipeOut() {
+    bool2 = true
 }
 
 function takeSnap(i) {
@@ -76,6 +82,10 @@ function draw() {
     counter++ //counter stiger
     takeSnap(counter);
   }
+
+  if (bool2 == true) {
+    background(255, 150);
+  }
 }
 
 class Imgs {
@@ -91,9 +101,4 @@ class Imgs {
 
     image(loaded, this.xPs, this.yPs, this.x, this.y);
   }
-}
-
-function wipeOut() {
- background(255);
- noloop();
 }
