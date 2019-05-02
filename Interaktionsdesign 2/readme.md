@@ -20,6 +20,8 @@
 [09/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#090419)</br>
 [11/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#110419)</br>
 [12/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#120419)</br>
+[30/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#300419)</br>
+[02/05/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#020519)</br>
 
 ## 22/02/19
 
@@ -916,3 +918,15 @@ Vi stødte på et nyt problem. Hastigheden og display-skitsen passede ikke overe
 
 ## 30/04/19
 I dag testede vi vores prototype; den virker fortsat. Vi har identificeret en framgangsmåde til at færdiggøre prototypen på onsdag / torsdag / fredag. Vi vil følge den (se billede).
+
+## 02/05/19
+
+Hejsa!
+
+I dag har vi nørklet en hulens masse med kode, i håb om at færdiggøre vores MVP til testning.
+
+Vi havde sat os in del milepæle at nå, før vi kunne frigøre vores prototype på den intetanende befolkning. Det vigtigste for prototypen har været, at potentialet for kommunikationen af den narrative oplevelse findes i vores MVP. Dette er blandt andet et fokuspunkt vi må teste.
+
+ Som det er nu, besidder vores protoype størstedelen af de interaktioner vi tidligere har udpenslet i vores planer. Prototypen kan nu via. ML udelukkende tage billeder af mennesker, som så vil blive vist løbende i vores P5 skitse. Det er her brugerens valg både at initiere og stoppe interaktionen, gennem to knapper vi har fremstillet.  
+
+Så der er ihvertfald sket en hel del siden sidst. Vi har på nuværende tidspunkt opsat vores MVP (minus lidt finpusning), således at vi kan drage ud på DOKK1 for at experience protoype. Det bliver spændende!
