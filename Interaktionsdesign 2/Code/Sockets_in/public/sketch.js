@@ -8,9 +8,10 @@ var counter2 = 1 //Denne counter kontrollerer at canvas bliver større i windows
 var button;
 var bool = false; //to boolean values styrer forløbet ved klik på knap.
 var bool2 = false;
+var bool3 = false;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
   button = createButton('Press me');
   button.addClass('btn');
@@ -48,13 +49,14 @@ function loadSucces(img){
   let y = windowHeight/4
 
   Img.push(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
+  bool3 = true;
 
   console.log('succes');
 
   if ((xPs + x) > width-1) {
     xPs = 0;
     yPs += y;
-    windowResized();
+    // windowResized();
   } else {
     xPs += x
   }
@@ -85,7 +87,7 @@ function draw() {
       alf += 10
     }
   }
-  if (bool2 == true) { //billeder tegnes
+  if (bool2 == true && bool3 == true) { //billeder tegnes
     let i = 0;
     var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
       if(i == Img.length || bool2 == false) {
@@ -96,6 +98,7 @@ function draw() {
       i++
     }, 60) //0.06 sekunder
   }
+  bool3 = false;
 }
 
 function windowResized() {
