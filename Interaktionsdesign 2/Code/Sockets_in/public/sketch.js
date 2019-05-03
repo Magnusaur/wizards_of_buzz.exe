@@ -25,6 +25,7 @@ function initiate() {
   alf = 0
   bool = false
   bool2 = true //Billeder bliver nu tegnet i draw ved klik på "press me"
+  bool3 = true
 
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
     button = createButton('Delete data');
@@ -96,7 +97,7 @@ function draw() {
       }
       Img[i].display();
       i++
-    }, 60) //0.06 sekunder
+    }, 100) //0.06 sekunder
   }
   bool3 = false;
 }
