@@ -10,9 +10,14 @@ var bool = false; //to boolean values styrer forløbet ved klik på knap.
 var bool2 = false;
 var bool3 = false;
 
+var socket;
+
 function setup() {
   createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
+
+  socket = io.connect('http://localhost:8200')
+
   button = createButton('Press me');
   button.addClass('btn');
   button.mousePressed(initiate);
@@ -41,7 +46,8 @@ function wipeOut() {
 
 
 function takeSnap(i) {
-  loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+    loaded = loadImage('https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Code/Sockets_in/public/media/prototype%20 ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  //loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
   return loaded;
 }
 
