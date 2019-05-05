@@ -919,7 +919,12 @@ Nu skulle vi så få det til at køre med out-display. Vi fandt ud af, at denne 
 Vi stødte på et nyt problem. Hastigheden og display-skitsen passede ikke overens med in-snapbooth. Vi mådte lave loadImage med callback for at sikre os, at display-skitsen ikke blev ved med at lave billedeobjekter uden dertilhørende billeder. Det hjalp Nicolai os med.
 
 ## 30/04/19
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/30:04:19.jpg)
+
 I dag testede vi vores prototype; den virker fortsat. Vi har identificeret en framgangsmåde til at færdiggøre prototypen på onsdag / torsdag / fredag. Vi vil følge den (se billede).
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/f%C3%A6rdigg%C3%B8relseafKode.jpg)
 
 ## 02/05/19
 
