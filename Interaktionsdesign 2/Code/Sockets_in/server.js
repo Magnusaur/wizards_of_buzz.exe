@@ -7,8 +7,14 @@ var server = app.listen(8200);
 
 app.use(express.static('public'));
 
-console.log("my server is ShiiIt!")
+console.log("Waiting for incomming Socket connections")
 
 var socket = require('socket.io');
 
 var io = socket(server);
+
+io.sockets.on('connection', newConnection);
+
+function newConnection(socket) {
+  console.log('newConnection:' + socket.id);
+}
