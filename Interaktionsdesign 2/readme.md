@@ -434,6 +434,9 @@ Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig ti
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 15/03/19
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190315_115935.jpg)
+
 Feedback: vi har ikke noget koncept; vi skal vælge retning, scenarie, kontekst. Konvergere. Vi har dog en retning, som er meget værd og særpræget, og som vi vil fokusere på. "Hvordan møder folk forsikringer og kan vi forbedre den kontakt". Fokus er på hverdag og på kontekster. Det skal være inversivt, men hvilken form for inversion skal det være.
 
 Denne retning stemmer fint overens med vores vision, idet Oplevelsesbaseret og udtryksfuldt og grobund for refleksion ligger centralt i arbejdet.
