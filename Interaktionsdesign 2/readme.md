@@ -979,6 +979,7 @@ Feedback fra deltagere:
 - Vi vil gerne tydeliggøre at man kan scrolle i billederne - eventuelt bare ændre størrelsen på billederne, måske kan man ændre push    funktionen til "unshift".
 - Gør interaktionen med knappen lidt tydeligere. Stor fed knap? Hvordan skal de se ud på en telefon? 
 - Man kan overveje om at billederne bare skal vises på en stor stribe, frem for i et gitter. 
+- Vi har overvejet hvorvidt man kunne have en form for indikator, for at programmet aktivt kører før interaktionen er sket. Dette kunne være en blinkende firkant, eller eventuelt at hele skærmen flimrer lidt. 
 
 
 Vi har snakket om forskellige mulige virkemidler man kan bruge til at formidle designets funktioner. Blandt andet har vi snakket om at få lavet en counter, som tæller hvor mange billeder er blevet taget indtil nu. Ved delete bliver counteren tilbagesat til 0. Det kan man eksperimentere med. 
