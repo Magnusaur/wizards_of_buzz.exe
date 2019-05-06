@@ -46,8 +46,8 @@ function wipeOut() {
 
 
 function takeSnap(i) {
-    loaded = loadImage('https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Code/Sockets_in/public/media/prototype%20 ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-  //loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  //loaded = loadImage('https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Code/Sockets_in/public/media/prototype%20 ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
   return loaded;
 }
 
