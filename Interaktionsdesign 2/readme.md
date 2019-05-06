@@ -948,7 +948,7 @@ P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt ande
 
 ## 06/05/19
 
-Vi har i dag kørt nogle experience protype sessioner, med omkring fire forskellige mennesker.
+Vi har i dag kørt nogle experience protype sessioner, med en gruppe forskellige mennesker.
 
 Feedback fra deltagere: 
 
