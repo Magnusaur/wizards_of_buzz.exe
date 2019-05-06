@@ -434,6 +434,9 @@ Vi har sammenlagt fået lavet en planche til præsentation, der forholder sig ti
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 15/03/19
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/20190315_115935.jpg)
+
 Feedback: vi har ikke noget koncept; vi skal vælge retning, scenarie, kontekst. Konvergere. Vi har dog en retning, som er meget værd og særpræget, og som vi vil fokusere på. "Hvordan møder folk forsikringer og kan vi forbedre den kontakt". Fokus er på hverdag og på kontekster. Det skal være inversivt, men hvilken form for inversion skal det være.
 
 Denne retning stemmer fint overens med vores vision, idet Oplevelsesbaseret og udtryksfuldt og grobund for refleksion ligger centralt i arbejdet.
@@ -919,7 +922,12 @@ Nu skulle vi så få det til at køre med out-display. Vi fandt ud af, at denne 
 Vi stødte på et nyt problem. Hastigheden og display-skitsen passede ikke overens med in-snapbooth. Vi mådte lave loadImage med callback for at sikre os, at display-skitsen ikke blev ved med at lave billedeobjekter uden dertilhørende billeder. Det hjalp Nicolai os med.
 
 ## 30/04/19
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/30:04:19.jpg)
+
 I dag testede vi vores prototype; den virker fortsat. Vi har identificeret en framgangsmåde til at færdiggøre prototypen på onsdag / torsdag / fredag. Vi vil følge den (se billede).
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/f%C3%A6rdigg%C3%B8relseafKode.jpg)
 
 ## 02/05/19
 
