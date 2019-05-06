@@ -13,7 +13,8 @@ var bool2 = false;
 var bool3 = false;
 
 var cloud;
-var startPoint;
+var startPointX;
+var startPointY;
 
 var socket;
 
@@ -180,9 +181,6 @@ function loadingMark2(pointX, pointY) {
   vertex(pointX - 40, pointY - 10);
   endShape(CLOSE);
 }
-
-// startPointX = windowWidth/2+40;
-// startPointY = windowHeight/2+10;
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight + windowHeight/4*counter2);
