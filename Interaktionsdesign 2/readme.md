@@ -944,3 +944,43 @@ Så der er ihvertfald sket en hel del siden sidst. Vi har på nuværende tidspun
 P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt andet Imgur og en form for automatisk pushing med github 
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cour.PNG)
+
+
+## 06/05/19
+
+Vi har i dag kørt nogle experience protype sessioner, med omkring fire forskellige mennesker.
+
+Feedback fra deltagere: 
+
+**Julie:**
+
+- Forvirring, forskrækkelse.
+- Det er sjovt i starten, når overaskelsen dulmer, begynder designet at virke mere dystert. 
+
+**Cathrine:** 
+
+- Overaskelse igen - undren om hvilke interaktioner der er mulige.
+- Undren over hvordan skitsen virker. Hvordan tager den billeder? er det tilfældigt? 
+- "oh shit" - tager den billeder?! Det har en effekt, når den tager billeder af en uden samtykke.
+- Datasikkerhed! Har i virkeligt slettet billederne?
+
+**Rikke:**
+
+- snakker om "dem" - hvem tracker mig??
+- Lod ikke mærke til at man kan scrolle. 
+- Nååh, den genkender mig før at jeg klikker på knappen.
+- Det er creepy!
+- Forstod godt den grønne firkant
+- Det er ikke meget at trykke på. 
+- Overvejelser om hvorvidt brugeren skal kunne se billederne før de klikker. 
+
+**Take aways:**
+
+- Vi vil gerne tydeliggøre at man kan scrolle i billederne - eventuelt bare ændre størrelsen på billederne, måske kan man ændre push    funktionen til "unshift".
+- Gør interaktionen med knappen lidt tydeligere. Stor fed knap? Hvordan skal de se ud på en telefon? 
+- Man kan overveje om at billederne bare skal vises på en stor stribe, frem for i et gitter. 
+
+
+Vi har snakket om forskellige mulige virkemidler man kan bruge til at formidle designets funktioner. Blandt andet har vi snakket om at få lavet en counter, som tæller hvor mange billeder er blevet taget indtil nu. Ved delete bliver counteren tilbagesat til 0. Det kan man eksperimentere med. 
+
+Vi troede at vi skulle snakke med Jonas i dag (det var i sidste uge)
