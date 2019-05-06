@@ -9,14 +9,14 @@ var button;
 var bool = false; //to boolean values styrer forløbet ved klik på knap.
 var bool2 = false;
 var bool3 = false;
-
-var socket;
+//
+// var socket;
 
 function setup() {
   createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
 
-  socket = io.connect('http://localhost:8200')
+  // socket = io.connect('http://localhost:8200')
 
   button = createButton('Press me');
   button.addClass('btn');
