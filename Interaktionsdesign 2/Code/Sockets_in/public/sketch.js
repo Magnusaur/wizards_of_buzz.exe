@@ -92,6 +92,7 @@ function loadFail(){
 
 function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
   if (bool == false && bool2 == false) {
+    push();
     if(bool3 == true) {
       fill(255, 0, 0);
     } else if (bool3 == false) {
@@ -109,6 +110,7 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
       } else if (bool3 == false) {
         checkMark(startPointX, startPointY);
       }
+      pop();
   }
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
