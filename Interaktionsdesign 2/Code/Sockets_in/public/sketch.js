@@ -16,7 +16,7 @@ var cloud;
 var startPointX;
 var startPointY;
 
-var socket;
+// var socket;
 
 function setup() {
   createCanvas(windowWidth, 5000);
@@ -24,7 +24,7 @@ function setup() {
   cloud = loadImage('cloud.png');
 
 
-  socket = io.connect('http://localhost:8200')
+  // socket = io.connect('http://localhost:8200')
 
   button = createButton('Press me');
   button.addClass('btn');
