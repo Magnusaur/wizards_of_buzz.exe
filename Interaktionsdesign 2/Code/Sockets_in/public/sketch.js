@@ -1,20 +1,28 @@
 var loaded;
 var Img = []; //Array for billede-objekter
+
 var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var alf = 0; //alpha-værdi til brug ved sløring
 var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
 var counter2 = 1 //Denne counter kontrollerer at canvas bliver større i windowsResized.
+
 var button;
 var bool = false; //to boolean values styrer forløbet ved klik på knap.
 var bool2 = false;
 var bool3 = false;
+
+var cloud;
+var startPointX;
+var startPointY;
 
 var socket;
 
 function setup() {
   createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
+  cloud = loadImage('cloud.png');
+
 
   socket = io.connect('http://localhost:8200')
 
@@ -82,13 +90,33 @@ function loadFail(){
 }
 
 
-function draw() {
+function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
+  if (bool == false && bool2 == false) {
+    if(bool3 == true) {
+      fill(255, 0, 0);
+    } else if (bool3 == false) {
+      fill(90, 255, 70);
+    } rectMode(CENTER);
+      rect(windowWidth/2, windowHeight/2, 250, 200);
+      imageMode(CENTER);
+      image(cloud, windowWidth/2, windowHeight/2, 240, 200);
+      fill(0);
+      startPointX = windowWidth/2;
+      startPointY = windowHeight/2;
+      if (bool3 == true) {
+        loadingMark1(startPointX, startPointY);
+        loadingMark2(startPointX, startPointY);
+      } else if (bool3 == false) {
+        checkMark(startPointX, startPointY);
+      }
+  }
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
       clear();
       button = createButton('Press me');
       button.addClass('btn');
       button.mousePressed(initiate);
+      bool = false;
     } else {
       background(255, alf);
       alf += 10
@@ -106,6 +134,52 @@ function draw() {
     }, 100) //0.06 sekunder
   }
   bool3 = false;
+}
+
+function checkMark(pointX, pointY) {
+  pointX = pointX - 25;
+  pointY = pointY + 15;
+  beginShape();
+  vertex(pointX, pointY);
+  vertex(pointX + 10, pointY);
+  vertex(pointX + 20, pointY + 20);
+  vertex(pointX + 55, pointY - 35);
+  vertex(pointX + 65, pointY - 35);
+  vertex(pointX + 20, pointY + 40);
+  vertex(pointX, pointY);
+  endShape(CLOSE);
+}
+
+function loadingMark1(pointX, pointY) {
+  beginShape();
+  pointY = pointY + 20;
+  vertex(pointX + 40, pointY + 10);
+  vertex(pointX + 50, pointY + 10);
+  vertex(pointX + 50, pointY - 30);
+  vertex(pointX - 20, pointY - 30);
+  vertex(pointX - 20, pointY - 35);
+  vertex(pointX - 30, pointY - 25);
+  vertex(pointX - 20, pointY - 15);
+  vertex(pointX - 20, pointY - 20);
+  vertex(pointX + 40, pointY - 20);
+  vertex(pointX + 40, pointY + 10);
+  endShape(CLOSE);
+}
+
+function loadingMark2(pointX, pointY) {
+  beginShape();
+  pointY = pointY + 20;
+  vertex(pointX - 40, pointY - 10);
+  vertex(pointX - 50, pointY - 10);
+  vertex(pointX - 50, pointY + 30);
+  vertex(pointX + 20, pointY + 30);
+  vertex(pointX + 20, pointY + 35);
+  vertex(pointX + 30, pointY + 25);
+  vertex(pointX + 20, pointY + 15);
+  vertex(pointX + 20, pointY + 20);
+  vertex(pointX - 40, pointY + 20);
+  vertex(pointX - 40, pointY - 10);
+  endShape(CLOSE);
 }
 
 function windowResized() {
