@@ -63,7 +63,7 @@ function loadSucces(img){
   let x = windowWidth/5
   let y = windowHeight/4
 
-  Img.unshift(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
+  Img.push(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
   bool3 = true;
 
   console.log('succes');
