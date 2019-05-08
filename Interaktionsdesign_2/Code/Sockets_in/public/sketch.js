@@ -55,8 +55,8 @@ function wipeOut() {
 
 function takeSnap(i) {
 
-  //loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-loaded = loadImage('https://raw.githubusercontent.com/Magnusaur/wizards_of_buzz.exe/master/Interaktionsdesign_2/Code/Sockets_in/public/media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+// loaded = loadImage('https://raw.githubusercontent.com/Magnusaur/wizards_of_buzz.exe/master/Interaktionsdesign_2/Code/Sockets_in/public/media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
 
   return loaded;
 }
@@ -135,7 +135,7 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
       }
       Img[i].display();
       i++
-    }, 100) //0.06 sekunder
+    }, 1000) //1 sekunder
   }
   bool3 = false;
 }
