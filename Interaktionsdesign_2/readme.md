@@ -23,7 +23,8 @@
 [25/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#250419)</br>
 [26/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#260419)</br>
 [30/04/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#300419)</br>
-[02/05/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#020519)</br>
+[06/05/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#060519)</br>
+[08/05/19](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202#080519)</br>
 
 ## 22/02/19
 
@@ -945,6 +946,7 @@ P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt ande
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cour.PNG)
 
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
 
 ## 06/05/19
 
@@ -985,3 +987,21 @@ Feedback fra deltagere:
 Vi har snakket om forskellige mulige virkemidler man kan bruge til at formidle designets funktioner. Blandt andet har vi snakket om at få lavet en counter, som tæller hvor mange billeder er blevet taget indtil nu. Ved delete bliver counteren tilbagesat til 0. Det kan man eksperimentere med. 
 
 Vi troede at vi skulle snakke med Jonas i dag (det var i sidste uge)
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
+
+## 08/05/19
+
+Panik!!!!!
+
+Heroku virker som det skal, dog er der nogle udfordringer i forhold til synkroniseringen af server
+
+generelt har optimeringen af server været den største udfordring idag. derudover arbejder vi stadig på at lave autoscroll i sketching for at fremhæve at nye billeder hele tiden tilføjes.
+
+det at der hele tiden tilføjes nye billeder er både en udfordring i forhold til server strukturen og autoscroll
+
+git-watch eller cloud til at virke i forhold til at autopushe billederne ind på server.
+
+Det er blevet meget teknisk, og der er mange dele der skal spille sammen med hinanden.
+
+[TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
