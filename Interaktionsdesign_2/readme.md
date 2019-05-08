@@ -1004,4 +1004,16 @@ git-watch eller cloud til at virke i forhold til at autopushe billederne ind på
 
 Det er blevet meget teknisk, og der er mange dele der skal spille sammen med hinanden.
 
+Mark: Gitwatch, målet -> automatiserer effektivitet i forhold til nuværende setup.
+
+- github pushe tidl. version der ikke har nogen billeder istedet for at bruge remove.js
+
+Martin: Cloud = API = dropbox men med heroic, komme uden om at skulle pushe til appen hele tiden, da vi ville pushe til cloud. sketchen vil således blive effektiviseret.
+
+- teste icognito mode i forhold til refreshing. sletning af Cache igennem incognito. få skitsen til at updaterer sig selv efter at have cleared cachéen. 
+
+La Cour: Autoscrolling, UI for phones, createImages?, knap med delete og download-split button 
+
+- få ikke billederne til at være for store
+
 [TOC](https://github.com/Magnusaur/wizards_of_buzz.exe/tree/master/Interaktionsdesign%202#table-of-contents)
