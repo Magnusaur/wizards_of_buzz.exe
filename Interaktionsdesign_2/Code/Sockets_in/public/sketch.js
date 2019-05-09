@@ -136,7 +136,7 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
 
       Img[i].display();
       i++
-    }, 1000) //1 sekunder
+    }, 500) //1 sekunder
   }
   bool3 = false;
 }
@@ -206,8 +206,15 @@ class Imgs {
 
   display() {
     image(this.loaded, this.xPs, this.yPs, this.x, this.y);
-    //var div = createDiv('I am a DIV');
-    //div.addClass('content');
-    //div.position(this.xPs+x,this.yPs+y);
+
+    var div = createDiv();
+    div.id('content' + frameCount);
+    div.position(this.xPs,this.yPs);
+    div.size(this.x, this.y);
+    // div.hide()
+
+    var elmnt = document.getElementById('content' + frameCount);
+        elmnt.scrollIntoView(false);
+        console.log('yay');
   }
 }
