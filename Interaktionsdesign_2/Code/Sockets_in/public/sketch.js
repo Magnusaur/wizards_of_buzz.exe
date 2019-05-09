@@ -121,11 +121,11 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
       clear();
+      bool = false;
       window.location.reload(true);
       // button = createButton('Press me');
       // button.addClass('btn');
       // button.mousePressed(initiate);
-      // bool = false;
     } else {
       background(255, alf);
       alf += 10
