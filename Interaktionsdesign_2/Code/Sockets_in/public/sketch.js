@@ -29,7 +29,7 @@ function setup() {
 
   // socket = io.connect('http://localhost:8200')
 
-  button = createButton('Press me');
+  button = createButton('Display');
   button.addClass('btn');
   button.mousePressed(initiate);
 
@@ -45,9 +45,12 @@ function initiate() {
   bool3 = true //Bruger har klikket på press me, så billederne skal tegnes når et nyt billede dukker op
 
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
+    //knap til STOP
     button = createButton('Delete data');
     button.addClass('btn');
     button.mousePressed(wipeOut);
+
+    //knap til downLoad
   }, 7000.5);
 }
 
@@ -57,10 +60,21 @@ function wipeOut() {
     bool2 = false;
 }
 
+// function downLoad() {
+//     button.hide();
+//     bool2 = false;
+//     for(let i = 0; i < Img.length; i++) {
+//       save(Img[i].loaded, 'nowYourData('+i+').jpg');
+//     }
+//     bool = true;
+// }
+
 
 function takeSnap(i) {
 
-  loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  loaded = setTimeout( function() {
+    loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  }, 500)
 // loaded = loadImage('https://raw.githubusercontent.com/Magnusaur/wizards_of_buzz.exe/master/Interaktionsdesign_2/Code/Sockets_in/public/media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
 
   return loaded;
@@ -134,14 +148,14 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   if (bool2 == true && bool3 == true) { //billeder tegnes
     let i = 0;
     var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
+      Img[i].display(i);
+
       if(i == Img.length || bool2 == false) {
-        i--
+        //i--
         clearInterval(intervalId);
       }
-
-      Img[i].display();
       i++
-    }, 1000) //1 sekunder
+    }, 500) //1 sekunder
   }
   bool3 = false;
 }
@@ -204,17 +218,19 @@ class Imgs {
     this.y = y;
   }
 
-  display() {
+  display(i, j) {
+    this.i = i;
     image(this.loaded, this.xPs, this.yPs, this.x, this.y);
 
     var div = createDiv();
-    div.id('content' + frameCount);
+    div.id('content' + this.i);
     div.position(this.xPs,this.yPs);
-    div.size(this.x, this.y);
-    // div.hide()
-
-    var elmnt = document.getElementById('content' + frameCount);
-        elmnt.scrollIntoView(false);
-        console.log('yay');
+    div.size(this.x-50, this.y-50);
+    //Den tegnes jo gentagende gange i forrige loop. Alle der går op i tre (selv dem der har været tegnet, vil kræve scrollIntoView igen
+    // if (this.i % 3 === this.i) { //Modolo her virker nærmest således (i divideret med 3 og så "return remainder". Hvis remainder er 0, så går tallet op i tre-tabel, og det kan bruges her, hvor scroll skal følge hver skift i række (hvilket er efter hver tredje billede).
+      var elmnt = document.getElementById('content' + this.i); //KAN IKKE FAA DET TIL AT VIRKE
+          elmnt.scrollIntoView(false);
+          console.log('yay');
+    // }
   }
 }
