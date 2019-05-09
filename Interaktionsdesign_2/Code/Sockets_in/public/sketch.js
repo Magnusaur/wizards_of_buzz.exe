@@ -135,7 +135,7 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
       }
       Img[i].display();
       i++
-    }, 500) //0.06 sekunder
+    }, 100) //0.06 sekunder
   }
   bool3 = false;
 }
