@@ -16,15 +16,15 @@ var cloud;
 var startPointX;
 var startPointY;
 
-// var socket;
+var socket;
 
 function setup() {
-  canvas = createCanvas(windowWidth, 5000);
-  canvas.position(0,0);
+  createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
-  // socket = io.connect('http://localhost:8200')
+
+  socket = io.connect('http://localhost:8200')
 
   button = createButton('Press me');
   button.addClass('btn');
@@ -54,18 +54,16 @@ function wipeOut() {
 
 
 function takeSnap(i) {
-
+  //loaded = loadImage('https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Code/Sockets_in/public/media/prototype%20 ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
   loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-// loaded = loadImage('https://raw.githubusercontent.com/Magnusaur/wizards_of_buzz.exe/master/Interaktionsdesign_2/Code/Sockets_in/public/media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-
   return loaded;
 }
 
 function loadSucces(img){
-  let x = windowWidth/3
-  let y = windowHeight/5
+  let x = windowWidth/5
+  let y = windowHeight/4
 
-  Img.push(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
+  Img.unshift(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
   bool3 = true;
 
   console.log('succes');
@@ -94,15 +92,14 @@ function loadFail(){
 
 function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
   if (bool == false && bool2 == false) {
-    push();
     if(bool3 == true) {
       fill(255, 0, 0);
     } else if (bool3 == false) {
       fill(90, 255, 70);
     } rectMode(CENTER);
-      rect(windowWidth/2, windowHeight/2, 350, 300);
+      rect(windowWidth/2, windowHeight/2, 250, 200);
       imageMode(CENTER);
-      image(cloud, windowWidth/2, windowHeight/2, 340, 300);
+      image(cloud, windowWidth/2, windowHeight/2, 240, 200);
       fill(0);
       startPointX = windowWidth/2;
       startPointY = windowHeight/2;
@@ -112,7 +109,6 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
       } else if (bool3 == false) {
         checkMark(startPointX, startPointY);
       }
-      pop();
   }
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
@@ -133,10 +129,9 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
         i--
         clearInterval(intervalId);
       }
-
       Img[i].display();
       i++
-    }, 1000) //1 sekunder
+    }, 100) //0.06 sekunder
   }
   bool3 = false;
 }
@@ -206,8 +201,5 @@ class Imgs {
 
   display() {
     image(this.loaded, this.xPs, this.yPs, this.x, this.y);
-    //var div = createDiv('I am a DIV');
-    //div.addClass('content');
-    //div.position(this.xPs+x,this.yPs+y);
   }
 }
