@@ -15,6 +15,8 @@ let objects = [];
 var c;
 var cycleNum = 8;
 
+p5.disableFriendlyErrors = false;
+
 
 function setup() {
   c = createCanvas(320*2, 240*2);

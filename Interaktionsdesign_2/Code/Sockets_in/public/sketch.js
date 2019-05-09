@@ -1,25 +1,28 @@
-var loaded;
+var loaded; //Det indlæste billede til brug i objekt
 var Img = []; //Array for billede-objekter
+var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
 
+//Værdier til objektstørrelse/alfa
 var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var alf = 0; //alpha-værdi til brug ved sløring
-var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
-var counter2 = 1 //Denne counter kontrollerer at canvas bliver større i windowsResized.
 
 var button;
-var bool = false; //to boolean values styrer forløbet ved klik på knap.
-var bool2 = false;
-var bool3 = false;
+var bool = false; //denne aktiverer sløring af billeder ved "true"
+var bool2 = false; //denne aktiverer at tegne billeder "ved true"
+var bool3 = false; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
+//bool2 og bool3 skal begge være true for at tegne billeder. Ved eksempelvis bool2 = false og bool3 = true muliggør vi at tegne loading-symbol i stedet for billeder (den regerer også på detect new image)
 
+//Variabler til at tegne loading-symbol
 var cloud;
 var startPointX;
 var startPointY;
 
+p5.disableFriendlyErrors = false; //disables FES
 // var socket;
 
 function setup() {
-  canvas = createCanvas(windowWidth, 5000);
+  canvas = createCanvas(windowWidth, 10000);
   canvas.position(0,0);
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
@@ -34,11 +37,12 @@ function setup() {
 }
 
 function initiate() {
+  background(255);
   button.hide();
   alf = 0
-  bool = false
-  bool2 = true //Billeder bliver nu tegnet i draw ved klik på "press me"
-  bool3 = true
+  bool = false //Bruger har klikket på press me, så det må ikke sløres
+  bool2 = true //Bruger har klikket på press me, så billederne skal tegnes
+  bool3 = true //Bruger har klikket på press me, så billederne skal tegnes når et nyt billede dukker op
 
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
     button = createButton('Delete data');
@@ -48,6 +52,7 @@ function initiate() {
 }
 
 function wipeOut() {
+    button.hide();
     bool = true //Billeder stopper med at blive tegnet og sletfasen begynder
     bool2 = false;
 }
@@ -73,7 +78,6 @@ function loadSucces(img){
   if ((xPs + x) > width-1) {
     xPs = 0;
     yPs += y;
-    // windowResized();
   } else {
     xPs += x
   }
@@ -117,10 +121,11 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
       clear();
-      button = createButton('Press me');
-      button.addClass('btn');
-      button.mousePressed(initiate);
-      bool = false;
+      window.location.reload(true);
+      // button = createButton('Press me');
+      // button.addClass('btn');
+      // button.mousePressed(initiate);
+      // bool = false;
     } else {
       background(255, alf);
       alf += 10
@@ -187,11 +192,6 @@ function loadingMark2(pointX, pointY) {
   endShape(CLOSE);
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight + windowHeight/4*counter2);
-  counter2++
-}
-
 
 
 
@@ -206,8 +206,15 @@ class Imgs {
 
   display() {
     image(this.loaded, this.xPs, this.yPs, this.x, this.y);
-    //var div = createDiv('I am a DIV');
-    //div.addClass('content');
-    //div.position(this.xPs+x,this.yPs+y);
+
+    var div = createDiv();
+    div.id('content' + frameCount);
+    div.position(this.xPs,this.yPs);
+    div.size(this.x, this.y);
+    // div.hide()
+
+    var elmnt = document.getElementById('content' + frameCount);
+        elmnt.scrollIntoView(false);
+        console.log('yay');
   }
 }
