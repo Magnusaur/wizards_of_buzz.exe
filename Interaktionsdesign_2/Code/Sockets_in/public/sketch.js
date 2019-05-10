@@ -21,41 +21,25 @@ var cloud;
 var startPointX;
 var startPointY;
 
-var offset = 47;
 
 //p5.disableFriendlyErrors = false; //disables FES
 // var socket;
 
 function setup() {
   canvas = createCanvas(windowWidth, 10000);
-  canvas.position(0,offset);
+  canvas.position(0,0);
+  bool = false;
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
   // socket = io.connect('http://localhost:8200')
 
   button = createButton('Press me');
-  button.addClass('btn1');
+  button.addClass('btn_press_me');
   button.mousePressed(initiate);
 //  button.position(windowWidth/2);
 
-var modal = select('#myModal');
-  modal.style('display','none');
-
-var span = select('.close');
-  span.mouseClicked(styleIsNon);
-
   takeSnap(counter); //programmet begynder fra start at indlæse nye billeder, som dukker op i directory. Uden brugerinput.
-}
-
-function styleIsBlock() {
-  var modal = select('#myModal');
-  modal.style('display', 'block');
-}
-
-function styleIsNon() {
-  var modal = select('#myModal');
-  modal.style('display', 'none');
 }
 
 function initiate() {
@@ -70,12 +54,12 @@ function initiate() {
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
     //knap til STOP
     button = createButton('Delete');
-    button.addClass('d_btn');
+    button.addClass('btn_delete');
     button.mousePressed(wipeOut);
 
     //knap til downLoad
     button2 = createButton('Download');
-    button2.addClass('btn2');
+    button2.addClass('btn_download');
     button2.mousePressed(downLoad);
   }, 7000);
 }
