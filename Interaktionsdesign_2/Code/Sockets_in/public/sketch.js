@@ -124,7 +124,6 @@ function loadSucces(img){
 
 function loadFail(){
   console.log('fail');
-  counter--
   takeSnap(counter); //processen kører i ring
 }
 
@@ -160,9 +159,9 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
       setTimeout(function() {
         window.open('https://infoboks.herokuapp.com/');
       }, 2500)
-      // setTimeout(function() {
-      //   window.location.reload(true);
-      // }, 5000)
+      setTimeout(function() {
+        window.location.reload(true);
+      }, 5000)
       noLoop();
       // button = createButton('Press me');
       // button.addClass('btn');
@@ -176,7 +175,6 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
     let i = 0;
     var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
       if(i == Img.length || bool2 == false) {
-        i--
         clearInterval(intervalId);
       }
 
