@@ -11,9 +11,9 @@ var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var alf = 0; //alpha-værdi til brug ved sløring
 
 var button;
-var bool = false; //denne aktiverer sløring af billeder ved "true"
-var bool2 = false; //denne aktiverer at tegne billeder "ved true"
-var bool3 = false; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
+var bool; //denne aktiverer sløring af billeder ved "true"
+var bool2; //denne aktiverer at tegne billeder "ved true"
+var bool3; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
 //bool2 og bool3 skal begge være true for at tegne billeder. Ved eksempelvis bool2 = false og bool3 = true muliggør vi at tegne loading-symbol i stedet for billeder (den regerer også på detect new image)
 
 //Variabler til at tegne loading-symbol
@@ -22,15 +22,16 @@ var startPointX;
 var startPointY;
 
 
-//p5.disableFriendlyErrors = false; //disables FES
+p5.disableFriendlyErrors = false; //disables FES
 // var socket;
 
 function setup() {
-  canvas = createCanvas(windowWidth, 10000);
-  canvas.position(0,0);
   bool = false;
-  frameRate(8); //Kontrollerer hastighed
+  bool2 = false;
+  bool3 = false;
+  canvas = createCanvas(windowWidth, 10000);
   cloud = loadImage('cloud.png');
+  frameRate(8); //Kontrollerer hastighed
 
   // socket = io.connect('http://localhost:8200')
 
@@ -42,17 +43,17 @@ function setup() {
   takeSnap(counter); //programmet begynder fra start at indlæse nye billeder, som dukker op i directory. Uden brugerinput.
 }
 
+
+//BUTTON FUNCTIONALITY
 function initiate() {
-  background(255);
   button.hide();
   alf = 0
-  bool = false //Bruger har klikket på press me, så det må ikke sløres
   bool2 = true //Bruger har klikket på press me, så billederne skal tegnes
   bool3 = true //Bruger har klikket på press me, så billederne skal tegnes når et nyt billede dukker op
 
 
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
-    //knap til STOP
+    //knap til slet
     button = createButton('Delete');
     button.addClass('btn_delete');
     button.mousePressed(wipeOut);
@@ -76,23 +77,26 @@ function downLoad() {
     button2.hide();
     bool2 = false;
     let i = 0;
-    var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
+    var intervalId = setInterval(function() {
       if(i == Img.length) {
+        setTimeout(function() {
+          window.open('https://infoboks.herokuapp.com/');
+        }, 2500)
         clearInterval(intervalId);
       }
 
       save(Img[i].loaded, 'nowYourData('+i+').jpg');
       i++
     }, 100) //0.5 sekunder
-    bool = true;
 }
 
 
-function takeSnap(i) {
 
-  loaded = setTimeout( function() {
-    loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-  }, 400)
+//LOADING PICTURES
+function takeSnap(i) {
+  setTimeout(function() {
+    loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  }, 750);
 
   return loaded;
 }
@@ -118,15 +122,16 @@ function loadSucces(img){
   takeSnap(counter); //processen kører i ring
 }
 
-
 function loadFail(){
-  setTimeout( function() {
   console.log('fail');
+  counter--
   takeSnap(counter); //processen kører i ring
-  }, 500);
 }
 
 
+
+
+//DRAW LOADING MARK, BACKGROUND BLUR, OR PICTURES
 function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
   if (bool == false && bool2 == false) {
     push();
@@ -182,6 +187,8 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   bool3 = false;
 }
 
+
+//SPECIFICATION FOR LOADING MARK
 function checkMark(pointX, pointY) {
   pointX = pointX - 25;
   pointY = pointY + 15;
@@ -229,6 +236,8 @@ function loadingMark2(pointX, pointY) {
 }
 
 
+
+//CLASS
 class Imgs {
   constructor(loaded, xPs, yPs, x, y) {
     this.loaded = loaded;
