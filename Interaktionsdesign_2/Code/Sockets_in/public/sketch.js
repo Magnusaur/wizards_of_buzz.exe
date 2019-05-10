@@ -172,12 +172,12 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   if (bool2 == true && bool3 == true) { //billeder tegnes
     let i = 0;
     var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
-      Img[i].display(i);
-
       if(i == Img.length || bool2 == false) {
-        //i--
+        i--
         clearInterval(intervalId);
       }
+
+      Img[i].display(i);
       i++
     }, 500) //1 sekunder
   }
