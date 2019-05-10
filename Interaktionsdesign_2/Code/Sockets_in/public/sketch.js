@@ -28,8 +28,7 @@ var offset = 47;
 
 function setup() {
   canvas = createCanvas(windowWidth, 10000);
-   canvas.position(0,offset);
-  bool = false;
+  canvas.position(0,offset);
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
@@ -109,7 +108,7 @@ function takeSnap(i) {
 
   loaded = setTimeout( function() {
     loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-  }, 750)
+  }, 400)
 
   return loaded;
 }
