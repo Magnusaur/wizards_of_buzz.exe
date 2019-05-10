@@ -74,8 +74,6 @@ function wipeOut() {
 }
 
 function downLoad() {
-    button.hide();
-    button2.hide();
     bool2 = false;
     let i = 0;
     var intervalId = setInterval(function() {
