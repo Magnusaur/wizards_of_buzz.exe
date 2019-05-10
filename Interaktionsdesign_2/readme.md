@@ -941,7 +941,7 @@ Vi havde sat os in del milepæle at nå, før vi kunne frigøre vores prototype 
 
 Så der er ihvertfald sket en hel del siden sidst. Vi har på nuværende tidspunkt opsat vores MVP (minus lidt finpusning), således at vi kan drage ud på DOKK1 for at experience protoype. Det bliver spændende!
 
-P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt andet Imgur og en form for automatisk pushing med github 
+P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt andet Imgur og en form for automatisk pushing med github
 
 ![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign%202/Media/Cour.PNG)
 
@@ -950,38 +950,50 @@ P.S. Vi har også diskuteret flere muligheder for uploading a filer. Blandt ande
 
 Vi har i dag kørt nogle experience protype sessioner, med en gruppe forskellige mennesker.
 
-Feedback fra deltagere: 
+Feedback fra deltagere:
 
 **Julie:**
 
 - Forvirring, forskrækkelse.
-- Det er sjovt i starten, når overaskelsen dulmer, begynder designet at virke mere dystert. 
+- Det er sjovt i starten, når overaskelsen dulmer, begynder designet at virke mere dystert.
 
-**Cathrine:** 
+**Cathrine:**
 
 - Overaskelse igen - undren om hvilke interaktioner der er mulige.
-- Undren over hvordan skitsen virker. Hvordan tager den billeder? er det tilfældigt? 
+- Undren over hvordan skitsen virker. Hvordan tager den billeder? er det tilfældigt?
 - "oh shit" - tager den billeder?! Det har en effekt, når den tager billeder af en uden samtykke.
 - Datasikkerhed! Har i virkeligt slettet billederne?
 
 **Rikke:**
 
 - snakker om "dem" - hvem tracker mig??
-- Lod ikke mærke til at man kan scrolle. 
+- Lod ikke mærke til at man kan scrolle.
 - Nååh, den genkender mig før at jeg klikker på knappen.
 - Det er creepy!
 - Forstod godt den grønne firkant
-- Det er ikke meget at trykke på. 
-- Overvejelser om hvorvidt brugeren skal kunne se billederne før de klikker. 
+- Det er ikke meget at trykke på.
+- Overvejelser om hvorvidt brugeren skal kunne se billederne før de klikker.
 
 **Take aways:**
 
 - Vi vil gerne tydeliggøre at man kan scrolle i billederne - eventuelt bare ændre størrelsen på billederne, måske kan man ændre push    funktionen til "unshift".
-- Gør interaktionen med knappen lidt tydeligere. Stor fed knap? Hvordan skal de se ud på en telefon? 
-- Man kan overveje om at billederne bare skal vises på en stor stribe, frem for i et gitter. 
-- Vi har overvejet hvorvidt man kunne have en form for indikator, for at programmet aktivt kører før interaktionen er sket. Dette kunne være en blinkende firkant, eller eventuelt at hele skærmen flimrer lidt. 
+- Gør interaktionen med knappen lidt tydeligere. Stor fed knap? Hvordan skal de se ud på en telefon?
+- Man kan overveje om at billederne bare skal vises på en stor stribe, frem for i et gitter.
+- Vi har overvejet hvorvidt man kunne have en form for indikator, for at programmet aktivt kører før interaktionen er sket. Dette kunne være en blinkende firkant, eller eventuelt at hele skærmen flimrer lidt.
 
 
-Vi har snakket om forskellige mulige virkemidler man kan bruge til at formidle designets funktioner. Blandt andet har vi snakket om at få lavet en counter, som tæller hvor mange billeder er blevet taget indtil nu. Ved delete bliver counteren tilbagesat til 0. Det kan man eksperimentere med. 
+Vi har snakket om forskellige mulige virkemidler man kan bruge til at formidle designets funktioner. Blandt andet har vi snakket om at få lavet en counter, som tæller hvor mange billeder er blevet taget indtil nu. Ved delete bliver counteren tilbagesat til 0. Det kan man eksperimentere med.
 
 Vi troede at vi skulle snakke med Jonas i dag (det var i sidste uge)
+
+
+## 10/05/19
+I dag kæmpede vi bravt en kamp med systemet. Det gad ikke fungere på samtlige apparater, og det bragte meget frustration med sig, at vi fortsat ikke forstår helt hvorfor. Ikke desto mindre kan vi nu køre skitsen og køre de intenderede interaktioner.
+
+Der er dog lidt mere inden test og pitch:
+- Vi vil gerne optimere push til heroku, så det går hurtigere (Martin)
+- Vi vil gerne sænke den opkrævede processorkraft ved socket-out (Mark)
+- Vi vil gerne forbinde klient med bruger ved at bruge socket, således brugeren kan delete fra serveren og ikke kun den lokale cache (La Cour)
+- Vi vil udfylde informationsboksen med passende tekst, der forklarer meningen med galskaben på en hensigtsmæssig måde; alt sammen for at designet kan indgå effektivt som showroom design.
+
+På mandag vil vi forsøge at teste og forberede den endelige pitch til om tirsdagen.
