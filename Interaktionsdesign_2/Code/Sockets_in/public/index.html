@@ -7,22 +7,44 @@
     <script src="http://cdn.socket.io/socket.io-1.4.5.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
+
+    <div class="wrapper">
+<button class="btn1"></button>
+<button class="btn2"></button>
+    </div>
   </head>
-  <body>
-    <script src="sketch.js"></script>
-    <style>
+    <body>
+      <script src="sketch.js"></script>
+      <!-- Trigger/Open The Modal -->
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Informations Boks</h2>
+          <div class="modal-section">
+            <h3>Section 1</h3>
+            <p>This is a test</p>
+          </div>
+        </div>
+
+      </div>
+
+
+        <style>
 
         body {
         display: block;
         margin: 0px;
         }
 
-      .btn {
+      .btn1 {
         margin: 0px;
-        display:block;
-        width: 100%;
+        display:inline-block;
+        float: left;
+        width: 50%;
         height: 15%;
-        position: fixed;
         bottom: 0px;
         border: none;
         background-color: #17f115;
@@ -37,24 +59,150 @@
 
 
       }
-    .btn:hover {
+    .btn1:hover {
         background-color: #17f115;
         padding: 0px;
         filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
         color: #f0f0f0;
       }
-    .btn:active {
-        position:fixed;
+    .btn1:active {
         bottom: 0px;
         background: #17f115;
         border: none;
         padding: 0px;
     }
-    .btn:focus {
+    .btn1:focus {
       outline: none;
       padding: 0px;
     }
 
+    .btn2 {
+      margin: 0px;
+      display:inline-block;
+      float: right;
+      width: 50%;
+      height: 15%;
+      bottom: 0px;
+      border: none;
+      background-color: #0000ff;
+      padding: 0px;
+      color: #f0f0f0;
+      font-size: 40px;
+      opacity: 0.8;
+
+      cursor: pointer;
+      text-align: center;
+      text-op
+
+
+    }
+  .btn2:hover {
+      background-color: #0000ff;
+      padding: 0px;
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+      color: #f0f0f0;
+    }
+  .btn2:active {
+      bottom: 0px;
+      background: #0000ff;
+      border: none;
+      padding: 0px;
+  }
+  .btn2:focus {
+    outline: none;
+    padding: 0px;
+  }
+
+  .d_btn {
+    margin: 0px;
+    display:inline-block;
+    float: right;
+    width: 50%;
+    height: 15%;
+    bottom: 0px;
+    border: none;
+    background-color: #ff0000;
+    padding: 0px;
+    color: #f0f0f0;
+    font-size: 40px;
+    opacity: 0.8;
+
+    cursor: pointer;
+    text-align: center;
+    text-op
+  }
+
+  .d_btn:hover {
+    background-color: #ff0000;
+    padding: 0px;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+    color: #f0f0f0;
+  }
+
+  .d_btn:active {
+    bottom: 0px;
+    background: #ff0000;
+    border: none;
+    padding: 0px;
+  }
+
+  .d_btn:focus {
+    outline: none;
+    padding: 0px;
+  }
+
+    .wrapper {
+      text-align: center;
+      display:inline-block;
+      position: fixed;
+      top:20%;
+
+    }
+
+    .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal-section {
+  background-color: #f0f0f0;
+  margin: auto;
+  padding: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #17f115;
+  text-decoration: none;
+  cursor: pointer;
+}
     </style>
 
-</body></html>
+  </body>
+</html>

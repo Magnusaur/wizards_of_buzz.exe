@@ -18,22 +18,45 @@ var cloud;
 var startPointX;
 var startPointY;
 
-p5.disableFriendlyErrors = false; //disables FES
+var offset = 47;
+
+//p5.disableFriendlyErrors = false; //disables FES
 // var socket;
 
 function setup() {
   canvas = createCanvas(windowWidth, 10000);
-  canvas.position(0,0);
+  canvas.position(0,offset);
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
   // socket = io.connect('http://localhost:8200')
 
   button = createButton('Display');
-  button.addClass('btn');
+  button.addClass('btn1');
+
   button.mousePressed(initiate);
 
+  button2 = createButton('modal');
+  button2.addClass('btn2');
+  button2.mousePressed(styleIsBlock);
+
+var modal = select('#myModal');
+  modal.style('display','none');
+
+var span = select('.close');
+  span.mouseClicked(styleIsNon);
+
   takeSnap(counter); //programmet begynder fra start at indlæse nye billeder, som dukker op i directory. Uden brugerinput.
+}
+
+function styleIsBlock() {
+  var modal = select('#myModal');
+  modal.style('display', 'block');
+}
+
+function styleIsNon() {
+  var modal = select('#myModal');
+  modal.style('display', 'none');
 }
 
 function initiate() {
@@ -44,10 +67,11 @@ function initiate() {
   bool2 = true //Bruger har klikket på press me, så billederne skal tegnes
   bool3 = true //Bruger har klikket på press me, så billederne skal tegnes når et nyt billede dukker op
 
+
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
     //knap til STOP
     button = createButton('Delete data');
-    button.addClass('btn');
+    button.addClass('d_btn');
     button.mousePressed(wipeOut);
 
     //knap til downLoad
@@ -224,8 +248,8 @@ class Imgs {
 
     var div = createDiv();
     div.id('content' + this.i);
-    div.position(this.xPs,this.yPs);
-    div.size(this.x-50, this.y-50);
+    div.position(this.xPs,this.yPs+offset);
+    div.size(this.x, this.y);
     //Den tegnes jo gentagende gange i forrige loop. Alle der går op i tre (selv dem der har været tegnet, vil kræve scrollIntoView igen
     // if (this.i % 3 === this.i) { //Modolo her virker nærmest således (i divideret med 3 og så "return remainder". Hvis remainder er 0, så går tallet op i tre-tabel, og det kan bruges her, hvor scroll skal følge hver skift i række (hvilket er efter hver tredje billede).
       var elmnt = document.getElementById('content' + this.i); //KAN IKKE FAA DET TIL AT VIRKE
