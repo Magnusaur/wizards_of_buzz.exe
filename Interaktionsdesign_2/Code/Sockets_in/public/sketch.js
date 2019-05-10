@@ -2,6 +2,9 @@ var loaded; //Det indlæste billede til brug i objekt
 var Img = []; //Array for billede-objekter
 var counter = 0; //Denne counter kontrollerer, hvilket billede, der skal indlæses og placeres i et objekt.
 
+// var counter2 = 0;
+// var div = [];
+
 //Værdier til objektstørrelse/alfa
 var xPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
@@ -25,20 +28,17 @@ var offset = 47;
 
 function setup() {
   canvas = createCanvas(windowWidth, 10000);
-  canvas.position(0,offset);
+   canvas.position(0,offset);
+  bool = false;
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
   // socket = io.connect('http://localhost:8200')
 
-  button = createButton('Display');
+  button = createButton('Press me');
   button.addClass('btn1');
-
   button.mousePressed(initiate);
-
-  button2 = createButton('modal');
-  button2.addClass('btn2');
-  button2.mousePressed(styleIsBlock);
+//  button.position(windowWidth/2);
 
 var modal = select('#myModal');
   modal.style('display','none');
@@ -70,36 +70,46 @@ function initiate() {
 
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
     //knap til STOP
-    button = createButton('Delete data');
+    button = createButton('Delete');
     button.addClass('d_btn');
     button.mousePressed(wipeOut);
 
     //knap til downLoad
-  }, 7000.5);
+    button2 = createButton('Download');
+    button2.addClass('btn2');
+    button2.mousePressed(downLoad);
+  }, 7000);
 }
 
 function wipeOut() {
     button.hide();
-    bool = true //Billeder stopper med at blive tegnet og sletfasen begynder
-    bool2 = false;
+    button2.hide();
+    bool = true //Billeder stopper med at blive tegnet
+    bool2 = false; //sletfasen begynder
 }
 
-// function downLoad() {
-//     button.hide();
-//     bool2 = false;
-//     for(let i = 0; i < Img.length; i++) {
-//       save(Img[i].loaded, 'nowYourData('+i+').jpg');
-//     }
-//     bool = true;
-// }
+function downLoad() {
+    button.hide();
+    button2.hide();
+    bool2 = false;
+    let i = 0;
+    var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
+      if(i == Img.length) {
+        clearInterval(intervalId);
+      }
+
+      save(Img[i].loaded, 'nowYourData('+i+').jpg');
+      i++
+    }, 100) //0.5 sekunder
+    bool = true;
+}
 
 
 function takeSnap(i) {
 
   loaded = setTimeout( function() {
     loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-  }, 500)
-// loaded = loadImage('https://raw.githubusercontent.com/Magnusaur/wizards_of_buzz.exe/master/Interaktionsdesign_2/Code/Sockets_in/public/media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
+  }, 750)
 
   return loaded;
 }
@@ -116,6 +126,7 @@ function loadSucces(img){
   if ((xPs + x) > width-1) {
     xPs = 0;
     yPs += y;
+    // counter2++
   } else {
     xPs += x
   }
@@ -124,13 +135,12 @@ function loadSucces(img){
   takeSnap(counter); //processen kører i ring
 }
 
+
 function loadFail(){
-  // counter--;
-  // if(counter < 0){
-  //   counter = 0;
-  // }
+  setTimeout( function() {
   console.log('fail');
   takeSnap(counter); //processen kører i ring
+  }, 500);
 }
 
 
@@ -159,8 +169,13 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
       clear();
-      bool = false;
-      window.location.reload(true);
+      setTimeout(function() {
+        window.open('https://infoboks.herokuapp.com/');
+      }, 2500)
+      // setTimeout(function() {
+      //   window.location.reload(true);
+      // }, 5000)
+      noLoop();
       // button = createButton('Press me');
       // button.addClass('btn');
       // button.mousePressed(initiate);
@@ -179,7 +194,7 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
 
       Img[i].display(i);
       i++
-    }, 500) //1 sekunder
+    }, 500) //0.5 sekunder
   }
   bool3 = false;
 }
@@ -231,8 +246,6 @@ function loadingMark2(pointX, pointY) {
 }
 
 
-
-
 class Imgs {
   constructor(loaded, xPs, yPs, x, y) {
     this.loaded = loaded;
@@ -240,21 +253,27 @@ class Imgs {
     this.yPs = yPs;
     this.x = x; //størrelse på billede
     this.y = y;
+    // this.counter2 = counter2;
   }
 
-  display(i, j) {
-    this.i = i;
+  display() {
     image(this.loaded, this.xPs, this.yPs, this.x, this.y);
 
-    var div = createDiv();
-    div.id('content' + this.i);
-    div.position(this.xPs,this.yPs+offset);
-    div.size(this.x, this.y);
+    // if (this.xPs == 0 && ) {
+    //   div[this.counter2] = createDiv();
+    //   div[this.counter2].id('content' + this.counter2);
+    //   div[this.counter2].position(this.xPs,this.yPs+offset);
+    //   div[this.counter2].size(this.x, this.y);
+    //   div[this.counter2].style('display', 'none');
+    //   div[this.counter2].show();
+    //   var elmnt = document.getElementById('content' + this.counter2); //KAN IKKE FAA DET TIL AT VIRKE
+    //       elmnt.scrollIntoView(false);
+    //       console.log('yay');
+    // }
+
     //Den tegnes jo gentagende gange i forrige loop. Alle der går op i tre (selv dem der har været tegnet, vil kræve scrollIntoView igen
-    // if (this.i % 3 === this.i) { //Modolo her virker nærmest således (i divideret med 3 og så "return remainder". Hvis remainder er 0, så går tallet op i tre-tabel, og det kan bruges her, hvor scroll skal følge hver skift i række (hvilket er efter hver tredje billede).
-      var elmnt = document.getElementById('content' + this.i); //KAN IKKE FAA DET TIL AT VIRKE
-          elmnt.scrollIntoView(false);
-          console.log('yay');
+    // if (this.i % 3 === 0) { //Modolo her virker nærmest således (i divideret med 3 og så "return remainder". Hvis remainder er 0, så går tallet op i tre-tabel, og det kan bruges her, hvor scroll skal følge hver skift i række (hvilket er efter hver tredje billede).
+
     // }
   }
 }
