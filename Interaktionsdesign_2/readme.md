@@ -999,3 +999,5 @@ Der er dog lidt mere inden test og pitch:
 - Vi vil udfylde informationsboksen med passende tekst, der forklarer meningen med galskaben på en hensigtsmæssig måde; alt sammen for at designet kan indgå effektivt som showroom design.
 
 På mandag vil vi forsøge at teste og forberede den endelige pitch til om tirsdagen.
+
+![](https://github.com/Magnusaur/wizards_of_buzz.exe/blob/master/Interaktionsdesign_2/Media/20190510_170227.jpg)
