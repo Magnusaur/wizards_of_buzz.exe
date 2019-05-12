@@ -11,10 +11,11 @@ var yPs = 0; //Startkoordinat for billede; værdierne ændres i løbet af koden
 var alf = 0; //alpha-værdi til brug ved sløring
 
 var button;
-var bool; //denne aktiverer sløring af billeder ved "true"
-var bool2; //denne aktiverer at tegne billeder "ved true"
-var bool3; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
+var bool = false; //denne aktiverer sløring af billeder ved "true"
+var bool2 = false; //denne aktiverer at tegne billeder "ved true"
+var bool3 = false; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
 //bool2 og bool3 skal begge være true for at tegne billeder. Ved eksempelvis bool2 = false og bool3 = true muliggør vi at tegne loading-symbol i stedet for billeder (den regerer også på detect new image)
+var bool4 = true;
 
 //Variabler til at tegne loading-symbol
 var cloud;
@@ -26,12 +27,9 @@ p5.disableFriendlyErrors = false; //disables FES
  var socket;
 
 function setup() {
-  bool = false;
-  bool2 = false;
-  bool3 = false;
-  canvas = createCanvas(windowWidth, 10000);
-  cloud = loadImage('cloud.png');
+  createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
+  cloud = loadImage('cloud.png');
 
   socket = io.connect('http://localhost:8200')
 
@@ -46,10 +44,13 @@ function setup() {
 
 //BUTTON FUNCTIONALITY
 function initiate() {
+  background(255);
   button.hide();
   alf = 0
-  bool2 = true //Bruger har klikket på press me, så billederne skal tegnes
-  bool3 = true //Bruger har klikket på press me, så billederne skal tegnes når et nyt billede dukker op
+  bool = false;
+  bool2 = true; //Bruger har klikket på press me, så billederne skal tegnes
+  bool3 = true; //Bruger har klikket på press me, så billederne skal tegnes når et nyt billede dukker op
+  bool4 = false;
 
 
   setTimeout(function() { //Knappen skal først dukke op efter 7 sekunder
@@ -68,20 +69,18 @@ function initiate() {
 function wipeOut() {
     button.hide();
     button2.hide();
-    bool = true //Billeder stopper med at blive tegnet
+    bool = true; //Billeder stopper med at blive tegnet
     bool2 = false; //sletfasen begynder
 }
 
 function downLoad() {
-    button.hide();
-    button2.hide();
     bool2 = false;
     let i = 0;
     var intervalId = setInterval(function() {
       if(i == Img.length) {
         setTimeout(function() {
           window.open('https://infoboks.herokuapp.com/');
-        }, 2500)
+        }, 2500);
         clearInterval(intervalId);
       }
 
@@ -96,7 +95,7 @@ function downLoad() {
 function takeSnap(i) {
   setTimeout(function() {
     loaded = loadImage('media/prototype ('+(i+1)+').jpg', loadSucces, loadFail); //Udvælger billede fra folder på pc; alternerer ud fra "counter"
-  }, 750);
+  }, 250);
 
   return loaded;
 }
@@ -132,16 +131,16 @@ function loadFail(){
 
 //DRAW LOADING MARK, BACKGROUND BLUR, OR PICTURES
 function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
-  if (bool == false && bool2 == false) {
+  if (bool == false && bool2 == false && bool4 == true) {
     push();
     if(bool3 == true) {
       fill(255, 0, 0);
     } else if (bool3 == false) {
       fill(90, 255, 70);
     } rectMode(CENTER);
-      rect(windowWidth/2, windowHeight/2, 350, 300);
+      rect(windowWidth/2, windowHeight/2, 250, 300);
       imageMode(CENTER);
-      image(cloud, windowWidth/2, windowHeight/2, 340, 300);
+      image(cloud, windowWidth/2, windowHeight/2, 240, 300);
       fill(0);
       startPointX = windowWidth/2;
       startPointY = windowHeight/2;
@@ -156,13 +155,13 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
   if (bool == true) { //sløring af billeder
     if (alf == 150) {
       clear();
+      bool = false;
       setTimeout(function() {
         window.open('https://infoboks.herokuapp.com/');
       }, 2500)
       setTimeout(function() {
         window.location.reload(true);
       }, 5000)
-      noLoop();
       // button = createButton('Press me');
       // button.addClass('btn');
       // button.mousePressed(initiate);
@@ -175,10 +174,11 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
     let i = 0;
     var intervalId = setInterval(function() { //billeder er allerede indlæst, men funktionen her sørger for at tegne dem tidsforskudt for hinanden
       if(i == Img.length || bool2 == false) {
+        i-- //SLET IGEN
         clearInterval(intervalId);
       }
 
-      Img[i].display(i);
+      Img[i].display();
       i++
     }, 500) //0.5 sekunder
   }
