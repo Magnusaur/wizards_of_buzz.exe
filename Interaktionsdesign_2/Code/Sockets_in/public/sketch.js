@@ -23,7 +23,7 @@ var startPointY;
 
 
 p5.disableFriendlyErrors = false; //disables FES
-// var socket;
+ var socket;
 
 function setup() {
   bool = false;
@@ -33,7 +33,7 @@ function setup() {
   cloud = loadImage('cloud.png');
   frameRate(8); //Kontrollerer hastighed
 
-  // socket = io.connect('http://localhost:8200')
+  socket = io.connect('http://localhost:8200')
 
   button = createButton('Press me');
   button.addClass('btn_press_me');

@@ -8,6 +8,7 @@ var server = app.listen(process.env.PORT || 8200);
 app.use(express.static('public'));
 
 console.log("Waiting for incomming Socket connections")
+console.log(module);
 
 var socket = require('socket.io');
 
@@ -16,5 +17,6 @@ var io = socket(server);
 io.sockets.on('connection', newConnection);
 
 function newConnection(socket) {
-  console.log('newConnection:' + socket.id);
+  console.log('Socket ID:' + socket.id);
+  console.log('Connecting Sockets_In to Server.js');
 }
