@@ -1,10 +1,14 @@
 var fs = require('fs');
 var fsExtra = require('fs-extra');
 
-
-try {
-//fs.unlinkSync('./public/media/${filename}') //this deletes a file
-fsExtra.emptyDirSync('./public/media');
-} catch (err) {
-  console.log(err);
+async function remove() {
+  try {
+      fsExtra.emptyDirSync('../Sockets_in/public/media');
+      console.log('Images was deleted!')
+      //specify Patch with every particular system
+  } catch (err) {
+    console.log(err);
+  }
 }
+
+remove()
