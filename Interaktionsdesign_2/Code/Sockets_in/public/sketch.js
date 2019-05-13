@@ -104,14 +104,14 @@ function loadSucces(img){
   let x = windowWidth/3
   let y = windowHeight/5
 
-  Img.push(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
+  Img.push(new Imgs(img, xPs, yPs, x, y-15)); //placerer billede i et objekt, som selv placeres i et array
   bool3 = true;
 
   console.log('succes');
 
   if ((xPs + x) > width-1) {
     xPs = 0;
-    yPs += y;
+    yPs += y-15;
     // counter2++
   } else {
     xPs += x
