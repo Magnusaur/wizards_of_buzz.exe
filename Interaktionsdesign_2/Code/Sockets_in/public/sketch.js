@@ -24,14 +24,14 @@ var startPointY;
 
 
 p5.disableFriendlyErrors = false; //disables FES
- var socket;
+// var socket;
 
 function setup() {
   createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
-  socket = io.connect('http://localhost:8200')
+  // socket = io.connect('http://localhost:8200')
 
   button = createButton('Press me');
   button.addClass('btn_press_me');
@@ -133,6 +133,7 @@ function loadFail(){
 function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
   if (bool == false && bool2 == false && bool4 == true) {
     push();
+    backgrund(255);
     if(bool3 == true) {
       fill(255, 0, 0);
     } else if (bool3 == false) {
