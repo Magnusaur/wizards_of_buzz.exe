@@ -16,6 +16,7 @@ var bool2 = false; //denne aktiverer at tegne billeder "ved true"
 var bool3 = false; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
 //bool2 og bool3 skal begge være true for at tegne billeder. Ved eksempelvis bool2 = false og bool3 = true muliggør vi at tegne loading-symbol i stedet for billeder (den regerer også på detect new image)
 var bool4 = true;
+var bool5 = false;
 
 //Variabler til at tegne loading-symbol
 var cloud;
@@ -32,11 +33,6 @@ function setup() {
   cloud = loadImage('cloud.png');
 
   // socket = io.connect('http://localhost:8200')
-
-  button = createButton('Press me');
-  button.addClass('btn_press_me');
-  button.mousePressed(initiate);
-//  button.position(windowWidth/2);
 
   takeSnap(counter); //programmet begynder fra start at indlæse nye billeder, som dukker op i directory. Uden brugerinput.
 }
@@ -77,7 +73,7 @@ function downLoad() {
     bool2 = false;
     let i = 0;
     var intervalId = setInterval(function() {
-      if(i == Img.length) {
+      if(i == 30) { //max 30 pictures to avoid overload
         setTimeout(function() {
           window.open('https://infoboks.herokuapp.com/');
         }, 2500);
@@ -101,6 +97,14 @@ function takeSnap(i) {
 }
 
 function loadSucces(img){
+  if (bool5 == false) {
+    button = createButton('Press me');
+    button.addClass('btn_press_me');
+    button.mousePressed(initiate);
+  //  button.position(windowWidth/2);
+    bool5 = true;
+  }
+
   let x = windowWidth/3
   let y = windowHeight/5
 
