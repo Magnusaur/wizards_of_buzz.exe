@@ -133,7 +133,6 @@ function loadFail(){
 function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billede er indlæst (rød) eller ej (grøn).
   if (bool == false && bool2 == false && bool4 == true) {
     push();
-    backgrund(255);
     if(bool3 == true) {
       fill(255, 0, 0);
     } else if (bool3 == false) {
