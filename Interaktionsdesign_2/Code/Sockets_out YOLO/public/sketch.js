@@ -41,7 +41,7 @@ function draw() {
 }
 
 function timeLoop() {
-  let n = frameCount % cycleNum;
+  let n = frameCount*2 % cycleNum;
   for (let i = 0; i < objects.length; i++) {
     if (objects[i].className === "person") {
     noStroke();
