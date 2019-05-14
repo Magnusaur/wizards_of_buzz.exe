@@ -1,6 +1,12 @@
 // npm init
 // node server.js
 var express = require('express'); //importing express in the node program
+var x = false;
+
+//if (x = true) {
+//  var remove = require('./remove.js');
+//}
+
 
 var app = express();
 var server = app.listen(process.env.PORT || 8200);
@@ -20,3 +26,6 @@ function newConnection(socket) {
   console.log('Socket ID:' + socket.id);
   console.log('Connecting Sockets_In to Server.js');
 }
+
+
+//console.log(remove);

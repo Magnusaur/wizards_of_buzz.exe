@@ -1,14 +1,16 @@
 var fs = require('fs');
 var fsExtra = require('fs-extra');
 
-async function remove() {
+//async function remove() {
   try {
-      fsExtra.emptyDirSync('../Sockets_in/public/media');
+      await fsExtra.emptyDirSync('../Sockets_in/public/media');
       console.log('Images was deleted!')
       //specify Patch with every particular system
   } catch (err) {
-    console.log(err);
+      console.log(err);
   }
-}
+//}
 
-remove()
+//remove()
+
+//module.exports.slet = remove;
