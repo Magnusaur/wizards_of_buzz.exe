@@ -19,9 +19,9 @@ p5.disableFriendlyErrors = false;
 
 
 function setup() {
-  c = createCanvas(320*2, 240*2);
+  c = createCanvas(160, 120);
   video = createCapture(VIDEO);
-  video.size(320, 240);
+  video.size(80, 60);
 
 
   // Create a YOLO method
@@ -30,7 +30,7 @@ function setup() {
   // Hide the original video
   video.hide();
   status = select('#status');
-  frameRate(4);
+  frameRate(2);
 
 }
 
@@ -41,7 +41,7 @@ function draw() {
 }
 
 function timeLoop() {
-  let n = frameCount*2 % cycleNum;
+  let n = frameCount % cycleNum;
   for (let i = 0; i < objects.length; i++) {
     if (objects[i].className === "person") {
     noStroke();

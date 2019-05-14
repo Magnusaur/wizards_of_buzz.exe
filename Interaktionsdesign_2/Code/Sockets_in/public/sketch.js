@@ -13,9 +13,10 @@ var alf = 0; //alpha-værdi til brug ved sløring
 var button;
 var bool = false; //denne aktiverer sløring af billeder ved "true"
 var bool2 = false; //denne aktiverer at tegne billeder "ved true"
-var bool3 = false; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
+var bool3 = true; //dene aktiverer at tegne billeder (eller tegne loading-symbol) ved indlæsning af et nyt billede, så det ikke bliver ved med at loope, ved "true".
 //bool2 og bool3 skal begge være true for at tegne billeder. Ved eksempelvis bool2 = false og bool3 = true muliggør vi at tegne loading-symbol i stedet for billeder (den regerer også på detect new image)
 var bool4 = true;
+var bool5 = false;
 
 //Variabler til at tegne loading-symbol
 var cloud;
@@ -26,17 +27,13 @@ var startPointY;
 p5.disableFriendlyErrors = false; //disables FES
  //var socket;
 
+
 function setup() {
   createCanvas(windowWidth, 5000);
   frameRate(8); //Kontrollerer hastighed
   cloud = loadImage('cloud.png');
 
-  //socket = io.connect('http://localhost:8200')
-
-  button = createButton('Press me');
-  button.addClass('btn_press_me');
-  button.mousePressed(initiate);
-//  button.position(windowWidth/2);
+  // socket = io.connect('http://localhost:8200')
 
   takeSnap(counter); //programmet begynder fra start at indlæse nye billeder, som dukker op i directory. Uden brugerinput.
 }
@@ -77,7 +74,7 @@ function downLoad() {
     bool2 = false;
     let i = 0;
     var intervalId = setInterval(function() {
-      if(i == Img.length) {
+      if(i == 30) { //max 30 pictures to avoid overload
         setTimeout(function() {
           window.open('https://infoboks.herokuapp.com/');
         }, 2500);
@@ -101,17 +98,25 @@ function takeSnap(i) {
 }
 
 function loadSucces(img){
+  if (bool5 == false) { //button appears only when there are pics loaded
+    button = createButton('Press me');
+    button.addClass('btn_press_me');
+    button.mousePressed(initiate);
+  //  button.position(windowWidth/2);
+    bool5 = true;
+  }
+
   let x = windowWidth/3
   let y = windowHeight/5
 
-  Img.push(new Imgs(img, xPs, yPs, x, y)); //placerer billede i et objekt, som selv placeres i et array
+  Img.push(new Imgs(img, xPs, yPs, x, y-15)); //placerer billede i et objekt, som selv placeres i et array
   bool3 = true;
 
   console.log('succes');
 
   if ((xPs + x) > width-1) {
     xPs = 0;
-    yPs += y;
+    yPs += y-15;
     // counter2++
   } else {
     xPs += x
@@ -147,8 +152,6 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
       if (bool3 == true) {
         loadingMark1(startPointX, startPointY);
         loadingMark2(startPointX, startPointY);
-      } else if (bool3 == false) {
-        checkMark(startPointX, startPointY);
       }
       pop();
   }
@@ -187,19 +190,6 @@ function draw() { //Kassen tegnes i begyndelsen og farven bestemmes om et billed
 
 
 //SPECIFICATION FOR LOADING MARK
-function checkMark(pointX, pointY) {
-  pointX = pointX - 25;
-  pointY = pointY + 15;
-  beginShape();
-  vertex(pointX, pointY);
-  vertex(pointX + 10, pointY);
-  vertex(pointX + 20, pointY + 20);
-  vertex(pointX + 55, pointY - 35);
-  vertex(pointX + 65, pointY - 35);
-  vertex(pointX + 20, pointY + 40);
-  vertex(pointX, pointY);
-  endShape(CLOSE);
-}
 
 function loadingMark1(pointX, pointY) {
   beginShape();
